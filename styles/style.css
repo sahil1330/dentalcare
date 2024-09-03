@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    background-color: #e3e3e3;
+    height: 100vh;
+    padding: 12px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+    min-height: 8vh;
+    border: 1px solid #f5f5f5;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.search-and-profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px;
+}
+.profile p{
+    font-size: 16px;
+    font-weight: 500;
+}
