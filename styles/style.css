@@ -11,7 +11,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 12px 20px;
     margin-left: 2%;
     margin-right: 2%;
     align-items: center;
@@ -20,13 +20,24 @@ nav{
     border-radius: 20px;
     background-color: #f5f5f5;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 nav ul{
     display: flex;
+    justify-content: center;
     list-style: none;
+    margin-left: 510px;
     gap: 40px;
 }
-
+nav ul a{
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 16px;
+    font-weight: 500;
+}
+#active{
+    color: #000;
+}
 .search-and-profile{
     display: flex;
     gap: 20px;
@@ -43,4 +54,18 @@ nav ul{
 .profile p{
     font-size: 16px;
     font-weight: 500;
+}
+.remaining-nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;    
+}
+.logo{
+    width: 80px;
+    height: 90px;
+    overflow: visible;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 5px 5px 5px 5px;
+    position: absolute;
+    z-index: 1;
 }
