@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     /* Basic styles for the navbar */
+
+@font-face {
+    font-family: 'JejuGothic';
+    src: url('../fonts/JejuGothic-Regular.ttf') format('truetype'); /* Ensure the file extension is correct */
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-font: 'JejuGothic', sans-serif; /* Updated to match the font you imported */
+}
+
+/* Basic styles for the navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,7 +28,7 @@ nav {
     border: 1px solid #f5f5f5;
     border-radius: 25px;
     background-color: #f5f5f5;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--main-font);
     position: relative;
 }
 
@@ -26,6 +38,8 @@ nav ul {
     list-style: none;
     gap: 40px;
     margin-left: 470px;
+    font-family: var(--main-font);
+    text-transform: uppercase;
 }
 
 nav ul a {
