@@ -137,19 +137,6 @@ nav ul a {
   align-items: center;
   background-color: #000;
 }
-#hero-slant-arrow {
-  /* position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 50%;
-    transform: translate(10%, -50%);
-    z-index: 1; */
-  /* padding: 10px;
-    border-radius: 50%;
-    
-    background-color: #000; */
-  /* width: 50%; */
-}
 .hero-right {
   width: 50%;
   height: 85vh;
