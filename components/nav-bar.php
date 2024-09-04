@@ -62,18 +62,29 @@ nav ul a{
     height: 90px;
     overflow: visible;
     border-radius: 0 0 16px 16px;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 4px 4px 7px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     z-index: 1;
+    background-color: #fff;
 }
+.logo>img{
+    
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    height: 90%;
+    border-radius: 0 0 16px 16px;
+}
+
     </style>
 </head>
 <body>
 <nav>
         <div class="logo">
-          <img src="icons/logo.svg" alt="Dental Care" />
+          <img src="..//icons/logo.svg" alt="Dental Care" />
         </div>
-        <ul>
+        <ul class="hyper-link">
           <li><a href="/" id="active">Home</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Services</a></li>
@@ -83,20 +94,20 @@ nav ul a{
         <div class="remaining-nav">
           <div class="search-and-profile">
             <div class="search">
-              <img src="icons/search.svg" alt="Search" />
+              <img src="..//icons/search.svg" alt="Search" />
             </div>
             <div class="profile">
               <img
-                src="icons/Izoog_skin_pfp 1.png"
+                src="..//icons/Izoog_skin_pfp 1.png"
                 alt="Profile"
                 width="30px"
               />
               <p>izoog</p>
-              <img src="icons/arrow-down.svg" alt="arrow-down" />
+              <img src="..//icons/arrow-down.svg" alt="arrow-down" />
             </div>
           </div>
           <div class="menu">
-            <img src="icons/menu.svg" alt="Menu" />
+            <img src="..//icons/menu.svg" alt="Menu" />
           </div>
         </div>
       </nav>
