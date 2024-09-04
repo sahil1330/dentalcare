@@ -23,7 +23,7 @@ nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-left: 510px;
+    margin-left: 480px;
     gap: 40px;
 }
 nav ul a{
