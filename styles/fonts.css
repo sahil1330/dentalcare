@@ -1,0 +1,22 @@
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'JejuGothic';
+    src: url('../fonts/JejuGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-font: 'JejuGothic', sans-serif;
+    --second-main-font: 'League Spartan', sans-serif;
+    --hero-text-font: 'Montserrat', sans-serif;
+
+    /* Font weights */
+    --font-weight-light: 100;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+}
