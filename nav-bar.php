@@ -24,10 +24,11 @@ nav {
     padding: 12px 20px;
     margin: 0 2%;
     align-items: center;
+    justify-items: center;
     min-height: 8vh;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #ffff;
     border-radius: 25px;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
     font-family: var(--main-font);
     position: relative;
 }
@@ -88,17 +89,19 @@ nav ul a {
     position: absolute;
     z-index: 1;
     background-color: #fff;
+    
 }
 
 .logo > img {
     margin: auto;
     padding: 8px;
-    padding-top: 15px;
+    padding-top: 35%;
     width: 90%;
     height: 90%;
     justify-content: center;
     display: flex;
     border-radius: 0 0 16px 16px;
+
 }
 
 /* Media Queries for Tablet and Mobile Devices */
@@ -172,14 +175,16 @@ nav ul a {
         gap: 10px;
     }
 }
-
+.menu {
+    display: none;
+}
 
     </style>
 </head>
 <body>
 <nav>
         <div class="logo">
-            <img src="..//icons/logo.svg" alt="Dental Care" />
+            <img src="icons/logo.svg" alt="Dental Care" />
         </div>
         <ul class="hyper-link">
             <li><a href="/" id="active">Home</a></li>
