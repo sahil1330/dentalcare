@@ -13,7 +13,7 @@
 
     .background-gradient {
       width: 100%;
-      height: 85vh;
+      height: 80vh;
       position: absolute;
       top: 85px;
       background: linear-gradient(291deg, rgba(97, 171, 215, 0.70) 13%, rgba(86.47, 129.54, 191.31, 0.70) 39%, rgba(86.93, 131.33, 192.33, 0.70) 58%, rgba(81, 108, 179, 0.70) 78%);
