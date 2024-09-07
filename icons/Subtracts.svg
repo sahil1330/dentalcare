@@ -9,7 +9,7 @@
          width="100%" 
          height="100%" 
          clip-path="url(#shape-clip)" 
-         preserveAspectRatio="xMidYMid slice" />
+         preserveAspectRatio="xMidYMid slice" /> 
 
   <!-- Optional: the shape outline if you want it visible -->
   <path d="M26 0C11.6406 0 0 11.6406 0 26V216C0 232.569 13.4315 246 30 246H233C249.569 246 263 259.431 263 276V308.079C263 324.648 276.431 338.079 293 338.079H663C677.359 338.079 689 326.439 689 312.079V26C689 11.6406 677.359 0 663 0H26Z" fill="none" stroke="black" stroke-width="0" />
