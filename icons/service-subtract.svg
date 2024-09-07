@@ -1,0 +1,36 @@
+<svg width="1251" height="524" viewBox="0 0 1251 524" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the clip path for the shape -->
+  <defs>
+    <clipPath id="shape-clip">
+      <path d="M34 199C17.4315 199 4 212.431 4 229V486C4 502.569 17.4315 516 34 516H1217C1233.57 516 1247 502.569 1247 486V30C1247 13.4315 1233.57 0 1217 0H668C651.431 0 638 13.4315 638 30V169C638 185.569 624.569 199 608 199H34Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Solid grey fill as a fallback background -->
+  <rect width="100%" height="100%" fill="#7b7b7b" clip-path="url(#shape-clip)" />
+
+  <!-- Add the image, only visible if href is provided -->
+  <image href="" 
+         width="100%" 
+         height="100%" 
+         clip-path="url(#shape-clip)" 
+         preserveAspectRatio="xMidYMid slice" />
+
+  <!-- Optional: shape outline if you want it visible -->
+  <g filter="url(#filter0_d_396_1622)">
+    <path d="M34 199C17.4315 199 4 212.431 4 229V486C4 502.569 17.4315 516 34 516H1217C1233.57 516 1247 502.569 1247 486V30C1247 13.4315 1233.57 0 1217 0H668C651.431 0 638 13.4315 638 30V169C638 185.569 624.569 199 608 199H34Z" fill="none" stroke="black" stroke-width="0"/>
+  </g>
+
+  <defs>
+    <filter id="filter0_d_396_1622" x="0" y="0" width="1251" height="524" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_396_1622"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_396_1622" result="shape"/>
+    </filter>
+  </defs>
+</svg>
