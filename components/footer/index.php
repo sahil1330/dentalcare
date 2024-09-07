@@ -21,7 +21,7 @@
     }
 
     .newsletter-container {
-      width: 1184px;
+      width: 85%;
       height: 160px;
       position: absolute;
       top: 6px;
