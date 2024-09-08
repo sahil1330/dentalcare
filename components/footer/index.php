@@ -7,7 +7,8 @@
   <title>Document</title>
   <style>
     .main-container {
-      width: 100% height: 691px;
+      width: 100%;
+     height: 691px;
       position: relative;
     }
 
