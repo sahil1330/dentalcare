@@ -26,7 +26,7 @@ nav {
     align-items: center;
     justify-items: center;
     min-height: 8vh;
-    border: 1px solid #ffff;
+    
     border-radius: 25px;
     background-color: #f0f0f0;
     font-family: var(--main-font);
