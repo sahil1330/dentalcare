@@ -370,6 +370,7 @@ nav ul a {
   background-color: transparent;
   margin: 4vh auto 0;
 }
+
 .service-box > .row {
   width: 50%;
   gap: 0;
@@ -379,6 +380,12 @@ nav ul a {
   border: 1px solid #fff;
   border-radius: 20px;
 }
+.service-box .row > .box1 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  position: relative;
+}
 .service-box .row > div {
   width: 100%;
   height: 50%;
@@ -387,10 +394,30 @@ nav ul a {
   align-items: center;
   justify-content: center;
 }
+
+.service-box .row > .box1::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  aspect-ratio: 1;
+  background-image: radial-gradient(
+    circle at 100% 100%,
+    green 1rem,
+    var(black, white) calc(var(--_size) + 1px)
+  );
+  bottom: 0;
+  right: 0;
+  border-radius: 20px 0 0 0;
+  rotate: 180deg;
+}
 .box2,
 .box3,
 .box4 {
   background-color: #fff;
+}
+.box3 {
+  border-radius: 20px 0 0 0;
 }
 
 /* slider section */
@@ -429,7 +456,7 @@ nav ul a {
   .slider-section {
     height: 40vh;
   }
-  .slider-wrapper{
+  .slider-wrapper {
     margin-bottom: 0;
   }
   .slider {

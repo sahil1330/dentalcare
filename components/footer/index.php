@@ -7,7 +7,8 @@
   <title>Document</title>
   <style>
     .main-container {
-      width: 100% height: 691px;
+      width: 100%;
+     height: 691px;
       position: relative;
     }
 
@@ -21,7 +22,7 @@
     }
 
     .newsletter-container {
-      width: 1184px;
+      width: 85%;
       height: 160px;
       position: absolute;
       top: 6px;

@@ -398,6 +398,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
+    <script>
+      const navigators = document.querySelectorAll(".navigators .navigator");
+      
+      navigators.forEach((navigator) => {
+        navigator.addEventListener("click", () => {
+          navigators.forEach((nav) => {
+            nav.classList.remove("active");
+          });
+          navigator.classList.add("active");
+        });
+      });
+     
+    </script>
 </body>
 
 </html>
