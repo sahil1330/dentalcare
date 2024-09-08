@@ -21,7 +21,7 @@
         }
 
         footer>.container2 {
-            position: fixed;
+            position: sticky;
             bottom: 0;
             display: grid;
             height: 75vh;
@@ -36,6 +36,40 @@
 
         }
 
+        .form-container {
+
+            display: grid;
+            place-items: center;
+        }
+
+        .form-wrapper {
+            width: 80%;
+            height: 24%;
+            background: linear-gradient(to bottom, #C2C2C2, #F3F3F3);
+            outline: 1px solid black;
+            position: absolute;
+            top: -10%;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-form-heading {
+            color: black;
+            letter-spacing: 2px;
+            margin-left: 5%;
+        }
+        .btn-submit{
+            background-color: #50AADC;
+            color: white;
+            border: none;
+            padding: 10px 34px;
+            border-radius: 10px;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
         .main-row {
             height: 80%;
         }
@@ -227,6 +261,20 @@
 <body>
     <footer>
         <div class="container2">
+            <div class="form-container">
+                <form action="" method="post" class="form-wrapper row">
+                    <div class="footer-form-heading col-md-4 my-3">
+                        <h1><b>Sign Up to our newsletter</b></h1>
+                    </div>
+                    <div class="form-floating mb-3 col-md-4 email-form">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address:</label>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
             <div class="row main-row">
                 <div class="main-info col-md-5">
                     <div class="row row1 mb-0">
@@ -295,11 +343,11 @@
                     style="width: 1px; height: 100%; background-color: white; margin: 70px 0 0 0; padding: 0 0 0 0;">
 
                 </div>
-                <div class="col-md-3 quick-links my-auto" style="">
+                <div class="col-md-3 quick-links my-auto" >
                     <h3 class="text-center text-light">Quick Links</h3>
                     <div class="quick-link-wrapper">
                         <div class="row quick-link-row" style="flex-wrap: nowrap;">
-                            <div class="col-6" style="">
+                            <div class="col-6" >
                                 <button class="quick-link-btn">
                                     Home
                                     <div class="btn-arrow">
@@ -317,7 +365,7 @@
                             </div>
                         </div>
                         <div class="row quick-link-row" style="flex-wrap: nowrap;">
-                            <div class="col-6" style="">
+                            <div class="col-6" >
                                 <button class="quick-link-btn">
                                     Home
                                     <div class="btn-arrow">
@@ -335,7 +383,7 @@
                             </div>
                         </div>
                         <div class="row quick-link-row" style="flex-wrap: nowrap;">
-                            <div class="col-6" style="">
+                            <div class="col-6" >
                                 <button class="quick-link-btn">
                                     Home
                                     <div class="btn-arrow">
@@ -353,7 +401,7 @@
                             </div>
                         </div>
                         <div class="row quick-link-row" style="flex-wrap: nowrap;">
-                            <div class="col-6" style="">
+                            <div class="col-6" >
                                 <button class="quick-link-btn">
                                     Home
                                     <div class="btn-arrow">
