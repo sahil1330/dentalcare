@@ -1,0 +1,215 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header-section {
+    
+    background: url('../imgs/sample.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.header-section h1 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--hero-text-font);
+
+}
+
+.header-section button {
+    padding: 10px 30px;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: var(--second-main-font);
+    width: 60%;
+}
+
+.header-section .cta {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.header-section .cta a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--main-font);
+    
+}
+
+.contact-form-section {
+    background: linear-gradient(291deg, rgba(97, 171, 215, 0.70) 13%, rgba(86.47, 129.54, 191.31, 0.70) 39%, rgba(86.93, 131.33, 192.33, 0.70) 58%, rgba(81, 108, 179, 0.70) 78%);
+    padding: 60px 20px;
+    margin-top: -50px;
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: var(--second-main-font);
+    font-weight: var(--font-weight-bold);
+    color: white;
+}
+
+.contact-form {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 50px;
+    min-height: 500px;
+    text-align: center;
+}
+.form-header{
+    margin-bottom: 5px;
+    color: white;
+    font-family: var(--second-main-font);
+    font-weight: var(--font-weight-bold);
+}
+.form-header-base{
+    font-size: 0.8rem;
+    color: white;
+    font-family: var(--main-font);
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #3C3C3C;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 26px;
+    border: none;
+    color: white;
+    font-family: var(--main-font);
+    resize: none;
+    overflow: auto;
+}
+::placeholder {
+    color: #DEDEDE;
+    font-family: var(--main-font);
+    
+    }
+.contact-form button {
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.form-img{
+    width: 80%;
+    height: 500px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.contact-map-head{
+    font-size: 2.5rem;
+    font-family: var(--second-main-font);
+    font-weight: var(--font-weight-bold);
+    color: rgb(0, 0, 0);
+}
+
+.contact-details {
+    margin-top: 80px;
+    font-family: var(--second-main-font);
+    
+    
+}
+
+.contact-details p {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+
+}
+
+.contact-details a {
+    color: black;
+    text-decoration: none;
+}
+
+.map-container {
+    padding: 40px 20px;
+}
+
+.map-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 26px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 50px;
+    border: #000 1px solid;
+    background-color: #000;
+    color: #DEDEDE;
+}
+.contact-icon{
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+    .header-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-section button {
+        font-size: 1.2rem;
+        padding: 8px 20px;
+    }
+
+    .contact-form-section {
+        padding: 40px 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .map-container {
+        padding: 20px 0;
+    }
+    .form-img{
+        margin-top: 30px;
+        
+    }
+
+}
