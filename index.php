@@ -20,7 +20,7 @@
         <img src="icons/logo.svg" alt="Dental Care" />
       </div>
       <ul>
-        <li><a href="/" id="active">Home</a></li>
+        <li><a href="./" id="active">Home</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Blog</a></li>
@@ -76,7 +76,7 @@
         </div>
         <div class="hero-right-row3">
           <button class="btn-know-more">Know More !</button>
-          <button class="btn-arrow" style="background-color: #50aadc; border-color: #50aadc">
+          <button class="btn-arrow2" style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="100%" height="100%" alt="" />
           </button>
           <a href="#">Learn More</a>
@@ -315,7 +315,7 @@
     <div class="container">
       <h1>Subscribe for exclusive updates!</h1>
       <div class="form-wrapper">
-        <form action="">
+        <form action="" class="form-exclusive">
           <div class="inputs">
             <div>
               <input type="email" name="email" id="emailInput" placeholder="Enter your Email id">
@@ -391,7 +391,7 @@
       </div>
     </div>
   </section>
-  <?php include "components/footer/index.php"; ?>
+  <?php include "components/footer/index2.html"; ?>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
