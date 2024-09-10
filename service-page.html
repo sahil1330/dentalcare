@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Content Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/service-content.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <style>
+        /* Add custom styles here */
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Service Details -->
+    <section class="service-details py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="imgs/sample.jpg" class="img-fluid rounded" alt="Service Image">
+                </div>
+                <div class="col-md-6">
+                    <h2>Service Title</h2>
+                    <p>Description of the service goes here. Explain what the service is about, its benefits, and any other relevant details.goes here. Explain what the service is about, its benefits, and any other relevant details.goes here. Explain what the service is about, its benefits, and any other relevant details.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <a href="#" class="btn btn-secondary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Before and After Slider -->
+    <section class="before-after py-5 text-center">
+        <div class="container">
+            <h2>Before and After</h2>
+            <div id="before-after-slider">
+                <div id="before-image">
+                  <img src="https://images.pexels.com/photos/3728078/pexels-photo-3728078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="before"/>
+                </div>
+              
+                <div id="after-image">
+                  <img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="After"/>
+                </div>
+            
+                <div id="resizer"></div>
+                <script src="scripts/slider.js"></script>
+             </div>
+        </div>
+    </section>
+
+    <!-- Section 3: FAQ and Stats -->
+    <section class="faq-stats py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Frequently Asked Questions</h2>
+                    <details>
+                        <summary><span class="icon"></span> Question 1</summary>
+                        <p>Answer to question 1.</p>
+                    </details>
+                    <details>
+                        <summary><span class="icon"></span> Question 2</summary>
+                        <p>Answer to question 2.</p>
+                    </details>
+                    <!-- Add more questions as needed -->
+                </div>
+                <div class="col-md-6 position-relative">
+                    <img src="imgs/sample.jpg" class="img-fluid rounded" alt="Stats Image">
+                    <div class="stats-box">
+                        <p class="number">0</p>
+                        <p class="text">Some statistic description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS & Custom JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/service.js"></script>
+</body>
+</html>
