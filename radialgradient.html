@@ -20,249 +20,140 @@
                     transparent 30px, blue 30px);
         }
 
-        .service-container {
-            background: linear-gradient(291deg,
-                    rgba(97, 171, 215, 0.7) 13%,
-                    rgba(86.47, 129.54, 191.31, 0.7) 39%,
-                    rgba(86.93, 131.33, 192.33, 0.7) 58%,
-                    rgba(81, 108, 179, 0.7) 78%);
-            height: 100vh;
-            width: 100vw;
+        body {
+            margin: 10rem;
+            font-family: system-ui;
+            font-size: 1.125rem;
         }
 
-        #services-section-heading {
-            font-size: 36px;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
+        img {
+            display: block;
+            max-width: 100%;
         }
 
-        .service-wrapper {
+        .inverted-image-container {
+            --_br: 1rem;
             display: grid;
-            place-items: center;
-        }
-
-        .service-boxes {
-            width: 80vw;
-            height: 80vh;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-
-
-        }
-
-        .service-boxes>.service-box1 {
+            gap: 1rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr auto 1fr;
+            max-width: 28rem;
             position: relative;
         }
 
-        .service-boxes>.service-box2,
-        .service-boxes>.service-box3,
-        .service-boxes>.service-box4 {
-            width: 100%;
-            background-color: white;
+        .inverted-image {
+            grid-row: 1 / 3;
+            grid-column: 1 / 3;
+            border-radius: var(--_br);
+            overflow: hidden;
         }
 
-        .service-boxes>.service-box2 {
-            grid-row: 2/3;
-            border-radius: 1rem 0 0 1rem;
-        }
-
-        .service-boxes>.service-box3 {
-            grid-column: 2/3;
-            border-radius: 1rem 1rem 0 0;
-        }
-
-        .service-boxes>.service-box4 {
-            grid-row: 2/3;
-            grid-column: 2/3;
-            border-radius: 0 0 1rem 0;
-        }
-
-        .service-boxes>.service-box1::after {
+        .inverted-image::before,
+        .inverted-image::after,
+        .inverted-image-content::after {
+            --_size: var(--_br);
             content: "";
-            width: 1rem;
-            aspect-ratio: 1;
-
-            background-image: radial-gradient(circle at 100% 100%,
-                    transparent 1rem, white 1rem);
             position: absolute;
+            width: var(--_size);
+            aspect-ratio: 1;
+            background-image: radial-gradient(circle at 100% 100%,
+                    transparent var(--_size),
+                    var(--_corner-color, white) calc(var(--_size) + 1px));
+            rotate: -90deg;
+        }
+
+        .inverted-image::before {
+            left: 0;
             bottom: 0;
-            right: 0;
-            rotate: 180deg;
+            grid-column: 2;
+            grid-row: 2 / 3;
         }
 
-        .service-box1 {
+        .inverted-image::after {
+            left: 0;
+            bottom: 0;
+            grid-column: 1;
+            grid-row: 1 / 2;
+            box-shadow: -1rem 0 0 white;
+        }
+
+        .inverted-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .inverted-image-content {
+            display: grid;
+            /* padding: 1rem 1rem 0 1rem; */
+            background: white;
+            font-weight: 500;
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            border-radius: var(--_br) var(--_br) 0 0;
+            box-shadow: 0 1rem 0 white, 0 0 0 1rem white;
+        }
+
+        .inverted-image-content::after {
+            --_size: calc(var(--_br) * 1.5);
+            --_corner-color: white;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            left: -1rem;
+            /* bottom: -1rem; */
+        }
+
+        .inverted-image-content span {
             display: flex;
-            align-items: center;
-            gap: 24px;
-            margin-left: 50px;
+            justify-content: space-evenly;
+            background: white;
+            padding: 0;
+            border-radius: calc(var(--_br) / 2);
         }
-
-        .service-box1>h2 {
-            color: #fff;
-            font-size: 36px;
-            padding: 20px;
-            letter-spacing: 1.5px;
-            line-height: 1.5;
-            width: 70%;
-        }
-
-        .btn-service-section-arrow {
-            background: none;
-            border: none;
-            cursor: pointer;
-            background-color: #fff;
-            width: 66px;
-            height: 66px;
-            border-radius: 100%;
-        }
-
-        .btn-service-section-arrow img {
-            padding: 2px;
-        }
-
-        .service-box2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0px;
-        }
-
-        .service-box3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0px;
-        }
-
-        .service-box4 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0px;
-        }
-
-        .service {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .service h3 {
-            font-size: 24px;
-            color: #000;
-            padding: 20px;
-            text-align: center;
+        .inverted-image-content span p {
+            font-size: 1rem;
+            width: 60%;
             font-weight: 700;
-            letter-spacing: 1.5px;
-            line-height: 1.5;
-            width: 80%;
+            color: black;
         }
 
-        @media (max-width: 768px) {
-            .service-container {
-                height: 220vh;
-                width: 100%;
-            }
-
-            .service-boxes {
-                width: 100vw;
-                height: 200vh;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr;
-                place-items: center;
-                gap: 20px;
-            }
-
-            .service-boxes>.service-box1 {
-                margin-left: 0px;
-                grid-row: 1/2;
-                grid-column: 1/2;
-                width: 80%;
-                border-radius: 1rem;
-            }
-            .service-boxes>.service-box1::after {
-                display: none;
-            }
-
-            .service-boxes>.service-box2 {
-                grid-row: 2/3;
-                width: 80%;
-                grid-column: 1/2;
-                border-radius: 1rem;
-            }
-
-            .service-box2,
-            .service-box3,
-            .service-box4 {
-                height: 100%;
-                width: 80%;
-                border-radius: 1rem;
-                flex-direction: column;
-            }
-
-            .service-boxes>.service-box3 {
-                grid-row: 3/4;
-                grid-column: 1/2;
-                width: 80%;
-                border-radius: 1rem;
-            }
-
-            .service-boxes>.service-box4 {
-                grid-row: 4/5;
-                grid-column: 1/2;
-                width: 80%;
-                border-radius: 1rem;
-            }
+        .house-meta {
+            margin: 0;
+            background: black;
+            color: white;
+            grid-row: 3 / 4;
+            grid-column: 1 / 3;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            padding-top: 1rem;
+            border-radius: 0 var(--_br) var(--_br) var(--_br);
+        }
+        .hero-section-inverted-arrow {
+            display: grid;
+            place-items: center;
+            background: black;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
         }
     </style>
 </head>
 
 <body>
-    <div class="service-container">
-        <h1 id="services-section-heading">SERVICES WE PROVIDE</h1>
-        <div class="service-wrapper">
-            <div class="service-boxes">
-                <div class="box service-box1">
-                    <h2>All Types of Dental Services</h2>
-                    <button class="btn-service-section-arrow">
-                        <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
-                    </button>
-                </div>
-                <div class="box service-box2">
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Cavity Prevention</h3>
-                    </div>
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Root Canal Treatment</h3>
-                    </div>
-                </div>
-                <div class="box service-box3">
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Dental Implants</h3>
-                    </div>
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Dental Products</h3>
-                    </div>
-                </div>
-                <div class="box service-box4">
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Tooth Extraction</h3>
-                    </div>
-                    <div class="service">
-                        <img src="icons/teeth.svg" alt="">
-                        <h3>Teeth Whitening</h3>
-                    </div>
-                </div>
-            </div>
+    <div class="corner"></div>
+    <div class="inverted-image-container">
+
+        <div class="inverted-image">
+            <img src='images/girl.png' alt=''>
         </div>
+
+        <div class="inverted-image-content">
+            <span>
+                <p>What's behind your smile?</p>
+                <button class="hero-section-inverted-arrow"><img src="icons/slant-arrow.svg" alt=""></button>
+            </span>
+        </div>
+
     </div>
 </body>
 
