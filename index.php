@@ -155,11 +155,9 @@
   <section class="services-provide">
     <h1>SERVICES WE PROVIDE</h1>
     <div class="service-box">
-      <div class="row">
+      <div class="boxes">
         <div class="box1"></div>
         <div class="box2"></div>
-      </div>
-      <div class="row">
         <div class="box3"></div>
         <div class="box4"></div>
       </div>
