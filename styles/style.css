@@ -6,7 +6,6 @@
 
 header {
   width: 100%;
-
   background-color: #e3e3e3;
   margin: 10px 0;
 }
@@ -367,7 +366,7 @@ nav ul a {
   padding: 20px;
 }
 .service-box {
-  display: flex;
+  display: grid;
   gap: 20px;
   padding: 20px;
   width: 80vw;
@@ -406,15 +405,11 @@ nav ul a {
   width: 1rem;
   height: 1rem;
   aspect-ratio: 1;
-  background-image: radial-gradient(
-    circle at 100% 100%,
-    green 1rem,
-    var(black, white) calc(var(--_size) + 1px)
-  );
+  background-image: radial-gradient(circle at 100% 100%, transparent 1rem, black calc(var(--_size) + 1px));
   bottom: 0;
   right: 0;
   border-radius: 20px 0 0 0;
-  rotate: 180deg;
+  rotate: -90deg;
 }
 .box2,
 .box3,
