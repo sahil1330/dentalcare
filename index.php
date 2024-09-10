@@ -85,7 +85,7 @@
           </p>
         </div>
         <div class="hero-right-row3">
-          <button class="btn-know-more">Know More !</button>
+          <button class="btn-know-more">KNOW NOW!</button>
           <button class="btn-arrow2" style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="100%" height="100%" alt="" />
           </button>
@@ -152,7 +152,7 @@
               </div>
               <div class="hero-right-row4-box2-row3">
                 <button type="button" class="btn-getstarted">
-                  Get Started
+                  GET STARTED
                 </button>
               </div>
             </div>
@@ -294,10 +294,18 @@
               <div class="img-box">
                 <img src="images/short-about-image.jpg" width="80%" height="80%" alt="Short About" />
               </div>
-              <div class="box box1"></div>
-              <div class="box box2"></div>
-              <div class="box box3"></div>
-              <div class="box box4"></div>
+              <div class="box box1">
+                <h2 class="text-center d-flex align-items-center">Dental Care Dummy1</h2>
+              </div>
+              <div class="box box2">
+                <h2 class="text-center d-flex align-items-center">Dental Care Dummy2</h2>
+              </div>
+              <div class="box box3">
+                <h2 class="text-center d-flex align-items-center">Dental Care Dummy3</h2>
+              </div>
+              <div class="box box4">
+                <h2 class="text-center d-flex align-items-center">Dental Care Dummy4</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -317,20 +325,6 @@
                   Some quick example text to build on the card title and make
                   up the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 22rem">
-              <div class="card-body">
-                <h5 class="card-title">Dental Implants</h5 <p class="card-text">
-                Some quick example text to build on the card title and make
-                up the bulk of the card's content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
               </div>
             </div>
           </div>
@@ -342,8 +336,17 @@
                   Some quick example text to build on the card title and make
                   up the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 22rem">
+              <div class="card-body">
+                <h5 class="card-title">Dental Implants</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
