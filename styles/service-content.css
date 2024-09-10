@@ -1,0 +1,153 @@
+/* Section 1: Service Details */
+.service-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 80svh;
+}
+.service-details img {
+    border-radius: 15px;
+}
+
+.service-details h2 {
+    font-size: 2rem;
+    font-family: var(--hero-text-font);
+}
+
+.service-details p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.service-details .btn {
+    margin-right: 10px;
+}
+
+/* Section 2: Before and After Slider */
+/* Section 2: Before and After Slider */
+.before-after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: linear-gradient(291deg, rgba(97, 171, 215, 0.70) 13%, rgba(86.47, 129.54, 191.31, 0.70) 39%, rgba(86.93, 131.33, 192.33, 0.70) 58%, rgba(81, 108, 179, 0.70) 78%);
+}
+img {
+    width:100%;
+    display:block;
+    user-select: none;
+  }
+
+  
+  #before-after-slider {
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    border:3px solid white;
+  }
+  
+  #after-image {
+    display:block
+  }
+  
+  #before-image {
+    position:absolute;
+    height:100%;
+    width:50%;
+    top:0;
+    left:0;
+    overflow:hidden;
+    z-index:2;
+  }
+  
+  #resizer {
+    position:absolute;
+    display:flex;
+    align-items:center;
+    z-index:5;
+    top:0;
+    left:50%;
+    height:100%;
+    width:4px;
+    background:white;
+    /*Stop vertical scrolling on touch*/
+    -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  }
+  
+  #resizer:after {
+    background:linear-gradient(62deg,#c93072 5%,#3365c0);
+    font-family: "Font Awesome 5 Free";
+    content:'\f337';
+    font-weight:900;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    position:absolute;
+    margin: 0 0 0 -22px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:3px solid white;
+  
+  }
+  
+  @media (max-width:767px) {
+    .container {
+      width:100%;
+      padding:0 20px
+    }
+  }
+
+
+/* Section 3: FAQ and Stats */
+.faq-stats img {
+    border-radius: 15px;
+}
+
+.faq-stats details {
+    margin-bottom: 15px;
+}
+
+.faq-stats details summary {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+}
+
+.faq-stats details summary .icon {
+    position: absolute;
+    left: -30px; /* Adjust based on your design */
+}
+
+.faq-stats details[open] summary .icon {
+    content: url('path-to-open-icon.png'); /* Icon when open */
+}
+
+.faq-stats details:not([open]) summary .icon {
+    content: url('path-to-closed-icon.png'); /* Icon when closed */
+}
+
+.stats-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.stats-box .number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Additional styles for modern look */
+.rounded {
+    border-radius: 15px;
+}
+
