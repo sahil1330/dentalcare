@@ -162,14 +162,46 @@
       </div>
     </div>
   </section>
-  <section class="services-provide">
-    <h1>SERVICES WE PROVIDE</h1>
-    <div class="service-box">
-      <div class="boxes">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
+  <section class="service-section">
+    <h1 id="services-section-heading">SERVICES WE PROVIDE</h1>
+    <div class="service-wrapper">
+      <div class="service-boxes">
+        <div class="box service-box1">
+          <h2>All Types of Dental Services</h2>
+          <button class="btn-service-section-arrow">
+            <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
+          </button>
+        </div>
+        <div class="box service-box2">
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Cavity Prevention</h3>
+          </div>
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Root Canal Treatment</h3>
+          </div>
+        </div>
+        <div class="box service-box3">
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Dental Implants</h3>
+          </div>
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Dental Products</h3>
+          </div>
+        </div>
+        <div class="box service-box4">
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Tooth Extraction</h3>
+          </div>
+          <div class="service">
+            <img src="icons/teeth.svg" alt="">
+            <h3>Teeth Whitening</h3>
+          </div>
+        </div>
       </div>
     </div>
   </section>

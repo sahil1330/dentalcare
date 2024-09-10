@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .corner {
+            width: 30px;
+            aspect-ratio: 1;
+            background: black;
+            background-image: radial-gradient(circle at 100% 100%,
+                    transparent 30px, blue 30px);
+        }
+
+        .service-container {
+            background: linear-gradient(291deg,
+                    rgba(97, 171, 215, 0.7) 13%,
+                    rgba(86.47, 129.54, 191.31, 0.7) 39%,
+                    rgba(86.93, 131.33, 192.33, 0.7) 58%,
+                    rgba(81, 108, 179, 0.7) 78%);
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #services-section-heading {
+            font-size: 36px;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .service-wrapper {
+            display: grid;
+            place-items: center;
+        }
+
+        .service-boxes {
+            width: 80vw;
+            height: 80vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+
+
+        }
+
+        .service-boxes>.service-box1 {
+            position: relative;
+        }
+
+        .service-boxes>.service-box2,
+        .service-boxes>.service-box3,
+        .service-boxes>.service-box4 {
+            width: 100%;
+            background-color: white;
+        }
+
+        .service-boxes>.service-box2 {
+            grid-row: 2/3;
+            border-radius: 1rem 0 0 1rem;
+        }
+
+        .service-boxes>.service-box3 {
+            grid-column: 2/3;
+            border-radius: 1rem 1rem 0 0;
+        }
+
+        .service-boxes>.service-box4 {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            border-radius: 0 0 1rem 0;
+        }
+
+        .service-boxes>.service-box1::after {
+            content: "";
+            width: 1rem;
+            aspect-ratio: 1;
+
+            background-image: radial-gradient(circle at 100% 100%,
+                    transparent 1rem, white 1rem);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            rotate: 180deg;
+        }
+
+        .service-box1 {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-left: 50px;
+        }
+
+        .service-box1>h2 {
+            color: #fff;
+            font-size: 36px;
+            padding: 20px;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+            width: 70%;
+        }
+
+        .btn-service-section-arrow {
+            background: none;
+            border: none;
+            cursor: pointer;
+            background-color: #fff;
+            width: 66px;
+            height: 66px;
+            border-radius: 100%;
+        }
+
+        .btn-service-section-arrow img {
+            padding: 2px;
+        }
+
+        .service-box2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .service-box3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .service-box4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .service {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .service h3 {
+            font-size: 24px;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+            width: 80%;
+        }
+
+        @media (max-width: 768px) {
+            .service-container {
+                height: 220vh;
+                width: 100%;
+            }
+
+            .service-boxes {
+                width: 100vw;
+                height: 200vh;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                place-items: center;
+                gap: 20px;
+            }
+
+            .service-boxes>.service-box1 {
+                margin-left: 0px;
+                grid-row: 1/2;
+                grid-column: 1/2;
+                width: 80%;
+                border-radius: 1rem;
+            }
+            .service-boxes>.service-box1::after {
+                display: none;
+            }
+
+            .service-boxes>.service-box2 {
+                grid-row: 2/3;
+                width: 80%;
+                grid-column: 1/2;
+                border-radius: 1rem;
+            }
+
+            .service-box2,
+            .service-box3,
+            .service-box4 {
+                height: 100%;
+                width: 80%;
+                border-radius: 1rem;
+                flex-direction: column;
+            }
+
+            .service-boxes>.service-box3 {
+                grid-row: 3/4;
+                grid-column: 1/2;
+                width: 80%;
+                border-radius: 1rem;
+            }
+
+            .service-boxes>.service-box4 {
+                grid-row: 4/5;
+                grid-column: 1/2;
+                width: 80%;
+                border-radius: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="service-container">
+        <h1 id="services-section-heading">SERVICES WE PROVIDE</h1>
+        <div class="service-wrapper">
+            <div class="service-boxes">
+                <div class="box service-box1">
+                    <h2>All Types of Dental Services</h2>
+                    <button class="btn-service-section-arrow">
+                        <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
+                    </button>
+                </div>
+                <div class="box service-box2">
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Cavity Prevention</h3>
+                    </div>
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Root Canal Treatment</h3>
+                    </div>
+                </div>
+                <div class="box service-box3">
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Dental Implants</h3>
+                    </div>
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Dental Products</h3>
+                    </div>
+                </div>
+                <div class="box service-box4">
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Tooth Extraction</h3>
+                    </div>
+                    <div class="service">
+                        <img src="icons/teeth.svg" alt="">
+                        <h3>Teeth Whitening</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
