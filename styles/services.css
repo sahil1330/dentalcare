@@ -1,0 +1,78 @@
+/* Header Section - Same as contact page */
+.header-section {
+    background-image: url('imgs/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    height: 100svh;
+}
+
+.header-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-section button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.header-section .cta a {
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services-section {
+    background: #e0f7fa;
+}
+
+.card {
+    border: none;
+    border-radius: 22px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure all card images have padding around them and are centered */
+.card img {
+    width: calc(100% - 20px); /* Adjusting width to account for padding */
+    height: calc(200px - 10px); /* Adjusting height to account for padding */
+    object-fit: cover; /* Ensure the image fits inside without stretching */
+    padding: 20px; /* Padding from all sides */
+    border-radius: 30px;
+    
+    display: block; /* Block display to allow centering */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.card-body h5 {
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #6c757d;
+}
+
+.card-body .btn-block {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.card-body .btn-outline-dark {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.d-flex {
+    gap: 10px;
+}
