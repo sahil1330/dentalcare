@@ -19,7 +19,7 @@
       <div class="logo">
         <img src="icons/logo.svg" alt="Dental Care" />
       </div>
-      <ul>
+      <ul class="">
         <li><a href="./" id="active">Home</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Services</a></li>
@@ -33,6 +33,16 @@
         <img src="icons/menu.svg" alt="Menu" />
       </div>
     </nav>
+    <div class="nav-box">
+      <ul class="menu-content">
+        <li><a href="./" id="active">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
   </header>
   <section class="hero-section">
     <div class="hero-content">
@@ -396,19 +406,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-    <script>
-      const navigators = document.querySelectorAll(".navigators .navigator");
-      
-      navigators.forEach((navigator) => {
-        navigator.addEventListener("click", () => {
-          navigators.forEach((nav) => {
-            nav.classList.remove("active");
-          });
-          navigator.classList.add("active");
-        });
-      });
-     
-    </script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
