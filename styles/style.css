@@ -205,8 +205,9 @@ nav ul a {
   border-radius: 24px;
 }
 .btn-phone:hover{
-  background-color: #7b7b7b;
+  background-color: transparent;
   color: #000;
+  fill: #000;
 }
 .hero-right-row2 p {
   font-size: 24px;
@@ -414,7 +415,7 @@ nav ul a {
   font-size: 36px;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 30px  30px;
 }
 
 .service-wrapper {
