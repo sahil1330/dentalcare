@@ -5,30 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS (required for toggling) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/fonts.css">
 </head>
 
 <body>
-    <!-- Hero Section -->
+
+    <!-- Navbar -->
     <div class="navbar">
-           <?php include 'new-responsive-nav.php'; ?>
+        <?php include 'new-responsive-nav.php'; ?>
     </div>
-    <section class="hero-section">
-       
-        
-        </div>
+
+    <!-- Hero Section (Adjust the padding if necessary to prevent overlap) -->
+    <section class="hero-section" style="padding-top: 100px;">
+        <!-- Content for the hero section -->
+        <h1 class="text-center">Welcome to Our Contact Page</h1>
     </section>
 
     <!-- Contact Form Section -->
     <section class="contact-form-section py-5">
         <div class="container">
-
             <h2 class="text-center mb-5 contact-head-text">Our Contact Details</h2>
             <div class="row justify-content-center">
                 <!-- Contact Form -->
@@ -59,11 +60,9 @@
         </div>
     </section>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
- 
-    
 </body>
 
 </html>
