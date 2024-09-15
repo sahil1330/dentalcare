@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #666666;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
+}
+
+.navbar-custom {
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+    width: 95%;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.nav-bar-box {
+    width: 100%;
+    position: relative;
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.logo-container {
+    height: 130px;
+    width: 100px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -30px;
+    z-index: 10;
+}
+
+.logo-container img {
+    height: 60px;
+    width: auto;
+    margin-top: 25px;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-item a {
+    font-weight: bold;
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #000;
+}
+
+.search-box {
+    display: none;
+    position: relative;
+    padding: 10px;
+}
+
+.search-box input {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.user-profile {
+    display: none; /* Initially hidden */
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #333;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+.overlay-search {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 9;
+    padding: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .logo-container {
+        left: 0; /* Align to the left */
+        transform: none; /* Remove centering for PC */
+    }
+
+    /* Ensure the search icon is visible on PC */
+    .search-box {
+        
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .nav-bar-box {
+        margin: 20px 10px;
+        margin-left: none;
+        
+        
+    }
+    .logo-container {
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+    }
+
+    .navbar-toggler {
+        order: 2;
+        position: absolute;
+        right: 35px;
+        z-index: 1001;
+        border: none; /* Remove border around menu button */
+    }
+
+    .collapse {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #f3f3f3;
+        z-index: 9;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .user-profile {
+        display: flex; /* Shown in menu */
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .search-box {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: auto;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+}
