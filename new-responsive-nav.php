@@ -26,7 +26,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             position: relative;
             z-index: 1000;
-            width: 95%;
+            width: 98%;
             height: 60px;
             border-radius: 20px;
         }
@@ -42,8 +42,8 @@
             height: 130px;
             width: 100px;
             background-color: white;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 18px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: center;
@@ -52,6 +52,7 @@
             margin-left: 50px;
             margin-top: -30px;
             z-index: 10;
+            box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.3);
         }
 
         .logo-container img {
@@ -146,7 +147,7 @@
 
             .navbar-toggler {
                 order: 2;
-                position: fixed;
+                position: absolute;
                 right: 35px;
                 z-index: 1001;
                 border: none; /* Remove border around menu button */
