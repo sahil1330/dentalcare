@@ -1,0 +1,10 @@
+create database NADC;
+use NADC;
+create table services(id int primary key auto_increment, service_title varchar(255), service_desc varchar(5000), service_thumbnail varchar(255), service_before_image varchar(255), service_after_image varchar(255), createdAt datetime default CURRENT_TIMESTAMP, updatedAt datetime default current_timestamp);
+Desc services;
+insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ("Scaling", "This is the description for scaling", "images/Scaling/After.heic", "images/Scaling/Before.heic","images/Scaling/After.heic");
+insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ( "Missing teeth replacement", "This is the description for Missing teeth replacement", "images/Missing teeth replacement/After.jpg", "images/Missing teeth replacement/Before.jpg","images/Missing teeth replacement/After.jpg");
+insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ( "Diastema closure", "This is the description for Diastema closure", "images/Diastema closure/After.jpg", "images/Diastema closure/Before.jpg","images/Diastema closure/After.jpg");
+insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ( "Scaling", "This is the description for Depigmentation", "images/Depigmentation/After.jpg", "images/Depigmentation/Before.jpg","images/Depigmentation/After.jpg");
+insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ( "Scaling", "This is the description for Aesthetic", "images/Aesthetic/After.jpg", "images/Aesthetic/Before.jpg","images/Aesthetic/After.jpg");
+Select * from services;
