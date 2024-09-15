@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header {
+/* header {
   width: 100%;
   background-color: #e3e3e3;
 }
@@ -23,7 +23,7 @@ nav {
   font-family: "Poppins", sans-serif;
   position: fixed;
   z-index: 1000;
-  /* position: relative; */
+ 
 }
 nav ul {
   display: flex;
@@ -59,8 +59,8 @@ nav ul a {
 }
 .nav-box {
   display: none;
-}
-@media (max-width: 768px) {
+} */
+/* @media (max-width: 768px) {
   .menu-content {
     display: none;
     color: #000;
@@ -92,7 +92,7 @@ nav ul a {
     position: absolute;
     right: 24px;
   }
-}
+} */
 .hero-section {
   background: linear-gradient(180deg, #e0e0e0 0%, #f3f3f3 100%);
   border-top-left-radius: 40px;

@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/new-nav.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/fonts.css">
 </head>
@@ -45,7 +46,8 @@
                                 <input type="email" class="form-control" name="email" placeholder="Email" required>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" name="message" placeholder="Message" rows="5" required></textarea>
+                                <textarea class="form-control" name="message" placeholder="Message" rows="5"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Submit Form</button>
                         </form>
@@ -60,9 +62,25 @@
         </div>
     </section>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script>
+        // Toggle search box on PC when search icon is clicked
+        const searchIcon = document.getElementById('searchIcon');
+        const searchOverlay = document.getElementById('searchOverlay');
 
+        searchIcon.addEventListener('click', () => {
+            if (searchOverlay.style.display === 'block') {
+                searchOverlay.style.display = 'none';
+            } else {
+                searchOverlay.style.display = 'block';
+            }
+        });
+    </script>
 </body>
 
 </html>
