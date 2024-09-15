@@ -21,10 +21,10 @@
       </div>
       <ul class="">
         <li><a href="./" id="active">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="about.php">About us</a></li>
+        <li><a href="services.html">Services</a></li>
         <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contactus.html">Contact</a></li>
       </ul>
       <div class="search">
         <img src="icons/search.svg" alt="Search" />
