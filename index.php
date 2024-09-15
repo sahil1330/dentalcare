@@ -6,43 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dental Care</title>
   <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/new-nav.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="logo">
-        <img src="icons/logo.svg" alt="Dental Care" />
-      </div>
-      <ul class="">
-        <li><a href="./" id="active">Home</a></li>
-        <li><a href="about.php">About us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-      </ul>
-      <div class="search">
-        <img src="icons/search.svg" alt="Search" />
-      </div>
-      <div class="menu">
-        <img src="icons/menu.svg" alt="Menu" />
-      </div>
-    </nav>
-    <div class="nav-box">
-      <ul class="menu-content">
-        <li><a href="./" id="active">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
+    <?php include 'new-responsive-nav.php'; ?>
   </header>
   <section class="hero-section">
     <div class="hero-content">

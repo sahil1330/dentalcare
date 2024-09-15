@@ -657,7 +657,7 @@ nav ul a {
   height: 100vh;
 }
 
-.container {
+.short-about > .container {
   gap: 20px;
   padding: 56px 0;
   width: 80vw;
@@ -741,7 +741,7 @@ nav ul a {
   right: 48px;
 }
 @media screen and (max-width: 768px) {
-  .container {
+  .short-about > .container {
     height: 200vh;
   }
   .container .left {
