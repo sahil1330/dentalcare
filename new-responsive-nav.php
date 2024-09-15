@@ -163,6 +163,7 @@
                 padding: 15px;
                 margin-top: 20px;
                 border-radius: 10px;
+                text-align: center;
             }
 
             .user-profile {
@@ -172,8 +173,9 @@
             }
 
             .search-box {
-                display: block;
+                display: flex;
                 margin-bottom: 15px;
+                justify-content: center;
             }
         }
 
