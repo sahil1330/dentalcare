@@ -204,7 +204,7 @@ nav ul a {
   font-size: 20px;
   border-radius: 24px;
 }
-.btn-phone:hover{
+.btn-phone:hover {
   background-color: transparent;
   color: #000;
   fill: #000;
@@ -311,7 +311,7 @@ nav ul a {
   width: 100%;
   border-radius: 20px;
 }
-.btn-getstarted{
+.btn-getstarted {
   background-color: #fff;
   padding: 4px 20px;
   margin: 8px 0;
@@ -415,7 +415,7 @@ nav ul a {
   font-size: 36px;
   color: #fff;
   text-align: center;
-  padding: 30px  30px;
+  padding: 30px 30px;
 }
 
 .service-wrapper {
@@ -777,21 +777,21 @@ nav ul a {
   height: 56vh;
   overflow: hidden;
 }
-.exclusive-updates .card-wrapper .card-body{
+.exclusive-updates .card-wrapper .card-body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url('https://images.unsplash.com/photo-1486049125644-f35e226a5e14?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url("https://images.unsplash.com/photo-1486049125644-f35e226a5e14?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 /* exclusive updates part 2 section */
 .exclusive-updates-part2 {
   background: linear-gradient(
-    291deg,
-    rgba(97, 171, 215, 0.7) 13%,
-    rgba(86.47, 129.54, 191.31, 0.7) 39%,
-    rgba(86.93, 131.33, 192.33, 0.7) 58%,
-    rgba(81, 108, 179, 0.7) 78%
+    130deg,
+    #61ABD7 13%,
+    #5682BF 39%,
+    #5783C0 58%,
+    #516CB3 78%
   );
   height: 48vh;
 }
@@ -818,6 +818,7 @@ nav ul a {
 .form-wrapper #emailInput {
   padding: 24px 40px;
   width: 40vw;
+  border: none;
   border-radius: 40px;
   text-decoration: underline;
   font-size: 24px;
@@ -830,9 +831,9 @@ nav ul a {
 .form-wrapper button {
   padding: 16px 32px;
   width: 20vw;
-  border-radius: 20px;
   background-color: #efefef;
   color: #000;
+  border: none;
   border-radius: 40px;
   font-size: 32px;
   letter-spacing: 1.5px;
@@ -841,7 +842,7 @@ nav ul a {
   font-weight: 700;
 }
 #agree {
-  width: 20px;
+  width: 20px;  
 }
 .check-input {
   display: flex;
@@ -853,6 +854,15 @@ nav ul a {
   font-size: 20px;
   color: #000;
   font-weight: 500;
+}
+@media screen and (max-width: 1024px) {
+  .exclusive-updates-part2 {
+    height: 60vh;
+  }
+  .form-wrapper button {
+    width: 24vw;
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 768px) {
   .exclusive-updates-part2 > .container {
@@ -1050,7 +1060,7 @@ footer > .container2 {
   display: flex;
   gap: 10px;
 }
-.btn-contact:hover{
+.btn-contact:hover {
   background-color: #000;
   color: #fff;
 }
