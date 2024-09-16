@@ -42,7 +42,7 @@
                     <p><?php
                     $desc = str_replace("\n", "</p><p>", $desc);
                     $desc = str_replace("", "", $desc); // Remove empty lines
-                    echo $desc; ?>
+                    echo $desc; 
                         ?></p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                     <a href="#" class="btn btn-secondary">Book Now</a>
