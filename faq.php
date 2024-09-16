@@ -63,8 +63,8 @@
             align-items: center;
             justify-content: center;
             background-color: #fff;
-            padding: 10px;
-            padding-bottom: ;
+            padding: 1px;
+            
             border-radius: 50%;
             width: 40px;
             height: 40px;
