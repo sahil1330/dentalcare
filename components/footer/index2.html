@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .quick-link-btn {
+            width: 150px; /* Fixed width */
+            height: 50px; /* Fixed height */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f3f3f3;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        .quick-link-btn .btn-arrow {
+            display: flex;
+            align-items: center;
+        }
+
+        .quick-link-btn img {
+            width: 20px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    
+
 <footer>
     <div class="container2">
         <div class="form-container">
@@ -87,7 +124,7 @@
                 <div class="quick-link-wrapper">
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn">
+                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
                                 Home
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -95,7 +132,7 @@
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn">
+                            <button class="quick-link-btn" onclick="window.location.href='faq.php'">
                                 FAQ
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -105,34 +142,16 @@
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn">
-                                Home
+                            <button class="quick-link-btn" onclick="window.location.href='about.php'">
+                                About
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn">
-                                FAQ
-                                <div class="btn-arrow">
-                                    <img src="icons/slant-arrow.svg" alt="">
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row quick-link-row" style="flex-wrap: nowrap;">
-                        <div class="col-6">
-                            <button class="quick-link-btn">
-                                Home
-                                <div class="btn-arrow">
-                                    <img src="icons/slant-arrow.svg" alt="">
-                                </div>
-                            </button>
-                        </div>
-                        <div class="col-6">
-                            <button class="quick-link-btn">
-                                FAQ
+                            <button class="quick-link-btn" onclick="window.location.href='services.php'">
+                                Services
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
@@ -141,16 +160,34 @@
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn">
-                                Home
+                            <button class="quick-link-btn" onclick="window.location.href='contactus.php'">
+                                Contact 
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn">
-                                FAQ
+                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
+                                Terms
+                                <div class="btn-arrow">
+                                    <img src="icons/slant-arrow.svg" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row quick-link-row" style="flex-wrap: nowrap;">
+                        <div class="col-6">
+                            <button class="quick-link-btn" onclick="window.location.href='blog.php'">
+                                Blogs
+                                <div class="btn-arrow">
+                                    <img src="icons/slant-arrow.svg" alt="">
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
+                                Policy
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
@@ -168,3 +205,6 @@
             </h6>
         </div>
 </footer>
+
+</body>
+</html>
