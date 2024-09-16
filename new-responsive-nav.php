@@ -32,7 +32,7 @@
                         <a class="nav-link" href="blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact</a>
+                        <a class="nav-link" href="contactus.php">Contact</a>
                     </li>
                 </ul>
                 <div class="d-flex align-items-center">
