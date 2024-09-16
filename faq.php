@@ -107,6 +107,12 @@
             opacity: 1;
             padding: 15px;
         }
+        @media screen and (max-width: 990px) {
+            .faq-heading {
+                margin-top: 50px;
+            }
+            
+        }
     </style>
 </head>
 
