@@ -9,8 +9,6 @@ body {
     rgba(81, 108, 179, 0.7) 78%
   );
 }
-.header-section {
-}
 .header-section-container {
   position: relative;
   min-height: 100svh;

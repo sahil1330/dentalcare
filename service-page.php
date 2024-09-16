@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/service-content.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/new-nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <style>
         /* Add custom styles here */
     </style>
@@ -98,7 +99,9 @@
             </div>
         </div>
     </section>
-
+<?php
+include "components/footer/index2.html"
+?>
     <!-- Bootstrap JS & Custom JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

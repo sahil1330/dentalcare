@@ -1139,7 +1139,31 @@ footer > .container2 {
 .quick-link-wrapper {
   margin: 5%;
 }
+.quick-link-btn {
+  width: 150px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
 
+.quick-link-btn .btn-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.quick-link-btn img {
+  width: 20px;
+  height: auto;
+}
 @media (max-width: 768px) {
   footer > .container2 {
     height: 112vh;

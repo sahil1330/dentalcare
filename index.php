@@ -70,9 +70,11 @@
             <img src="images/toothbrush.jpg" alt="slide1" />
             <div class="hero-right-row4-box1-content">
               <h6>Get a deep clean with 360</h6>
-              <button class="btn-arrow" style="background-color: #000">
-                <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
-              </button>
+              <a href="services.php">
+                <button href="services.php" class="btn-arrow" style="background-color: #000">
+                  <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
+                </button>
+              </a>
             </div>
           </div>
           <div class="hero-right-row4-box2">
