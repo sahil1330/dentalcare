@@ -103,7 +103,9 @@
         <h1 class="text-center my-5">Latest Blog Posts</h1>
         <div id="blog-feed" class="row"></div>
     </div>
-
+    <footer>
+    <?php include "components/footer/index2.html"; ?>
+    </footer>
     <script>
         const feedUrl = 'https://izoog.blogspot.com/feeds/posts/default?alt=rss'; // Replace with your blog's RSS feed URL
 

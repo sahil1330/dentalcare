@@ -99,9 +99,9 @@
             </div>
         </div>
     </section>
-<?php
-include "components/footer/index2.html"
-?>
+    <footer>
+    <?php include "components/footer/index2.html"; ?>
+    </footer>
     <!-- Bootstrap JS & Custom JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
