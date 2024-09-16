@@ -8,13 +8,20 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/contactus.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/new-nav.css">
 </head>
 <body>
-<div class="">
-        <?php include 'new-responsive-nav.php'; ?>
+<div style="z-index: 1002; 
+            position:fixed;
+            width: 100%;
+            top: 0;
+            ">
+            <?php include 'new-responsive-nav.php'; ?>
     </div>
+    
     <!-- Header Section -->
     <section class="header-section">
+        
         <div>
             <h1>CONTACT US</h1>
             <button>NOW</button>
