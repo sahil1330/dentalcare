@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,41 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/service-content.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/new-nav.css">
     <style>
         /* Add custom styles here */
     </style>
 </head>
-<body>
 
+<body>
+    <?php include 'new-responsive-nav.php'; ?>
+    <?php
+    include 'db/config.php';
+    $title = $_GET['service'];
+    $sql = "SELECT * FROM services WHERE service_title = '$title'";
+    $result = mysqli_query($conn, $sql);
+    $row = mysqli_fetch_array($result);
+    $id = $row['id'];
+    $title = $row['service_title'];
+    $desc = $row['service_desc'];
+    $thumbnail = $row['service_thumbnail'];
+    $service_before = $row['service_before_image'];
+    $service_after = $row['service_after_image'];
+    ?>
     <!-- Section 1: Service Details -->
     <section class="service-details py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="imgs/sample.jpg" class="img-fluid rounded" alt="Service Image">
+                    <img src="<?php echo $thumbnail ?>" class="img-fluid rounded" alt="Service Image">
                 </div>
                 <div class="col-md-6">
-                    <h2>Service Title</h2>
-                    <p>Description of the service goes here. Explain what the service is about, its benefits, and any other relevant details.goes here. Explain what the service is about, its benefits, and any other relevant details.goes here. Explain what the service is about, its benefits, and any other relevant details.</p>
+                    <h2><?php echo $title; ?></h2>
+                    <p><?php
+                    $desc = str_replace("\n", "</p><p>", $desc);
+                    $desc = str_replace("", "", $desc); // Remove empty lines
+                    echo $desc; ?>
+                        ?></p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                     <a href="#" class="btn btn-secondary">Book Now</a>
                 </div>
@@ -34,19 +54,21 @@
     <!-- Section 2: Before and After Slider -->
     <section class="before-after py-5 text-center">
         <div class="container">
-            <h2>Before and After</h2>
+            <h2 class="text-light mb-4">Before and After</h2>
             <div id="before-after-slider">
                 <div id="before-image">
-                  <img src="https://images.pexels.com/photos/3728078/pexels-photo-3728078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="before"/>
+                    <img src="<?php echo $service_before; ?>"
+                        alt="before" />
                 </div>
-              
+
                 <div id="after-image">
-                  <img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="After"/>
+                    <img src="<?php echo $service_after; ?>"
+                        alt="After" />
                 </div>
-            
+
                 <div id="resizer"></div>
                 <script src="scripts/slider.js"></script>
-             </div>
+            </div>
         </div>
     </section>
 
@@ -79,8 +101,13 @@
 
     <!-- Bootstrap JS & Custom JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <script src="scripts/service.js"></script>
 </body>
+
 </html>

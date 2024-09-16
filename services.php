@@ -44,54 +44,33 @@
             <h2 class="mb-5">SERVICES WE PROVIDE</h2>
             <div class="row">
                 <!-- First Card -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imgs/br2.jpg" class="card-img-top" alt="Service Image 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Scaling and Polishing</h5>
-                            <p class="card-text">Short preview text for the service detail and other info, with 2
-                                lines...</p>
-                            <a href="#" class="btn btn-info btn-block mb-2">Other Medical Info</a>
-                            <div class="d-flex justify-content-between">
-                                <a href="#" class="btn btn-outline-dark">Learn more</a>
-                                <a href="#" class="btn btn-outline-dark">Book an Appointment</a>
+                <?php
+                include 'db/config.php';
+                $sql = "SELECT * FROM services";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['id'];
+                    $title = $row['service_title'];
+                    $desc = $row['service_desc'];
+                    $thumbnail = $row['service_thumbnail'];
+                    ?>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="<?php echo $thumbnail; ?>" class="card-img-top" alt="<?php echo $title; ?>">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $title; ?></h5>
+                                <p class="card-text"><?php echo $desc; ?>...</p>
+                                <a href="#" class="btn btn-info btn-block mb-2">Other Medical Info</a>
+                                <div class="d-flex justify-content-between">
+                                    <a href="service-page.php?service=<?php echo $title; ?>" class="btn btn-outline-dark">Learn more</a>
+                                    <a href="service-page.php?service=<?php echo $title; ?>" class="btn btn-outline-dark">Book an Appointment</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Second Card -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imgs/br2.jpg" class="card-img-top" alt="Service Image 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Teeth Whitening</h5>
-                            <p class="card-text">Short preview text for the service detail and other info, with 2
-                                lines...</p>
-                            <a href="#" class="btn btn-info btn-block mb-2">Other Medical Info</a>
-                            <div class="d-flex justify-content-between">
-                                <a href="#" class="btn btn-outline-dark">Learn more</a>
-                                <a href="#" class="btn btn-outline-dark">Book an Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Third Card -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imgs/sample.jpg" class="card-img-top" alt="Service Image 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Dental Implants</h5>
-                            <p class="card-text">Short preview text for the service detail and other info, with 2
-                                lines...</p>
-                            <a href="#" class="btn btn-info btn-block mb-2">Other Medical Info</a>
-                            <div class="d-flex justify-content-between">
-                                <a href="#" class="btn btn-outline-dark">Learn more</a>
-                                <a href="#" class="btn btn-outline-dark">Book an Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <?php
+                }
+                ?>
 
             <div class="row">
                 <!-- Repeat for 3 more rows -->
