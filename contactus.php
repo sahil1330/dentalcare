@@ -8,11 +8,20 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/contactus.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/new-nav.css">
 </head>
 <body>
-
+<nav style="z-index: 1002; 
+            position:fixed;
+            width: 100%;
+            top: 0;
+            ">
+            <?php include 'new-responsive-nav.php'; ?>
+</nav>
+    
     <!-- Header Section -->
     <section class="header-section">
+        
         <div>
             <h1>CONTACT US</h1>
             <button>NOW</button>
@@ -132,7 +141,7 @@
 
     <!-- Bootstrap JS & FontAwesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>

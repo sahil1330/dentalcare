@@ -7,6 +7,7 @@
     <title>About NADC</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/new-nav.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -15,24 +16,13 @@
 </head>
 
 <body>
-    <nav style="margin: 10px 0;">
-        <div class="logo">
-            <img src="icons/logo.svg" alt="Dental Care" />
-        </div>
-        <ul>
-            <li><a href="./">Home</a></li>
-            <li><a href="about.php" id="active">About us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="contactus.html">Contact</a></li>
-        </ul>
-        <div class="search">
-            <img src="icons/search.svg" alt="Search" />
-        </div>
-        <div class="menu">
-            <img src="icons/menu.svg" alt="Menu" />
-        </div>
-    </nav>
+<nav style="z-index: 1002; 
+            position:fixed;
+            width: 100%;
+            top: 0;
+            ">
+            <?php include 'new-responsive-nav.php'; ?>
+</nav>
     <section class="about-herosection">
         <div class="about-wrapper">
             <div class="about-hero-image">

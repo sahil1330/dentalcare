@@ -146,13 +146,14 @@
     }
 
     .user-profile {
-        display: flex; /* Shown in menu */
+        display: none; /* Shown in menu */
         justify-content: center;
         margin-bottom: 15px;
+        
     }
 
     .search-box {
-        display: flex;
+        display: none;
         margin-bottom: 15px;
         justify-content: center;
     }

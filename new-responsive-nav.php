@@ -20,10 +20,11 @@
                 </div>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
+                     
                         <a class="nav-link active" aria-current="page" href="./">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.php">Services</a>
@@ -32,7 +33,7 @@
                         <a class="nav-link" href="blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact</a>
+                        <a class="nav-link" href="contactus.php">Contact</a>
                     </li>
                 </ul>
                 <div class="d-flex align-items-center">
