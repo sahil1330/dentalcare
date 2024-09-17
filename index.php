@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/new-nav.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script> -->
@@ -21,22 +23,22 @@
   <section class="hero-section">
     <div class="hero-content">
       <div class="hero-left">
-        <h1 class="hero-left-row1">YOUR <b>SMILE IS</b></h1>
-        <div class="hero-left-row2">
-          <h1 class="hero-left-row2-text">YOUR</h1>
-          <div class="hero-left-row2-box">
+        <h1 class="hero-left-row1" data-aos="fade-right">YOUR <b>SMILE IS</b></h1>
+        <div class="hero-left-row2" data-aos="fade-right">
+          <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR</h1>
+          <div class="hero-left-row2-box" data-aos="fade-right">
             <img src="images/tooth-hero.svg" alt="Tooth ad" />
           </div>
         </div>
-        <h1><b>SUPERPOWER</b></h1>
-        <div class="hero-group-image-container">
+        <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
+        <div class="hero-group-image-container" data-aos="fade-right">
           <div class="hero-group-image">
             <img src="images/hero-group.svg" alt="White Teeth" width="100%" height="100%" />
           </div>
           <div class="hero-group-image-content">
-            <div>
+            <span>
               <p>What's behind your smile?</p>
-            </div>
+            </span>
             <div class="hero-slant-arrow-img">
               <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="Slant Arrow" id="hero-slant-arrow" />
             </div>
@@ -45,13 +47,13 @@
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
-          <button class="btn-contact">Contact Us</button>
-          <button class="btn-phone">
+          <button class="btn-contact" data-aos="fade-left">Contact Us</button>
+          <button class="btn-phone" data-aos="fade-left">
             <img src="icons/phone.svg" alt="Telephone" />+91 9821185590
           </button>
         </div>
-        <div class="hero-right-row2">
-          <p>
+        <div class="hero-right-row2" data-aos="fade-left">
+          <p class="">
             Enthusiastic dental professional with a solid grasp of dental care
             processes. Eager to advance my skills and knowledge in global and
             US healthcare while honing critical thinking abilities as a
@@ -59,14 +61,15 @@
           </p>
         </div>
         <div class="hero-right-row3">
-          <button class="btn-know-more">KNOW NOW!</button>
-          <button class="btn-arrow2" style="background-color: #50aadc; border-color: #50aadc">
+          <button class="btn-know-more" data-aos="fade-left">KNOW NOW!</button>
+          <button class="btn-arrow2" data-aos="fade-left"
+            style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="100%" height="100%" alt="" />
           </button>
-          <a href="#">Learn More</a>
+          <a href="#" data-aos="fade-left">Learn More</a>
         </div>
         <div class="hero-right-row4">
-          <div class="hero-right-row4-box1">
+          <div class="hero-right-row4-box1" data-aos="fade-left">
             <img src="images/toothbrush.jpg" alt="slide1" />
             <div class="hero-right-row4-box1-content">
               <h6>Get a deep clean with 360</h6>
@@ -77,7 +80,7 @@
               </a>
             </div>
           </div>
-          <div class="hero-right-row4-box2">
+          <div class="hero-right-row4-box2" data-aos="fade-left">
             <div class="hero-right-row4-box2-row1">
               <h6>How can we help you today?</h6>
             </div>
@@ -143,37 +146,37 @@
     <div class="service-wrapper">
       <div class="service-boxes">
         <div class="box service-box1">
-          <h2>All Types of Dental Services</h2>
-          <button class="btn-service-section-arrow">
+          <h2 data-aos="fade-right">All Types of Dental Services</h2>
+          <button class="btn-service-section-arrow" data-aos="fade-right">
             <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
           </button>
         </div>
         <div class="box service-box2">
-          <div class="service">
+          <div class="service" data-aos="fade-up">
             <img src="icons/teeth.svg" alt="">
             <h3>Cavity Prevention</h3>
           </div>
-          <div class="service">
+          <div class="service" data-aos="fade-up">
             <img src="icons/teeth.svg" alt="">
             <h3>Root Canal Treatment</h3>
           </div>
         </div>
         <div class="box service-box3">
-          <div class="service">
+          <div class="service" data-aos="fade-left">
             <img src="icons/teeth.svg" alt="">
             <h3>Dental Implants</h3>
           </div>
-          <div class="service">
+          <div class="service" data-aos="fade-left">
             <img src="icons/teeth.svg" alt="">
             <h3>Dental Products</h3>
           </div>
         </div>
         <div class="box service-box4">
-          <div class="service">
+          <div class="service" data-aos="fade-up">
             <img src="icons/teeth.svg" alt="">
             <h3>Tooth Extraction</h3>
           </div>
-          <div class="service">
+          <div class="service" data-aos="fade-up">
             <img src="icons/teeth.svg" alt="">
             <h3>Teeth Whitening</h3>
           </div>
@@ -232,7 +235,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="left">
+          <div class="short-about-left">
             <div class="short-about-left-heading">
               <h1>SHORT ABOUT PART</h1>
             </div>
@@ -265,7 +268,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="right">
+          <div class="short-about-right">
             <div class="boxes">
               <div class="img-box">
                 <img src="images/short-about-image.jpg" width="80%" height="80%" alt="Short About" />
@@ -289,23 +292,12 @@
     </div>
   </section>
   <section class="exclusive-updates">
-    <div class="container">
+    <div class="container my-4">
       <h1 align="center"><b>Subscribe for exclusive updates</b></h1>
       <div class="card-wrapper d-flex justify-content-center align-items-center">
         <div class="row row-gap-3">
           <div class="col-md-4">
-            <div class="card" style="width: 22rem">
-              <div class="card-body ">
-                <h5 class="card-title">Dental Implants</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 22rem">
+            <div class="card" data-aos="fade-up" style="width: 22rem">
               <div class="card-body">
                 <h5 class="card-title">Dental Implants</h5>
                 <p class="card-text">
@@ -316,7 +308,18 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="width: 22rem">
+            <div class="card" data-aos="fade-up" style="width: 22rem">
+              <div class="card-body">
+                <h5 class="card-title">Dental Implants</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up" style="width: 22rem">
               <div class="card-body">
                 <h5 class="card-title">Dental Implants</h5>
                 <p class="card-text">
@@ -336,14 +339,14 @@
       <div class="form-wrapper">
         <form action="" class="form-exclusive">
           <div class="inputs">
-            <div>
+            <div class="" data-aos="fade-up">
               <input type="email" name="email" id="emailInput" placeholder="Enter your Email id">
             </div>
-            <div class="check-input">
+            <div class="check-input" data-aos="fade-up">
               <input type="checkbox" name="agree" id="agree"> <label for="agree">I agree to PRIVACY POLICY</label>
             </div>
           </div>
-          <div>
+          <div class="" data-aos="fade-up">
             <button type="submit">Subscribe!</button>
           </div>
         </form>
@@ -351,13 +354,13 @@
     </div>
   </section>
   <section class="review">
-    <div class="container">
+    <div class="container my-4">
       <h1>PATIENT REVIEWS</h1>
       <p>Enthusiastic dental professional with a solid grasp of dental care processes. Eager to advance my skills and
         knowledge in global and US healthcare while honing critical thinking abilities as a dentist</p>
       <div class="cards row row-gap-3">
         <div class="col-md-4">
-          <div class="card" style="width: 22rem">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
             <div class="card-body">
               <h5 class="card-title">Dental Implants</h5 <p class="card-text">
               Love Dr Parks and
@@ -374,7 +377,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card" style="width: 22rem">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
             <div class="card-body">
               <h5 class="card-title">Dental Implants</h5 <p class="card-text">
               Love Dr Parks and
@@ -391,7 +394,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card" style="width: 22rem">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
             <div class="card-body">
               <h5 class="card-title">Dental Implants</h5 <p class="card-text">
               Love Dr Parks and
@@ -410,7 +413,7 @@
       </div>
     </div>
   </section>
-  <?php include "components/footer/index2.html"; ?>
+  <?php include"components/footer/index2.html"; ?>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -418,6 +421,10 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
   <script src="scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

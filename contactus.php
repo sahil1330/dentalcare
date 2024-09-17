@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Page</title>
     <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/contactus.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/new-nav.css">
 </head>
+
 <body>
-<nav style="z-index: 1002; 
+    <nav style="z-index: 1002; 
             position:fixed;
             width: 100%;
             top: 0;
             ">
-            <?php include 'new-responsive-nav.php'; ?>
-</nav>
-    
+        <?php include 'new-responsive-nav.php'; ?>
+    </nav>
+
     <!-- Header Section -->
     <section class="header-section">
-        
+
         <div>
             <h1>CONTACT US</h1>
             <button>NOW</button>
@@ -41,12 +45,13 @@
                         <h3 class="form-header">How can we help you today?</h3>
                         <p class="form-header-base">(Fill the form and we may soon contact you)</p>
                         <form>
-                            
+
                             <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                            
+
                             <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                            
-                            <textarea id="message" name="message" rows="4" placeholder="Your message here" required></textarea>
+
+                            <textarea id="message" name="message" rows="4" placeholder="Your message here"
+                                required></textarea>
                             <button type="submit">SUBMIT FORM</button>
                         </form>
                     </div>
@@ -67,35 +72,46 @@
                     <div class="contact-info">
                         <!-- Contact Details Heading -->
                         <h2 class="contact-map-head mb-4">OUR CONTACT DETAILS</h2>
-                        
 
-                         <!-- Social Icons -->
-                         <div class="social-icons mt-4 d-flex justify-content-center" style="gap: 20px;">
+
+                        <!-- Social Icons -->
+                        <div class="social-icons mt-4 d-flex justify-content-center" style="gap: 20px;">
                             <!-- Custom Facebook Icon -->
-                            <a href="#" class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="Facebook" style="width: 30px; height: 30px;">
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <img src="icons/icon-location-pin.svg" alt="Facebook"
+                                    style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom Instagram Icon -->
-                            <a href="#" class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="Instagram" style="width: 30px; height: 30px;">
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <img src="icons/icon-location-pin.svg" alt="Instagram"
+                                    style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom Twitter Icon -->
-                            <a href="#" class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
                                 <img src="icons/icon-location-pin.svg" alt="Twitter" style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom YouTube Icon -->
-                            <a href="#" class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <a href="#"
+                                class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
                                 <img src="icons/icon-location-pin.svg" alt="YouTube" style="width: 30px; height: 30px;">
                             </a>
                         </div>
-                        
+
                         <!-- Address, Email, and Phone in Grid Layout -->
                         <div class="row mb-4 contact-icon">
                             <div class="col-1">
                                 <img src="icons/icon-location-pin.svg" alt="Location Icon" style="margin-top: 10px;">
                             </div>
                             <div class="col-11">
-                                <p>A - 302, Munoth Empress, Near Ambedkar Statue, Ambedkar Road, Opp. Panvel Bus Stand, Old Panvel, Navi Mumbai, Maharashtra 410206</p>
+                                <p>A - 302, Munoth Empress, Near Ambedkar Statue, Ambedkar Road, Opp. Panvel Bus Stand,
+                                    Old Panvel, Navi Mumbai, Maharashtra 410206</p>
                             </div>
                         </div>
                         <div class="row mb-4">
@@ -111,17 +127,17 @@
                                 <img src="icons/icon-call.svg" alt="Phone Icon">
                             </div>
                             <div class="col-11">
-                                <div class="d-flex" >
+                                <div class="d-flex">
                                     <a href="tel:08169523831" class="btn btn-dark mx-2">08169523831</a>
                                     <a href="tel:+919821185590" class="btn btn-dark mx-2">+91 9821185590</a>
                                 </div>
                             </div>
                         </div>
-                        
-                       
+
+
                     </div>
                 </div>
-    
+
                 <!-- Google Map Column -->
                 <div class="col-md-6">
                     <div class="map-container ratio ratio-16x9">
@@ -134,17 +150,25 @@
             </div>
         </div>
     </section>
-    
-    <footer>
+
+
     <?php include "components/footer/index2.html"; ?>
-    </footer>
-    
-    
+
+
 
     <!-- Bootstrap JS & FontAwesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
+
 </html>
