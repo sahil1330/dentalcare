@@ -12,8 +12,6 @@
     
 
     <style>
-        
-
         .faq-section {
             max-width: 80%;
             margin: auto;
