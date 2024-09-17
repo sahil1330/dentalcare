@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="styles/footer.css">
 
     <style>
-        
-
         .faq-section {
             max-width: 80%;
             margin: auto;
