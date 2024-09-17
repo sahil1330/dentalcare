@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="styles/contactus.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/new-nav.css">
+    <style>
+        .call-button-style a {
+            padding: px;
+            border-radius: 30px;
+            background-color: transparent;
+            border: 2px solid rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            font-family: var(--second-main-font);
+            width: 50%;
+        }
+    </style>
 </head>
 
 <body>
@@ -80,27 +92,27 @@
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="Facebook"
+                                <img src="icons/facebook-circle-fill-white.svg" alt="Facebook"
                                     style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom Instagram Icon -->
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="Instagram"
+                                <img src="icons/instagram-fill-white.svg" alt="Instagram"
                                     style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom Twitter Icon -->
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="Twitter" style="width: 30px; height: 30px;">
+                                <img src="icons/twitter-x-fill-white.svg" alt="Twitter" style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom YouTube Icon -->
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/icon-location-pin.svg" alt="YouTube" style="width: 30px; height: 30px;">
+                                <img src="icons/youtube-fill-white.svg" alt="YouTube" style="width: 30px; height: 30px;">
                             </a>
                         </div>
 
@@ -118,7 +130,7 @@
                             <div class="col-1">
                                 <img src="icons/icon-mail.svg" alt="Email Icon">
                             </div>
-                            <div class="col-11">
+                            <div class="col-5">
                                 <p><a href="mailto:drs.email@gmail.in">drs.email@gmail.in</a></p>
                             </div>
                         </div>
@@ -127,9 +139,10 @@
                                 <img src="icons/icon-call.svg" alt="Phone Icon">
                             </div>
                             <div class="col-11">
-                                <div class="d-flex">
-                                    <a href="tel:08169523831" class="btn btn-dark mx-2">08169523831</a>
-                                    <a href="tel:+919821185590" class="btn btn-dark mx-2">+91 9821185590</a>
+                                <div class="d-flex call-button-style">
+                                    <a href="tel:08169523831" class="btn btn-light mx-2" style="">08169523831</a>
+                                    <a href="tel:08169523831" class="btn btn-light mx-2" style="">08169523831</a>
+                                    <a href="tel:+919821185590" class="btn btn-light mx-2">+91 9821185590</a>
                                 </div>
                             </div>
                         </div>
