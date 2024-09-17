@@ -12,19 +12,24 @@
     <link rel="stylesheet" href="styles/new-nav.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/footer.css">
-    
+
     <style>
         /* Blog post card design */
-        body{
+        body {
             font-family: var(--main-font);
-            
+
         }
+
+        .blog-container {
+            height: 140vh;
+        }
+
         .blog-post {
             display: flex;
             align-items: center;
             justify-content: space-between;
             background-color: #e0e0e0;
-            
+
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 1.5rem;
@@ -42,7 +47,9 @@
             max-width: 150px;
             height: 120px;
             border-radius: 5px;
-            object-fit: contain cover  !important /* For IE11 */;
+            object-fit: contain cover !important
+                /* For IE11 */
+            ;
 
         }
 
@@ -91,11 +98,15 @@
         .blog-post a:hover {
             background-color: #000;
             color: #fff;
-            border: 2px solid rgb(255,255,255)
+            border: 2px solid rgb(255, 255, 255)
         }
 
         /* Responsive design for mobile */
         @media (max-width: 768px) {
+            .blog-container {
+                height: 350vh;
+            }
+
             .blog-post {
                 flex-direction: column;
                 text-align: center;
@@ -117,12 +128,12 @@
     <div class="navbar">
         <?php include 'new-responsive-nav.php'; ?>
     </div>
-    <div class="container">
+    <div class="container blog-container">
         <h1 class="text-center my-5">Latest Blog Posts</h1>
         <div id="blog-feed" class="row"></div>
     </div>
     <footer>
-    <?php include "components/footer/index2.html"; ?>
+        <?php include "components/footer/index2.html"; ?>
     </footer>
     <script>
         const feedUrl = 'https://izoog.blogspot.com/feeds/posts/default?alt=rss'; // Replace with your blog's RSS feed URL

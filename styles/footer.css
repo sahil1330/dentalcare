@@ -63,13 +63,6 @@ footer > .container2 {
   height: 80%;
 }
 
-.main-info {
- 
-
-  
-  /* place-items: center; */
-}
-
 .main-info > .row1 {
   margin-top: 20%;
   margin-left: 10%;
@@ -147,8 +140,6 @@ footer > .container2 {
   background-color: white;
 }
 
-
-
 .lorem-content p {
   font-size: 1rem;
 }
@@ -171,10 +162,6 @@ footer > .container2 {
 }
 
 .btn-arrow {
-  position: absolute;
-  right: 10%;
-  top: 50%;
-  transform: translateY(-50%);
   background-color: #000;
   padding: 5px;
   border-radius: 100%;
@@ -200,7 +187,7 @@ footer > .container2 {
   width: 150px; /* Fixed width */
   height: 50px; /* Fixed height */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
   background-color: #f3f3f3;
@@ -227,8 +214,17 @@ footer > .container2 {
   }
 
   .form-wrapper2 {
+    padding: 1.5rem 0;
     height: 34%;
     top: -28%;
+  }
+  .footer-form-heading {
+    margin: 0;
+    text-align: center;
+  }
+  .footer-submit-button {
+    display: flex;
+    justify-content: center;
   }
   .image {
     display: grid;
@@ -236,7 +232,8 @@ footer > .container2 {
     width: 80.333333%;
   }
   .image img {
-    width: 80px;
+    width: 150px;
+    height: 150px;
     padding: 10px 0px 2px 2px;
   }
 
@@ -249,14 +246,16 @@ footer > .container2 {
     height: 0%;
     gap: 50px;
   }
-
+  .main-info > .row1 {
+    margin-top: 16%;
+  }
   .main-info .row3 {
     margin-left: 2%;
   }
 
   .lorem-content {
-    outline: 1px solid #000;
-    margin: 20px 0;
+    width: 90%;
+    margin: 20px auto;
   }
 
   .line-column {
