@@ -14,11 +14,16 @@
     
     <style>
         /* Blog post card design */
+        body{
+            font-family: var(--main-font);
+            
+        }
         .blog-post {
             display: flex;
             align-items: center;
             justify-content: space-between;
             background-color: #e0e0e0;
+            
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 1.5rem;
@@ -32,10 +37,12 @@
         }
 
         .blog-post img {
-            width: 120px;
+            width: 95%;
+            max-width: 150px;
             height: 120px;
             border-radius: 5px;
-            object-fit: cover;
+            object-fit: contain cover  !important /* For IE11 */;
+
         }
 
         .blog-post-content {
@@ -51,6 +58,8 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            font-family: var(--second-main-font);
+            font-weight: var(--font-weight-bold);
         }
 
         .blog-post p {
@@ -61,21 +70,27 @@
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            font-family: var(--main-font);
         }
 
         .blog-post a {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 8px 16px;
-            border-radius: 25px;
+            padding: 10px 25px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            background-color: transparent;
+            border: 2px solid rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            margin-top: 20px;
+            cursor: pointer;
+            font-family: var(--second-main-font);
+            width: 60%;
             text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
         }
 
         .blog-post a:hover {
-            background-color: #ccc;
+            background-color: #000;
+            color: #fff;
+            border: 2px solid rgb(255,255,255)
         }
 
         /* Responsive design for mobile */
@@ -117,7 +132,7 @@
                 const blogFeedDiv = document.getElementById('blog-feed');
                 data.items.forEach(item => {
                     // Truncate content to 20-30 words
-                    const truncatedContent = item.content.replace(/<\/?[^>]+(>|$)/g, "").split(' ').slice(1, 20).join(' ') + '...';
+                    const truncatedContent = item.content.replace(/<\/?[^>]+(>|$)/g, "").split(' ').slice(1, 18).join(' ') + '...';
 
                     // Use image from the feed if available, otherwise use a placeholder
                     const imageUrl = item.thumbnail || 'https://via.placeholder.com/120';

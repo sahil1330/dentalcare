@@ -8,6 +8,7 @@ body {
     rgba(86.93, 131.33, 192.33, 0.7) 58%,
     rgba(81, 108, 179, 0.7) 78%
   );
+  font-family: var(--main-font);
 }
 .header-section-container {
   position: relative;
