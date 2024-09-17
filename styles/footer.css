@@ -64,10 +64,9 @@ footer > .container2 {
 }
 
 .main-info {
-  display: grid;
-  align-items: center;
-  gap: 12px;
-  margin: 30% 0 0;
+ 
+
+  
   /* place-items: center; */
 }
 
@@ -148,18 +147,13 @@ footer > .container2 {
   background-color: white;
 }
 
-.lorem-content {
-  width: 50%;
-  color: white;
-  margin: 0 2% 0 2%;
-}
+
 
 .lorem-content p {
   font-size: 1rem;
 }
 
 .quick-links {
-  width: 100%;
   color: white;
   margin-top: 15%;
   letter-spacing: 1.5px;

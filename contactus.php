@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/contactus.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/new-nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
