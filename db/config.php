@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "sahil";
+$username = "dentaluser";
+$password = "OCdZi-t1#D3e";
 $dbname = "NADC";
 
 // Create connection

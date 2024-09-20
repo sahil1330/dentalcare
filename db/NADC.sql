@@ -1,5 +1,3 @@
-create database NADC;
-use NADC;
 create table services(id int primary key auto_increment, service_title varchar(255), service_desc varchar(5000), service_thumbnail varchar(255), service_before_image varchar(255), service_after_image varchar(255), createdAt datetime default CURRENT_TIMESTAMP, updatedAt datetime default current_timestamp);
 Desc services;
 insert into services(service_title, service_desc, service_thumbnail, service_before_image, service_after_image) values ("Scaling", "This is the description for scaling", "images/Scaling/thumbnail.jpeg", "images/Scaling/Before.png","images/Scaling/After.png");
