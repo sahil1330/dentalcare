@@ -1061,8 +1061,17 @@ footer > .container2 {
 .form-container {
   display: grid;
   place-items: center;
+  
 }
+@media screen and (max-width: 768px) {
+  .text-light{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
+}
+  
+}
 .form-wrapper2 {
   width: 80%;
   height: 24%;
@@ -1264,9 +1273,9 @@ footer > .container2 {
   footer > .container2 {
     height: 120vh;
   }
-
+  
   .form-wrapper2 {
-    height: 34%;
+    height: 32%;
     top: -28%;
   }
   .image {
