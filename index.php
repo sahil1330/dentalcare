@@ -279,16 +279,16 @@
               <div class="img-box">
                 <img src="images/short-about-image.jpg" width="80%" height="80%" alt="Short About" />
               </div>
-              <div class="box box1 d-flex justify-content-center align-items-center">
+              <div class="box box1 ">
                 <h2 class="text-center d-flex align-items-center">Best Service</h2>
               </div>
-              <div class="box box2 d-flex justify-content-center align-items-center">
+              <div class="box box2 ">
                 <h2 class="text-center d-flex align-items-center">Best In India</h2>
               </div>
-              <div class="box box3 d-flex justify-content-center align-items-center">
+              <div class="box box3 ">
                 <h2 class="text-center d-flex align-items-center">Over 100+ patients</h2>
               </div>
-                <div class="box box4 d-flex justify-content-center align-items-center">
+                <div class="box box4 ">
                 <h2 class="text-center d-flex align-items-center">Dental Care</h2>
                   </div>
                
