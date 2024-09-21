@@ -244,16 +244,14 @@
         <div class="col-md-6">
           <div class="short-about-left">
             <div class="short-about-left-heading">
-              <h1>SHORT ABOUT PART</h1>
+              <h1>ABOUT</h1>
             </div>
             <div class="short-about-left-description">
               <p>
-                Colgate Total fights root causes of many oral care problems,
-                helping stop gingivitis, plaque, tartar,
+              Dr. Anand Rajnikant Shah is a dedicated and highly experienced dental professional with over 13 years of expertise in the field.
               </p>
               <p>
-                Colgate Total fights root causes of many oral care problems,
-                helping stop gingivitis, plaque, tartar,
+              Based in Panvel, he is recognized for his extensive knowledge and hands-on experience in a wide range of dental care processes and procedures.
               </p>
             </div>
             <div class="short-about-left-buttons row gap-3">
