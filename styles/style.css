@@ -817,6 +817,10 @@ nav ul a {
 .card-dr-3{
   background-image: url("../images/dr-imgs/dr-3.webp");
 }
+
+.tick-circle{
+  border-radius: 50px;
+}
 @media (max-width: 768px) {
   .card-wrapper .card {
     margin-left: auto;
