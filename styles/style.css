@@ -817,9 +817,27 @@ nav ul a {
   background-image: url("../images/dr-imgs/dr-3.webp");
 }
 
-.tick-circle{
-  border-radius: 50px;
-}
+.tick-circle {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  }
+
+  .tick-circle:checked::before {
+  content: '✔';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #000;
+  }
 @media (max-width: 768px) {
   .card-wrapper .card {
     margin-left: auto;

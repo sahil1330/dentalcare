@@ -350,8 +350,10 @@
               <input type="email" name="email" id="emailInput" placeholder="Enter your Email id">
             </div>
             <div class="check-input" data-aos="fade-up">
-              <input type="checkbox" name="agree" id="agree" class="tick-circle"> <label for="agree">I agree to PRIVACY POLICY</label>
+              <input type="checkbox" name="agree" id="agree" class="tick-circle"> 
+              <label for="agree">I agree to PRIVACY POLICY</label>
             </div>
+
           </div>
           <div class="" data-aos="fade-up">
             <button type="submit">Subscribe!</button>
