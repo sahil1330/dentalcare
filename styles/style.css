@@ -547,7 +547,7 @@ nav ul a {
   line-height: 1.5;
   width: 80%;
 }
-.service img{
+.service img {
   width: 76px;
   height: 76px;
 }
@@ -782,8 +782,17 @@ nav ul a {
 }
 
 /* exclusive updates section */
-.card-wrapper {
-  padding: 40px 0;
+.exclusive-updates h1 {
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  padding: 0 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+.exclusive-updates .card-wrapper {
+  padding: 20px 0;
 }
 .card-wrapper .card {
   background-color: #d9d9d9;
@@ -797,6 +806,15 @@ nav ul a {
   justify-content: flex-end;
   background-image: url("https://images.unsplash.com/photo-1486049125644-f35e226a5e14?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .card-wrapper .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .exclusive-updates h1 {
+    padding: 0px 0px;
+  }
 }
 
 /* exclusive updates part 2 section */
@@ -911,7 +929,7 @@ nav ul a {
   font-size: 36px;
   color: #000;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 30px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 1.5px;
@@ -947,6 +965,16 @@ nav ul a {
   .review {
     margin-bottom: 48px;
     height: 230vh;
+  }
+  .review h1 {
+    padding: 8px 0px;
+  }
+  .review > .container > p {
+    width: 100%;
+  }
+  .review .card {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
