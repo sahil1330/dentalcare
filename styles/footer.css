@@ -143,6 +143,9 @@ footer > .container2 {
 .lorem-content p {
   font-size: 1rem;
 }
+.time-col {
+  padding: 0;
+}
 
 .quick-links {
   color: white;
@@ -210,7 +213,7 @@ footer > .container2 {
 }
 @media (max-width: 768px) {
   footer > .container2 {
-    height: 120vh;
+    height: 142vh;
   }
 
   .form-wrapper2 {
