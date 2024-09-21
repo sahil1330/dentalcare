@@ -160,31 +160,31 @@
         </div>
         <div class="box service-box2">
           <div class="service" data-aos="fade-up">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/cavity.png" alt="">
             <h3>Cavity Prevention</h3>
           </div>
           <div class="service" data-aos="fade-up">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/root-canal.png" alt="">
             <h3>Root Canal Treatment</h3>
           </div>
         </div>
         <div class="box service-box3">
           <div class="service" data-aos="fade-left">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/dental-implant.png" alt="">
             <h3>Dental Implants</h3>
           </div>
           <div class="service" data-aos="fade-left">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/toothpaste.png" alt="">
             <h3>Dental Products</h3>
           </div>
         </div>
         <div class="box service-box4">
           <div class="service" data-aos="fade-up">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/tooth-extraction.png" alt="">
             <h3>Tooth Extraction</h3>
           </div>
           <div class="service" data-aos="fade-up">
-            <img src="icons/teeth.svg" alt="">
+            <img src="icons/tooth-whitening.png" alt="">
             <h3>Teeth Whitening</h3>
           </div>
         </div>
