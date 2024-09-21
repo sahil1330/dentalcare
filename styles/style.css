@@ -806,15 +806,22 @@ nav ul a {
   
   background-size: cover;
 }
-.card-dr-1{
+.card-dr-1 {
   background-image: url("../images/dr-imgs/dr-1.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .card-dr-2{
   background-image: url("../images/dr-imgs/dr-2.webp");
+  background-position: center;
+  background-size: cover;
+
 }
 .card-dr-3{
   background-image: url("../images/dr-imgs/dr-3.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .tick-circle {
@@ -865,7 +872,7 @@ nav ul a {
     #5783c0 58%,
     #516cb3 78%
   );
-  height: 48vh;
+  height: 40vh;
 }
 .exclusive-updates-part2 .container {
   padding: 28px 0;
