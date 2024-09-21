@@ -839,6 +839,14 @@ nav ul a {
   font-size: 14px;
   color: #000;
   }
+  .card-text{
+    color: #ffffff;
+    text-shadow: #000 1.5px 1.5px 1.5px;
+  }
+  .card-title-head{
+    color: #ffffff;
+    text-shadow: #000 2px 2px 2px;
+  }
 @media (max-width: 768px) {
   .card-wrapper .card {
     margin-left: auto;
