@@ -247,10 +247,10 @@
               <h1>ABOUT</h1>
             </div>
             <div class="short-about-left-description">
-              <p>
+              <p style="font-size:larger;">
               Dr. Anand Rajnikant Shah is a dedicated and highly experienced dental professional with over 13 years of expertise in the field.
               </p>
-              <p>
+              <p style="font-size:large;">
               Based in Panvel, he is recognized for his extensive knowledge and hands-on experience in a wide range of dental care processes and procedures.
               </p>
             </div>
