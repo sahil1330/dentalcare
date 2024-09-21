@@ -16,11 +16,11 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script> -->
-    <style>
-      body {
-        font-family: var(--main-font);
-      }
-    </style>
+  <style>
+    body {
+      font-family: var(--main-font);
+    }
+  </style>
 </head>
 
 <body>
@@ -69,8 +69,7 @@
         </div>
         <div class="hero-right-row3">
           <button class="btn-know-more" data-aos="fade-left">KNOW NOW!</button>
-          <button class="btn-arrow2" data-aos="fade-left"
-            style="background-color: #50aadc; border-color: #50aadc">
+          <button class="btn-arrow2" data-aos="fade-left" style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="100%" height="100%" alt="" />
           </button>
           <a href="#" data-aos="fade-left">Learn More</a>
@@ -248,10 +247,12 @@
             </div>
             <div class="short-about-left-description">
               <p style="font-size:larger;">
-              Dr. Anand Rajnikant Shah is a dedicated and highly experienced dental professional with over 13 years of expertise in the field.
+                Dr. Anand Rajnikant Shah is a dedicated and highly experienced dental professional with over 13 years of
+                expertise in the field.
               </p>
               <p style="font-size:large;">
-              Based in Panvel, he is recognized for his extensive knowledge and hands-on experience in a wide range of dental care processes and procedures.
+                Based in Panvel, he is recognized for his extensive knowledge and hands-on experience in a wide range of
+                dental care processes and procedures.
               </p>
             </div>
             <div class="short-about-left-buttons row gap-3">
@@ -304,35 +305,41 @@
           <div class="col-md-4">
 
             <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body card-dr-1">
-                <h5 class="card-title">Dental Implants</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
+              <div class="card-body p-0 card-dr-1">
+                <div class="card-content">
+                  <h5 class="card-title">Dental Implants</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
 
             <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body card-dr-2">
-                <h5 class="card-title">Dental Implants</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
+              <div class="card-body p-0 card-dr-2">
+                <div class="card-content">
+                  <h5 class="card-title">Dental Implants</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body card-dr-3">
-                <h5 class="card-title">Dental Implants</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
+              <div class="card-body p-0 card-dr-3">
+                <div class="card-content">
+                  <h5 class="card-title">Dental Implants</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -350,7 +357,7 @@
               <input type="email" name="email" id="emailInput" placeholder="Enter your Email id">
             </div>
             <div class="check-input" data-aos="fade-up">
-              <input type="checkbox" name="agree" id="agree" class="tick-circle"> 
+              <input type="checkbox" name="agree" id="agree" class="tick-circle">
               <label for="agree">I agree to PRIVACY POLICY</label>
             </div>
 
