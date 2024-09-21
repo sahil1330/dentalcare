@@ -154,7 +154,7 @@
       <div class="service-boxes">
         <div class="box service-box1">
           <h2 data-aos="fade-right">All Types of Dental Services</h2>
-          <button class="btn-service-section-arrow" data-aos="fade-right">
+          <button class="btn-service-section-arrow" onclick="window.location.href='services.php'" data-aos="fade-right">
             <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
           </button>
         </div>
