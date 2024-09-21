@@ -279,16 +279,16 @@
                 <img src="images/short-about-image.jpg" width="80%" height="80%" alt="Short About" />
               </div>
               <div class="box box1">
-                <h2 class="text-center d-flex align-items-center">Dental Care Dummy1</h2>
+                <h2 class="text-center d-flex align-items-center">Best Service</h2>
               </div>
               <div class="box box2">
-                <h2 class="text-center d-flex align-items-center">Dental Care Dummy2</h2>
+                <h2 class="text-center d-flex align-items-center">Best In India</h2>
               </div>
               <div class="box box3">
-                <h2 class="text-center d-flex align-items-center">Dental Care Dummy3</h2>
+                <h2 class="text-center d-flex align-items-center">Over 100+ patients</h2>
               </div>
               <div class="box box4">
-                <h2 class="text-center d-flex align-items-center">Dental Care Dummy4</h2>
+                <h2 class="text-center d-flex align-items-center">Dental Care</h2>
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@
   </section>
   <section class="exclusive-updates">
     <div class="container my-4">
-      <h1 align="center"><b>Subscribe for exclusive updates</b></h1>
+      <h1 align="center"><b>About our Doctors</b></h1>
       <div class="card-wrapper d-flex justify-content-center align-items-center">
         <div class="row row-gap-3">
           <div class="col-md-4">
