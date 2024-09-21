@@ -41,7 +41,7 @@
 
         <div>
             <h1>CONTACT US</h1>
-            <button>NOW</button>
+            <a href="#contact-form-section"><button>NOW</button></a>
             <div class="cta">
                 <a href="#">What's behind your smile?</a>
             </div>
@@ -49,7 +49,7 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section class="contact-form-section">
+    <section class="contact-form-section" id="contact-form-section">
         <div class="container">
             <h2>CONTACT FORM</h2>
             <div class="row">
@@ -107,13 +107,15 @@
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/twitter-x-fill-white.svg" alt="Twitter" style="width: 30px; height: 30px;">
+                                <img src="icons/twitter-x-fill-white.svg" alt="Twitter"
+                                    style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom YouTube Icon -->
                             <a href="#"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/youtube-fill-white.svg" alt="YouTube" style="width: 30px; height: 30px;">
+                                <img src="icons/youtube-fill-white.svg" alt="YouTube"
+                                    style="width: 30px; height: 30px;">
                             </a>
                         </div>
 
@@ -141,9 +143,13 @@
                             </div>
                             <div class="col-11">
                                 <div class="d-flex call-button-style">
-                                    <a href="tel:08169523831" class="btn btn-light mx-2" >08169523831</a>
-                                    <a href="tel:08169523831" class="btn btn-light mx-2">08169523831</a>
-                                    <a href="tel:+919821185590" class="btn btn-light mx-2">+91 9821185590</a>
+                                    <a href="tel:08169523831"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">08169523831</a>
+                                    <a href="tel:08169523831"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">08169523831</a>
+                                    <a href="tel:+919821185590"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">+91
+                                        9821185590</a>
                                 </div>
                             </div>
                         </div>
@@ -172,8 +178,18 @@
 
     <!-- Bootstrap JS & FontAwesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
