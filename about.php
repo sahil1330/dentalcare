@@ -25,7 +25,7 @@
     <section class="about-herosection">
         <div class="about-wrapper">
             <div class="about-hero-image">
-                <img src="images/short-about-image.jpg" alt="">
+                <img src="images/dr-imgs/dr-1.webp" alt="">
             </div>
             <div class="about-hero-content">
                 <h1>Dr. Anand Rajnikant Shah</h1>
