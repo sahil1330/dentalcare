@@ -302,8 +302,21 @@
       <div class="card-wrapper d-flex justify-content-center align-items-center">
         <div class="row row-gap-3">
           <div class="col-md-4">
+
             <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body">
+              <div class="card-body card-dr-1">
+                <h5 class="card-title">Dental Implants</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+
+            <div class="card" data-aos="fade-up" style="width: 22rem">
+              <div class="card-body card-dr-2">
                 <h5 class="card-title">Dental Implants</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make
@@ -314,18 +327,7 @@
           </div>
           <div class="col-md-4">
             <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body">
-                <h5 class="card-title">Dental Implants</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body">
+              <div class="card-body card-dr-3">
                 <h5 class="card-title">Dental Implants</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make

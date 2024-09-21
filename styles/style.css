@@ -804,8 +804,18 @@ nav ul a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url("https://images.unsplash.com/photo-1486049125644-f35e226a5e14?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  
   background-size: cover;
+}
+.card-dr-1{
+  background-image: url("../images/dr-imgs/dr-1.webp");
+}
+
+.card-dr-2{
+  background-image: url("../images/dr-imgs/dr-2.webp");
+}
+.card-dr-3{
+  background-image: url("../images/dr-imgs/dr-3.webp");
 }
 @media (max-width: 768px) {
   .card-wrapper .card {
