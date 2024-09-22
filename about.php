@@ -37,7 +37,7 @@
                 </div>
                 <div class="about-hero-know-more">
                     <h2>Know More about us</h2>
-                    <button class="btn-about-hero-arrow">
+                    <button class="btn-about-hero-arrow" onclick="window.location.href='services.php'">
                         <img src="icons/slant-arrow.svg" alt="Arrow Right">
                     </button>
                 </div>
