@@ -143,11 +143,11 @@
                             </div>
                             <div class="col-11">
                                 <div class="d-flex call-button-style">
-                                    <a href="tel:08169523831"
-                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">08169523831</a>
-                                    <a href="tel:08169523831"
-                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">08169523831</a>
-                                    <a href="tel:+919821185590"
+                                    <a href="tel:+918169523831"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
+                                    <a href="tel:+918169523831"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
+                                    <a href="tel:+918169523831"
                                         class="btn btn-light mx-2 d-flex justify-content-center align-items-center">+91
                                         00000000</a>
                                 </div>
