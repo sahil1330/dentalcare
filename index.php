@@ -62,10 +62,7 @@
         </div>
         <div class="hero-right-row2" data-aos="fade-left">
           <p class="">
-            Enthusiastic dental professional with a solid grasp of dental care
-            processes. Eager to advance my skills and knowledge in global and
-            US healthcare while honing critical thinking abilities as a
-            dentist
+          New Age Dental Clinic, Panvel (2011 - Present): As a leading dentist, Dr. Shah provides comprehensive preventive and therapeutic dental care, educates patients on oral hygiene, and manages patient records with precision.
           </p>
         </div>
         <div class="hero-right-row3">
