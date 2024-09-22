@@ -34,7 +34,7 @@
                     410206</p>
                 <div class="about-hero-buttons">
                     <button onclick="window.location.href='tel:+918169523831'">+91 8169523831</button>
-                    <button>anandshah.1309@gmail.com</button>
+                    <button onclick="window.location.href='mailto:anandshah.1309@gmail.com'">anandshah.1309@gmail.com</button>
                 </div>
                 <div class="about-hero-know-more">
                     <h2>Know More about us</h2>
