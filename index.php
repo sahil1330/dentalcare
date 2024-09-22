@@ -288,11 +288,9 @@
               <div class="box box3 ">
                 <h2 class="text-center d-flex align-items-center">Over 100+ patients</h2>
               </div>
-                <div class="box box4 ">
+              <div class="box box4 ">
                 <h2 class="text-center d-flex align-items-center">Dental Care</h2>
-                  </div>
-               
-              
+              </div>
             </div>
           </div>
         </div>
