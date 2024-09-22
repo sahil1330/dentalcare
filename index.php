@@ -372,65 +372,64 @@
     </div>
   </section>
   <section class="review">
-    <div class="container my-4">
-      <h1>PATIENT REVIEWS</h1>
-      <p>Enthusiastic dental professional with a solid grasp of dental care processes. Eager to advance my skills and
-        knowledge in global and US healthcare while honing critical thinking abilities as a dentist</p>
-      <div class="cards row row-gap-3">
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body">
-              <h5 class="card-title">Dental Implants</h5 <p class="card-text">
-              Love Dr Parks and
-              his
-              wonderful
-              staff! They always
-              go above and
-              beyond to be sure
-              you are taken care
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
+  <div class="container my-4">
+    <h1>PATIENT REVIEWS</h1>
+    <p>Enthusiastic dental professional with a solid grasp of dental care processes. Eager to advance my skills and
+      knowledge in global and US healthcare while honing critical thinking abilities as a dentist</p>
+    <div class="cards row row-gap-3">
+      <!-- First Card -->
+      <div class="col-md-4">
+        <div class="card" data-aos="fade-up" style="width: 22rem">
+          <div class="card-body text-center">
+            <!-- Star Image -->
+            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+            <!-- Card Title and Text -->
+             
+            <h5 class="card-title">Dental Implants</h5>
+            <p class="card-text">
+              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body">
-              <h5 class="card-title">Dental Implants</h5 <p class="card-text">
-              Love Dr Parks and
-              his
-              wonderful
-              staff! They always
-              go above and
-              beyond to be sure
-              you are taken care
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
+      </div>
+      <!-- Second Card -->
+      <div class="col-md-4">
+        <div class="card" data-aos="fade-up" style="width: 22rem">
+          <div class="card-body text-center">
+            <!-- Star Image -->
+            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+            <!-- Card Title and Text -->
+            <h5 class="card-title">Dental Implants</h5>
+            <p class="card-text">
+              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body">
-              <h5 class="card-title">Dental Implants</h5 <p class="card-text">
-              Love Dr Parks and
-              his
-              wonderful
-              staff! They always
-              go above and
-              beyond to be sure
-              you are taken care
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-md-4">
+        <div class="card" data-aos="fade-up" style="width: 22rem">
+          <div class="card-body text-center">
+            <!-- Star Image -->
+            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+            <!-- Card Title and Text -->
+            <h5 class="card-title">Dental Implants</h5>
+            <p class="card-text">
+              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
   <?php include"components/footer/index2.html"; ?>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
