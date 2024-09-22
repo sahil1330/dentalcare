@@ -34,13 +34,13 @@
         <div class="hero-left-row2" data-aos="fade-right">
           <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR</h1>
           <div class="hero-left-row2-box" data-aos="fade-right">
-            <img src="images/tooth-hero.svg" alt="Tooth ad" />
+            <img src="images/dr-imgs/hero-imh-mini-3.svg" alt="Tooth ad" />
           </div>
         </div>
         <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
         <div class="hero-group-image-container" data-aos="fade-right">
           <div class="hero-group-image">
-            <img src="images/hero-group.svg" alt="White Teeth" width="100%" height="100%" />
+            <img src="images/dr-imgs/hero-main-img-2.svg" alt="White Teeth" width="100%" height="100%" />
           </div>
           <div class="hero-group-image-content">
             <span>
@@ -356,10 +356,10 @@
         <form action="" class="form-exclusive">
           <div class="inputs">
             <div class="" data-aos="fade-up">
-              <input type="email" name="email" id="emailInput" placeholder="Enter your Email id">
+              <input type="email" name="email" id="emailInput" placeholder="Enter your Email id" require>
             </div>
             <div class="check-input" data-aos="fade-up">
-              <input type="checkbox" name="agree" id="agree" class="tick-circle">
+              <input type="checkbox" name="agree" id="agree" class="tick-circle" require>
               <label for="agree">I agree to PRIVACY POLICY</label>
             </div>
 
@@ -374,9 +374,8 @@
   <section class="review">
   <div class="container my-4">
     <h1>PATIENT REVIEWS</h1>
-    <p>Enthusiastic dental professional with a solid grasp of dental care processes. Eager to advance my skills and
-      knowledge in global and US healthcare while honing critical thinking abilities as a dentist</p>
-    <div class="cards row row-gap-3">
+    <p>Check our happy customers reviews and check their wonderful experience</p>
+    <div class="cards row row-gap-4">
       <!-- First Card -->
       <div class="col-md-4">
         <div class="card" data-aos="fade-up" style="width: 22rem">
@@ -385,12 +384,12 @@
             <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
             <!-- Card Title and Text -->
              
-            <h5 class="card-title">Dental Implants</h5>
+            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
             <p class="card-text">
               Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
             </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <!-- <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
           </div>
         </div>
       </div>
@@ -401,12 +400,12 @@
             <!-- Star Image -->
             <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
             <!-- Card Title and Text -->
-            <h5 class="card-title">Dental Implants</h5>
+            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
             <p class="card-text">
               Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
             </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <!-- <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
           </div>
         </div>
       </div>
@@ -417,12 +416,12 @@
             <!-- Star Image -->
             <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
             <!-- Card Title and Text -->
-            <h5 class="card-title">Dental Implants</h5>
+            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
             <p class="card-text">
               Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
             </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <!-- <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
           </div>
         </div>
       </div>
