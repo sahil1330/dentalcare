@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About NADC</title>
+    <link rel="icon" type="image/x-icon" href="icons/logo.svg">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/new-nav.css">
