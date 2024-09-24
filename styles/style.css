@@ -1174,7 +1174,7 @@ footer > .container2 {
   border-radius: 40px;
 }
 
-button.btn-contact-footer {
+.btn-contact-footer {
   background: transparent;
   padding: 8px 20px;
   border: 1px solid black;
@@ -1183,11 +1183,11 @@ button.btn-contact-footer {
   display: flex;
   gap: 10px;
 }
-button.btn-contact-footer:hover {
+.btn-contact-footer:hover {
   background-color: #000;
   color: #fff;
 }
-button.btn-contact-footer img {
+.btn-contact-footer img {
   fill: #000;
 }
 
