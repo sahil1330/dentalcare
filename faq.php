@@ -29,6 +29,7 @@
             margin-bottom: 15px;
             margin-top: 30px;
             font-family: var(--second-main-font);
+            
 
         }
 
@@ -132,12 +133,12 @@
                     </div>
                     <div class="text-section">
                         <span>
-                            Question 1 will be here</span> 
+                        What basic dental services do you offer?</span> 
                     </div>
                 </div>
                 
                 <div class="faq-answer">
-                    Answer 1 will be here. Answer will be here Answer will be here Answer will be here.
+                We offer a range of basic dental services including cleanings, fillings, extractions, and X-rays.
                 </div>
             </div>
 
