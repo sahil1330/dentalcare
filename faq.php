@@ -11,120 +11,20 @@
     <link rel="stylesheet" href="styles/new-nav.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/footer.css">
-
+    <link rel="stylesheet" href="styles/faq.css">
     <style>
-        .faq-section {
-            max-width: 80%;
-            margin: auto;
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .faq-heading {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            margin-top: 30px;
-            font-family: var(--second-main-font);
-            
-
-        }
-
-        .faq-item {
-            background-color: #87CEEB;
-            margin-bottom: 10px;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .faq-question {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 15px;
-            cursor: pointer;
-            font-size: 18px;
-            font-weight: bold;
-            color: #fff;
-            background: linear-gradient(
-                291deg,
-                rgba(97, 171, 215, 0.7) 13%,
-                rgba(86.47, 129.54, 191.31, 0.7) 39%,
-                rgba(86.93, 131.33, 192.33, 0.7) 58%,
-                rgba(81, 108, 179, 0.7) 78%
-            );
-            border-radius: 10px 10px 0 0;
-        }
-
-        .faq-question .icon-section {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #fff;
-            padding: 1px;
-            
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            margin-right: 15px;
-            color: #000;
-        }
-
-        .faq-question .text-section {
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .faq-question .text-section .divider {
-            border-left: 2px solid white;
-            height: 24px;
-            margin: 0 15px;
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            opacity: 0;
-            transition: max-height 0.5s ease, opacity 0.5s ease;
-            padding: 0 15px;
-            background: linear-gradient(
-            291deg,
-            rgba(97, 171, 215, 0.7) 13%,
-            rgba(86.47, 129.54, 191.31, 0.7) 39%,
-            rgba(86.93, 131.33, 192.33, 0.7) 58%,
-            rgba(81, 108, 179, 0.7) 78%
-        );
-            color: #fff;
-            font-size: 16px;
-        }
-
-        .faq-answer.open {
-            max-height: 300px;
-            opacity: 1;
-            padding: 15px;
-        }
-        @media screen and (max-width: 990px) {
-            .faq-heading {
-                margin-top: 50px;
-            }
-            
-        }
+       
     </style>
 </head>
 
 <body>
-<div class="">
+    <div class="">
         <?php include 'new-responsive-nav.php'; ?>
-    </div> 
+    </div>
     <h2 class="faq-heading">FAQ</h2>
     <div class="faq-container">
         <div class="faq-section">
-            
+
 
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleFAQ(this)">
@@ -133,12 +33,12 @@
                     </div>
                     <div class="text-section">
                         <span>
-                        What basic dental services do you offer?</span> 
+                            What basic dental services do you offer?</span>
                     </div>
                 </div>
-                
+
                 <div class="faq-answer">
-                We offer a range of basic dental services including cleanings, fillings, extractions, and X-rays.
+                    We offer a range of basic dental services including cleanings, fillings, extractions, and X-rays.
                 </div>
             </div>
 
@@ -179,7 +79,7 @@
                     <div class="icon-section">
                         <span class="faq-icon">+</span>
                     </div>
-                    
+
                     <div class="text-section">
                         <span>
                             Question 4 will be here

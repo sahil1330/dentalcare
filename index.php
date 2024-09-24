@@ -45,7 +45,7 @@
           </div>
           <div class="hero-group-image-content">
             <span>
-              <p>What's behind your smile?</p>
+              <p class="mb-0">What's behind your smile?</p>
             </span>
             <div class="hero-slant-arrow-img">
               <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="Slant Arrow" id="hero-slant-arrow" />
@@ -68,7 +68,7 @@
         <div class="hero-right-row3">
           <button class="btn-know-more" data-aos="fade-left">KNOW NOW!</button>
           <button class="btn-arrow2" data-aos="fade-left" style="background-color: #50aadc; border-color: #50aadc">
-            <img src="icons/slant-arrow.svg" width="100%" height="100%" alt="" />
+            <img src="icons/slant-arrow.svg" width="40px" height="40px" alt="" />
           </button>
           <a href="#" data-aos="fade-left">Learn More</a>
         </div>
@@ -275,7 +275,7 @@
           <div class="short-about-right">
             <div class="boxes">
               <div class="img-box">
-                <img src="images/dr-imgs/dr1-with-book.webp" width="80%" height="80%" alt="Short About" />
+                <img src="images/dr-imgs/dr1-with-book.webp" width="100%" height="100%" alt="Short About" />
               </div>
               <div class="box box1 ">
                 <h2 class="text-center d-flex align-items-center">Best Service</h2>

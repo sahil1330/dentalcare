@@ -60,9 +60,11 @@
                         <button class="btn-about">About Us</button>
                     </div>
                     <div class="col-7">
-                        <button class="btn-contact">
+                        <button class="btn-contact-footer">
                             <img src="icons/phoneblack.svg" alt="">
-                            <a href="tel:+918169523831" style="text-decoration: none;"><p style="margin: 0; color: black;">+91 8169523831</p></a>
+                            <a href="tel:+918169523831" style="text-decoration: none;">
+                                <p style="margin: 0; color: black;">+91 8169523831</p>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -71,7 +73,12 @@
                 style="width: 1px; height: 100%; background-color: white; margin: 70px 0 0 0; padding: 0 0 0 0;">
 
             </div>
-            <div class="col-md-3 my-auto lorem-content">
+            <div class="lorem-content col-md-3 my-auto " style="@media (max-width: 768px) {
+                .lorem-content {
+                    width: 90%;
+                    margin: 20px auto;
+                }
+            }">
                 <h2 class="text-light text-center">Open Hours</h2>
                 <p class="text-light">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -154,7 +161,7 @@
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
                             <button class="quick-link-btn" onclick="window.location.href='contactus.php'">
-                                Contact 
+                                Contact
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
@@ -198,4 +205,3 @@
             </h6>
         </div>
 </footer>
-

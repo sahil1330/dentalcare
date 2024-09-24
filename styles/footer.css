@@ -99,27 +99,32 @@ footer > .container2 {
 }
 
 .btn-about {
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 20px;
   background: transparent;
-  padding: 8px 36px;
+  padding: 18px 22px;
   border: 1px solid white;
   color: white;
   border-radius: 40px;
 }
 
-.btn-contact {
+.btn-contact-footer {
   background: transparent;
   padding: 8px 20px;
   border: 1px solid black;
   color: black;
   border-radius: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
-.btn-contact:hover {
+.btn-contact-footer:hover {
   background-color: #000;
   color: #fff;
 }
-.btn-contact img {
+.btn-contact-footer img {
   fill: #000;
 }
 
@@ -267,5 +272,15 @@ footer > .container2 {
 
   .quick-links {
     margin-top: 0%;
+  }
+  .btn-contact-footer a{
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 400px){
+  footer > .container2 {
+    height: 156vh;
+
   }
 }
