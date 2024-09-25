@@ -401,13 +401,24 @@ nav ul a {
     height: 60%;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .hero-section {
     height: 204vh;
-}
+  }
   .hero-right {
     height: 150vh;
+  }
 }
+@media (max-width: 380px) {
+  .hero-section {
+    height: 244vh;
+  }
+  .hero-content {
+    height: 236vh;
+  }
+  .hero-right {
+    height: 229vh;
+  }
 }
 
 /* Services we provide section */
@@ -616,6 +627,11 @@ nav ul a {
     border-radius: var(--_br);
   }
 }
+@media (max-width: 380px) {
+  .service-section {
+    height: 246vh;
+  }
+}
 
 /* slider section */
 .slider-section {
@@ -659,6 +675,14 @@ nav ul a {
   .slider {
     width: 90vw;
     height: 26vh;
+  }
+}
+@media (max-width: 380px) {
+  .slider-section {
+    height: 50vh;
+  }
+  .slider-wrapper {
+    margin-bottom: 30px;
   }
 }
 
@@ -791,6 +815,8 @@ nav ul a {
   }
   .short-about-right > .boxes > .img-box > img {
     margin: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -802,6 +828,15 @@ nav ul a {
     margin: 20vh 0 0;
   }
 }
+@media (max-width: 380px) {
+  .short-about {
+    height: 172vh;
+  }
+  .short-about-right {
+    margin: 48vh 0 0;
+  }
+}
+
 /* exclusive updates section */
 .exclusive-updates h1 {
   font-size: 36px;
@@ -994,6 +1029,11 @@ nav ul a {
     font-size: 24px;
   }
 }
+@media screen and (max-width: 380px) {
+  .exclusive-updates-part2 {
+    height: 54vh;
+  }
+}
 
 /* Patient reviews section */
 .review {
@@ -1038,7 +1078,7 @@ nav ul a {
 @media (max-width: 768px) {
   .review {
     margin-bottom: 48px;
-    height: 220vh;
+    height: 200vh;
   }
   .review h1 {
     padding: 8px 0px;
@@ -1049,6 +1089,18 @@ nav ul a {
   .review .card {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 400px) {
+  .review {
+    margin-bottom: 48px;
+    height: 206vh;
+  }
+}
+@media (max-width: 380px) {
+  .review {
+    margin-bottom: 48px;
+    height: 220vh;
   }
 }
 

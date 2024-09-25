@@ -275,7 +275,7 @@
           <div class="short-about-right">
             <div class="boxes">
               <div class="img-box">
-                <img src="images/dr-imgs/dr1-with-book.webp" width="100%" height="100%" alt="Short About" />
+                <img src="images/dr-imgs/dr1-with-book.webp" width="80%" height="80%" alt="Short About" />
               </div>
               <div class="box box1 ">
                 <h2 class="text-center d-flex align-items-center">Best Service</h2>

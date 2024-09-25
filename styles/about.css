@@ -210,3 +210,8 @@
     font-size: 1.2rem;
   }
 }
+@media (max-width: 400px) {
+  .about-section {
+    height: 476vh;
+  }
+}

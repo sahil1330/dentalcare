@@ -223,12 +223,15 @@ footer > .container2 {
 
   .form-wrapper2 {
     padding: 1.5rem 0;
-    height: 34%;
-    top: -28%;
+    height: 22%;
+    top: -17%;
   }
   .footer-form-heading {
     margin: 0;
     text-align: center;
+  }
+  .form-floating {
+    margin-bottom: 14px;
   }
   .footer-submit-button {
     display: flex;
@@ -273,14 +276,31 @@ footer > .container2 {
   .quick-links {
     margin-top: 0%;
   }
-  .btn-contact-footer a{
+  .btn-contact-footer a {
     padding: 0;
     width: 100%;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 400px) {
   footer > .container2 {
     height: 156vh;
-
+  }
+}
+@media (max-width: 380px) {
+  footer > .container2 {
+    height: 200vh;
+  }
+  .footer-form-heading h1 {
+    margin-bottom: 0;
+  }
+  @media (max-width: 380px) {
+    .form-wrapper2 {
+      padding: 1.5rem 0;
+      height: 20%;
+      top: -15%;
+    }
+    .form-floating {
+      margin-bottom: 14px;
+    }
   }
 }
