@@ -57,7 +57,7 @@
         <div class="hero-right-row1">
           <button class="btn-contact" data-aos="fade-left">Contact Us</button>
           <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
-            <img src="icons/phone.svg" alt="Telephone" />+91 8169523831
+            <img src="icons/phone.svg" alt="Telephone" />8169523831
           </button>
         </div>
         <div class="hero-right-row2" data-aos="fade-left">
@@ -259,7 +259,7 @@
               </div>
               <div class="col-md-6">
                 <button class="btn-phone">
-                  <img src="icons/phone.svg" alt="Telephone" />+91 9821185590
+                  <img src="icons/phone.svg" alt="Telephone" />8169523831
                 </button>
               </div>
             </div>
