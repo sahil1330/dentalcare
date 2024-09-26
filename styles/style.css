@@ -437,6 +437,11 @@ nav ul a {
     height: 42%;
   }
 }
+@media (max-width: 400px) and (max-height: 670px) {
+  .hero-left {
+    height: 72vh;
+  }
+}
 /* Services we provide section */
 .service-section {
   background: linear-gradient(
@@ -653,6 +658,11 @@ nav ul a {
     height: 226vh;
   }
 }
+@media (max-width: 400px) and (max-height: 670px) {
+  .service-section {
+    height: 250vh;
+  }
+}
 /* slider section */
 .slider-section {
   background-color: #e7e7e7;
@@ -703,6 +713,14 @@ nav ul a {
   }
   .slider-wrapper {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 400px) and (max-height: 670px) {
+  .slider-section {
+    height: 44vh;
+  }
+  .slider-wrapper {
+    margin-bottom: 16px;
   }
 }
 
@@ -864,7 +882,14 @@ nav ul a {
     height: 72vh;
   }
 }
-
+@media (max-width: 400px) and (max-height: 670px) {
+  .short-about {
+    height: 178vh;
+  }
+  .short-about-right {
+    height: 98vh;
+  }
+}
 /* exclusive updates section */
 .exclusive-updates h1 {
   font-size: 36px;
@@ -1058,7 +1083,6 @@ nav ul a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
 
   .form-wrapper button {
@@ -1078,6 +1102,11 @@ nav ul a {
 @media (max-width: 400px) and (max-height: 800px) {
   .exclusive-updates-part2 {
     height: 50vh;
+  }
+}
+@media (max-width: 400px) and (max-height: 670px) {
+  .exclusive-updates-part2 {
+    height: 54vh;
   }
 }
 
@@ -1154,6 +1183,11 @@ nav ul a {
     height: 212vh;
   }
 }
+@media (max-width: 400px) and (max-height: 670px) {
+  .review {
+      height: 218vh;
+  }
+}
 /* footer */
 footer {
   display: grid;
@@ -1180,8 +1214,6 @@ footer > .container2 {
   border-radius: 40px;
   position: relative;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .text-light {
