@@ -804,6 +804,9 @@ nav ul a {
   background-color: #fff;
   position: absolute;
 }
+.short-about-right .boxes .box h2 {
+  color: rgba(81, 108, 179, 0.7);
+}
 .short-about-right .boxes .box1 {
   top: 120px;
   left: -50px;
@@ -1129,7 +1132,7 @@ nav ul a {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 1.5px;
-  width: 80%;
+  width: 100%;
   font-weight: 500;
 }
 .review .cards {
