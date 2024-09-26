@@ -33,7 +33,7 @@
                 <p>Location: A302 Munoth Empress, Near Ambedkar Statue, Ambedkar Road, Opp. Panvel Bus Stand, Panvel
                     410206</p>
                 <div class="about-hero-buttons">
-                    <button onclick="window.location.href='tel:+918169523831'">+91 8169523831</button>
+                    <button onclick="window.location.href='tel:+918169523831'">8169523831</button>
                     <button onclick="window.location.href='mailto:anandshah.1309@gmail.com'">anandshah.1309@gmail.com</button>
                 </div>
                 <div class="about-hero-know-more">
