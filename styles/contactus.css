@@ -225,3 +225,13 @@ html {
     height: 200vh;
   }
 }
+@media (max-width: 400px) and (max-height: 800px) {
+  .contact-details {
+    height: 194vh;
+  }
+}
+@media (max-width: 400px) and (max-height: 670px) {
+  .contact-details {
+    height: 220vh;
+  }
+}
