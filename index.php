@@ -395,7 +395,7 @@
             <!-- Star Image -->
             <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
             <!-- Card Title and Text -->
-            <h3 class="card-title" style="margin-top: 75px;">Vedant</h3>
+            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
             <p class="card-text">
               Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
             </p>
