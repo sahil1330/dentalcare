@@ -18,10 +18,11 @@
 </head>
 
 <body>
-    <div class="">
+   
         <?php include 'new-responsive-nav.php'; ?>
-    </div>
-    <h2 class="faq-heading" style="margin-top: 120px;">FAQ</h2>
+    
+    <h2 class="faq-heading">FAQ</h2>
+    <section class="faq-main-section">
     <div class="faq-container">
         <div class="faq-section">
 
@@ -49,12 +50,12 @@
                     </div>
                     <div class="text-section">
                         <span>
-                            Question 2 will be here
+                            How often should I visit the dentist?
                         </span>
                     </div>
                 </div>
                 <div class="faq-answer">
-                    Answer 2 will be here. Answer will be here Answer will be here Answer will be here.
+                    It is generally recommended to visit the dentist every six months for a routine check-up and cleaning. However, your dentist may suggest a different schedule based on your individual needs.
                 </div>
             </div>
 
@@ -65,12 +66,12 @@
                     </div>
                     <div class="text-section">
                         <span>
-                            Question 3 will be here
+                            What should I do if I have a dental emergency?
                         </span>
                     </div>
                 </div>
                 <div class="faq-answer">
-                    Answer 3 will be here. Answer will be here Answer will be here Answer will be here.
+                    In case of a dental emergency, such as a knocked-out tooth or severe toothache, contact our office immediately. We will provide you with instructions and schedule an emergency appointment as soon as possible.
                 </div>
             </div>
 
@@ -79,20 +80,53 @@
                     <div class="icon-section">
                         <span class="faq-icon">+</span>
                     </div>
-
                     <div class="text-section">
                         <span>
-                            Question 4 will be here
+                            Are dental X-rays safe?
                         </span>
                     </div>
                 </div>
                 <div class="faq-answer">
-                    Answer 4 will be here. Answer will be here Answer will be here Answer will be here.
+                    Yes, dental X-rays are safe. They use a very low level of radiation, and modern digital X-rays further reduce exposure. We take all necessary precautions to ensure your safety during the procedure.
                 </div>
             </div>
-        </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="icon-section">
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="text-section">
+                        <span>
+                            What are the signs of gum disease?
+                        </span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    Common signs of gum disease include red, swollen, or bleeding gums, persistent bad breath, and loose teeth. If you notice any of these symptoms, schedule an appointment with your dentist for an evaluation.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="icon-section">
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="text-section">
+                        <span>
+                            How can I improve my oral hygiene at home?
+                        </span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    To improve your oral hygiene, brush your teeth at least twice a day with fluoride toothpaste, floss daily, and use an antiseptic mouthwash. Additionally, maintain a healthy diet and avoid sugary snacks and drinks.
+                </div>
+            </div>
     </div>
+    </section>
+    <footer>
     <?php include "components/footer/index2.html"; ?>
+    </footer>
 
 
     <!-- Bootstrap JS -->
