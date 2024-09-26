@@ -26,8 +26,10 @@ footer > .container2 {
 }
 
 .form-container {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .form-wrapper2 {

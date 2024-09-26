@@ -55,7 +55,7 @@
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
-          <button class="btn-contact" data-aos="fade-left">Contact Us</button>
+            <button class="btn-contact" data-aos="fade-left">Contact Us​</button>
           <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
             <img src="icons/phone.svg" alt="Telephone" />8169523831
           </button>
