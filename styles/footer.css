@@ -29,7 +29,6 @@ footer > .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .form-wrapper2 {
@@ -307,12 +306,17 @@ footer > .container2 {
   }
 }
 @media (max-width: 400px) and (max-height: 800px) {
+  footer {
+    margin-top: 20vh;
+  }
   footer > .container2 {
     height: 170vh;
   }
+  .form-container {
+  }
   .form-wrapper2 {
     padding: 1.5rem 0;
-    height: 24%;
-    top: -20%;
+    height: 29%;
+    top: -24%;
   }
 }
