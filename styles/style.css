@@ -1177,10 +1177,8 @@ footer > .container2 {
   position: relative;
 }
 
-.form-container {
-  display: grid;
-  place-items: center;
-}
+
+
 @media screen and (max-width: 768px) {
   .text-light {
     padding-left: 15px;
