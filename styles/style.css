@@ -424,7 +424,14 @@ nav ul a {
     height: 229vh;
   }
 }
-
+@media (max-width: 400px) and (max-height: 800px) {
+  .hero-section {
+    height: 210vh;
+  }
+  .hero-left {
+    height: 52vh;
+  }
+}
 /* Services we provide section */
 .service-section {
   background: linear-gradient(
@@ -636,7 +643,11 @@ nav ul a {
     height: 246vh;
   }
 }
-
+@media (max-width: 400px) and (max-height: 800px) {
+  .service-section {
+    height: 226vh;
+  }
+}
 /* slider section */
 .slider-section {
   background-color: #e7e7e7;
@@ -840,6 +851,14 @@ nav ul a {
     margin: 48vh 0 0;
   }
 }
+@media (max-width: 400px) and (max-height: 800px) {
+  .short-about {
+    height: 161vh;
+  }
+  .short-about-right {
+    height: 72vh;
+  }
+}
 
 /* exclusive updates section */
 .exclusive-updates h1 {
@@ -1037,7 +1056,7 @@ nav ul a {
     width: 100%;
     font-size: 24px;
   }
-  .check-input{
+  .check-input {
     display: flex;
     justify-content: center;
   }
@@ -1045,6 +1064,11 @@ nav ul a {
 @media screen and (max-width: 380px) {
   .exclusive-updates-part2 {
     height: 54vh;
+  }
+}
+@media (max-width: 400px) and (max-height: 800px) {
+  .exclusive-updates-part2 {
+    height: 50vh;
   }
 }
 
@@ -1116,7 +1140,11 @@ nav ul a {
     height: 220vh;
   }
 }
-
+@media (max-width: 400px) and (max-height: 800px) {
+  .review {
+    height: 212vh;
+  }
+}
 /* footer */
 footer {
   display: grid;
