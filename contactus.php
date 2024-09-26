@@ -78,7 +78,7 @@
     </section>
 
     <!-- Contact Details Section -->
-    <section class="contact-details text-center py-5">
+    <section class="contact-details text-center py-5" style="margin-bottom: 20px;">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Contact Info Column -->
@@ -148,9 +148,7 @@
                                         class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
                                     <a href="tel:+918169523831"
                                         class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
-                                    <a href="tel:+918169523831"
-                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">+91
-                                        00000000</a>
+                                    
                                 </div>
                             </div>
                         </div>
