@@ -129,3 +129,9 @@ body {
 .d-flex {
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  .services-section {
+    margin: 0 0 24vh;
+  }
+}
