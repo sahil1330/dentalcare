@@ -35,13 +35,13 @@
         <div class="hero-left-row2" data-aos="fade-right">
           <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR</h1>
           <div class="hero-left-row2-box" data-aos="fade-right">
-            <img src="images/dr-imgs/hero-imh-mini-3.svg" alt="Tooth ad" />
+            <img src="images/dr-imgs/hero-mini-img.webp" alt="Tooth ad" />
           </div>
         </div>
         <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
         <div class="hero-group-image-container" data-aos="fade-right">
           <div class="hero-group-image">
-            <img src="images/dr-imgs/hero-main-img-2.svg" alt="White Teeth" width="100%" height="100%" />
+            <img src="images/dr-imgs/hero-dsfgh.webp" alt="White Teeth" width="100%" height="100%" />
           </div>
           <div class="hero-group-image-content">
             <span>
