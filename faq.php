@@ -21,7 +21,7 @@
     <div class="">
         <?php include 'new-responsive-nav.php'; ?>
     </div>
-    <h2 class="faq-heading">FAQ</h2>
+    <h2 class="faq-heading" style="margin-top: 120px;">FAQ</h2>
     <div class="faq-container">
         <div class="faq-section">
 
