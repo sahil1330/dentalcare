@@ -183,6 +183,25 @@
   height: 340vh;
   margin: 10vh 10%;
 }
+
+@media screen and (max-width: 500px) {
+  .about-section {
+    margin-bottom: 550px;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  .about-section {
+    margin-bottom: 650px;
+  }
+  
+}
+@media screen and (max-width: 390px) {
+  .about-section {
+    margin-bottom: 750px;
+  }
+  
+}
 .about-section h2 {
   font-size: 3rem;
   font-weight: 600;

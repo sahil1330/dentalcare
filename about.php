@@ -46,7 +46,7 @@
 
         </div>
     </section>
-    <section class="about-section" style="margin-bottom: 550px;">
+    <section class="about-section">
         <div class="about-someone">
             <h2 class="font-bold">About Dr. Anand Rajnikant Shah</h2>
             <div class="about-someone-content">
