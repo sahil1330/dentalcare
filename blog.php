@@ -129,7 +129,13 @@
             }
         }
 
-        @media (max-width: 400px) and (max-height: 1024px) {
+        @media (max-width: 380px) and (max-height: 680px) {
+            .blog-container {
+                height: 462vh;
+            }
+        }
+
+        @media (max-width: 400px) and (min-height: 820px) {
             .blog-container {
                 height: 366vh;
             }
