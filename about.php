@@ -46,7 +46,7 @@
 
         </div>
     </section>
-    <section class="about-section" style="margin-bottom: 550px;">
+    <section class="about-section">
         <div class="about-someone">
             <h2 class="font-bold">About Dr. Anand Rajnikant Shah</h2>
             <div class="about-someone-content">
@@ -110,9 +110,9 @@
             </div>
         </div>
     </section>
-   
+   <footer>
     <?php include "components/footer/index2.html"; ?>
-   
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

@@ -179,9 +179,37 @@
 }
 
 /* about section */
-.about-section {
-  height: 340vh;
-  margin: 10vh 10%;
+@media screen and (min-width: 1024px) {
+  .about-section {
+    margin: 6vh 4%;
+    margin-bottom: 100px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  footer{
+    margin-bottom: 550px;
+  }
+  
+}
+@media screen and (max-width: 430px) {
+  footer{
+    margin-top: 300px;
+  }
+  
+}
+@media screen and (max-width: 395px) {
+  
+  footer{
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  footer{
+    margin-top: 100px;
+  }
+  
 }
 .about-section h2 {
   font-size: 3rem;

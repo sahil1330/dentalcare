@@ -1,6 +1,37 @@
+
+@media screen and (min-width: 1200px) {
+  .faq-main-section {
+    margin-bottom: 250px; /* Adjust margin for smaller screens */
+  }
+  
+}
+@media screen and (max-width: 990px) {
+  .faq-main-section {
+    /* Remove the fixed height for mobile as well */
+    margin-bottom: 500px; /* Add margin at the bottom for mobile */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq-main-section {
+    margin-bottom: 400px; /* Adjust margin for tablets */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq-main-section {
+    margin-bottom: 350px; /* Adjust margin for small phones */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .faq-main-section {
+    margin-bottom: 500px; /* Adjust margin for very small phones like iPhone SE */
+  }
+}
+
 .faq-container {
-  height: 60vh;
-  margin: 0vh 0vh 20vh;
+  
 }
 
 .faq-section {
@@ -19,6 +50,7 @@
   margin-bottom: 15px;
   margin-top: 30px;
   font-family: var(--second-main-font);
+  margin-top: 120px;
 }
 
 .faq-item {
@@ -108,4 +140,10 @@
   .faq-heading {
     margin-top: 50px;
   }
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  
 }
