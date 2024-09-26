@@ -25,6 +25,10 @@
             height: 140vh;
         }
 
+        .blog-container h1 {
+            margin: 10vh 0 4vh;
+        }
+
         .blog-post {
             display: flex;
             align-items: center;
@@ -108,6 +112,10 @@
                 height: 350vh;
             }
 
+            .blog-container h1 {
+                margin: 12vh 0 4vh;
+            }
+
             .blog-post {
                 flex-direction: column;
                 text-align: center;
@@ -148,7 +156,7 @@
         <?php include 'new-responsive-nav.php'; ?>
     </div>
     <div class="container blog-container">
-        <h1 class="text-center my-5">Latest Blog Posts</h1>
+        <h1 class="text-center">Latest Blog Posts</h1>
         <div id="blog-feed" class="row"></div>
     </div>
     <footer>
