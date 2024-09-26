@@ -114,7 +114,7 @@
 /* Adjustments for mobile/tablet views */
 @media (max-width: 991.98px) {
     .nav-bar-box {
-        margin: 20px 10px;
+        margin: 20px 0;
         margin-left: none;
         
         
