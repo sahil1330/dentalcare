@@ -104,7 +104,7 @@ nav ul a {
 .hero-content {
   display: flex;
   gap: 20px;
-  margin: 4vh 3vw;
+  margin: 4vh 3%;
   height: 100%;
 }
 .hero-left {
@@ -410,6 +410,10 @@ nav ul a {
   }
 }
 @media (max-width: 380px) {
+  .hero-left {
+    height: 73vh;
+  }
+
   .hero-section {
     height: 244vh;
   }
@@ -448,7 +452,7 @@ nav ul a {
 }
 
 .service-boxes {
-  width: 80vw;
+  width: 80%;
   height: 80vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -578,7 +582,7 @@ nav ul a {
   }
 
   .service-boxes {
-    width: 100vw;
+    width: 100%;
     height: 200vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -647,7 +651,7 @@ nav ul a {
   /* margin-bottom: 80px; */
 }
 .slider {
-  width: 70vw;
+  width: 70%;
   height: 70vh;
 }
 .navigators {
@@ -673,7 +677,7 @@ nav ul a {
     margin-bottom: 0;
   }
   .slider {
-    width: 90vw;
+    width: 90%;
     height: 26vh;
   }
 }
@@ -701,7 +705,7 @@ nav ul a {
 .short-about > .container {
   gap: 20px;
   padding: 56px 0;
-  width: 80vw;
+  width: 80%;
   height: 80vh;
   background-color: transparent;
 }
@@ -757,7 +761,7 @@ nav ul a {
   margin-left: 30px;
 }
 .short-about-right .boxes .box {
-  width: 16vw;
+  width: 40%;
   height: 16vh;
   display: flex;
   justify-content: center;
@@ -830,7 +834,7 @@ nav ul a {
 }
 @media (max-width: 380px) {
   .short-about {
-    height: 172vh;
+    height: 200vh;
   }
   .short-about-right {
     margin: 48vh 0 0;
@@ -959,7 +963,7 @@ nav ul a {
 }
 .form-wrapper #emailInput {
   padding: 24px 40px;
-  width: 40vw;
+  width: 100%;
   border: none;
   border-radius: 40px;
   text-decoration: underline;
@@ -972,7 +976,7 @@ nav ul a {
 }
 .form-wrapper button {
   padding: 16px 32px;
-  width: 20vw;
+  width: 100%;
   background-color: #efefef;
   color: #000;
   border: none;
@@ -1002,7 +1006,7 @@ nav ul a {
     height: 44vh;
   }
   .form-wrapper button {
-    width: 24vw;
+    width: 24%;
     font-size: 24px;
   }
 }
@@ -1022,11 +1026,20 @@ nav ul a {
     gap: 20px;
   }
   .form-wrapper #emailInput {
-    width: 80vw;
+    width: 90%;
+  }
+  .emaildiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .form-wrapper button {
-    width: 60vw;
+    width: 100%;
     font-size: 24px;
+  }
+  .check-input{
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 380px) {
@@ -1054,7 +1067,7 @@ nav ul a {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 1.5px;
-  width: 80vw;
+  width: 80%;
   font-weight: 500;
 }
 .review .cards {
@@ -1118,7 +1131,7 @@ footer {
 footer > .container2 {
   display: grid;
   height: 75vh;
-  width: 98vw;
+  width: 98%;
   margin: auto;
   background: linear-gradient(
     291deg,

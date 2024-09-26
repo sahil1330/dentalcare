@@ -122,6 +122,18 @@
                 margin-left: 0;
             }
         }
+
+        @media (max-width: 380px) {
+            .blog-container {
+                height: 466vh;
+            }
+        }
+
+        @media (max-width: 400px) and (max-height: 1024px) {
+            .blog-container {
+                height: 366vh;
+            }
+        }
     </style>
 </head>
 

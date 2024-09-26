@@ -351,14 +351,13 @@
       <div class="form-wrapper">
         <form action="" class="form-exclusive">
           <div class="inputs">
-            <div class="" data-aos="fade-up">
+            <div class="emaildiv" data-aos="fade-up">
               <input type="email" name="email" id="emailInput" placeholder="Enter your Email id" require>
             </div>
             <div class="check-input" data-aos="fade-up">
               <input type="checkbox" name="agree" id="agree" class="tick-circle" require>
               <label for="agree">I agree to PRIVACY POLICY</label>
             </div>
-
           </div>
           <div class="" data-aos="fade-up">
             <button type="submit">Subscribe!</button>
