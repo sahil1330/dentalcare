@@ -260,10 +260,9 @@
             <div class="card" data-aos="fade-up" style="width: 22rem">
               <div class="card-body p-0 card-dr-1">
                 <div class="card-content">
-                  <h5 class="card-title">Dental Implants</h5>
+                  <h5 class="card-title">Dr. Anand Rajnikant Shah</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Dr. Shah has 13+ years of experience and holds a BDS from MGM Dental College. He also completed a certification at NYU College of Dentistry.
                   </p>
                 </div>
               </div>
@@ -307,7 +306,7 @@
         <form action="" class="form-exclusive">
           <div class="inputs">
             <div class="emaildiv" data-aos="fade-up">
-              <input type="email" name="email" id="emailInput" placeholder="Enter your Email id" require>
+                <input type="email" name="email" id="emailInput" placeholder="Enter your Email id" style="font-size: large;" require>
             </div>
             <div class="check-input" data-aos="fade-up">
               <input type="checkbox" name="agree" id="agree" class="tick-circle" require>
