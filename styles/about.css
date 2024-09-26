@@ -179,26 +179,35 @@
 }
 
 /* about section */
-.about-section {
-  height: 340vh;
-  margin: 10vh 10%;
+@media screen and (min-width: 1024px) {
+  .about-section {
+    margin: 6vh 4%;
+    margin-bottom: 100px;
+  }
+  
 }
 
 @media screen and (max-width: 500px) {
-  .about-section {
+  footer{
     margin-bottom: 550px;
   }
   
 }
-@media screen and (max-width: 400px) {
-  .about-section {
-    margin-bottom: 650px;
+@media screen and (max-width: 430px) {
+  footer{
+    margin-top: 300px;
   }
   
 }
-@media screen and (max-width: 390px) {
-  .about-section {
-    margin-bottom: 750px;
+@media screen and (max-width: 395px) {
+  
+  footer{
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  footer{
+    margin-top: 100px;
   }
   
 }
