@@ -306,3 +306,13 @@ footer > .container2 {
     }
   }
 }
+@media (max-width: 400px) and (max-height: 800px) {
+  footer > .container2 {
+    height: 170vh;
+  }
+  .form-wrapper2 {
+    padding: 1.5rem 0;
+    height: 24%;
+    top: -20%;
+  }
+}
