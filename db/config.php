@@ -1,6 +1,6 @@
 <?php
 $servername = "103.145.50.126";
-$username = "dentalcare";
+$username = "dentaluser";
 $password = "OCdZi-t1#D3e";
 $dbname = "NADC";
 
