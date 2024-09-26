@@ -1,6 +1,9 @@
-faq-main-section{
-  margin-top: 100px;
-  margin-bottom: 500px;
+
+@media screen and (min-width: 1200px) {
+  .faq-main-section {
+    margin-bottom: 250px; /* Adjust margin for smaller screens */
+  }
+  
 }
 @media screen and (max-width: 990px) {
   .faq-main-section {
@@ -137,4 +140,10 @@ faq-main-section{
   .faq-heading {
     margin-top: 50px;
   }
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  
 }
