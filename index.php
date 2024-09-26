@@ -62,7 +62,9 @@
         </div>
         <div class="hero-right-row2" data-aos="fade-left">
           <p class="">
-          New Age Dental Clinic, Panvel (2011 - Present): As a leading dentist, Dr. Shah provides comprehensive preventive and therapeutic dental care, educates patients on oral hygiene, and manages patient records with precision.
+            New Age Dental Clinic, Panvel (2011 - Present): As a leading dentist, Dr. Shah provides comprehensive
+            preventive and therapeutic dental care, educates patients on oral hygiene, and manages patient records with
+            precision.
           </p>
         </div>
         <div class="hero-right-row3">
@@ -72,9 +74,18 @@
           </button>
           <a href="#" data-aos="fade-left">Learn More</a>
         </div>
-        <div class="hero-right-row4">
-          <div class="hero-right-row4-box1" data-aos="fade-left">
-            <img src="images/toothbrush.jpg" alt="slide1" />
+        <div class="hero-right-row4 carousel slide "  id="carouselExampleSlidesOnly">
+          <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
+            <div class="carousel-item active">
+              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
+            </div>
+            <!-- <img src="images/toothbrush.jpg" alt="slide1" />
             <div class="hero-right-row4-box1-content">
               <h6>Get a deep clean with 360</h6>
               <a href="services.php">
@@ -82,65 +93,9 @@
                   <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
                 </button>
               </a>
-            </div>
+            </div> -->
           </div>
-          <div class="hero-right-row4-box2" data-aos="fade-left">
-            <div class="hero-right-row4-box2-row1">
-              <h6>How can we help you today?</h6>
-            </div>
-            <div class="hero-right-row4-box2-row2">
-              <p>What are your needs?</p>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle box-2-dropdown" type="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Choose one
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item active" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </li>
-                </ul>
-              </div>
-              <p>What are your goals?</p>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle box-2-dropdown" type="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Choose one
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item active" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="hero-right-row4-box2-row3">
-                <button type="button" class="btn-getstarted">
-                  GET STARTED
-                </button>
-              </div>
-            </div>
-            <div class="hero-right-row4-box2-row3"></div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -367,62 +322,62 @@
     </div>
   </section>
   <section class="review">
-  <div class="container my-4">
-    <h1>PATIENT REVIEWS</h1>
-    <p>Check our happy customers reviews and check their wonderful experience</p>
-    <div class="cards row row-gap-4">
-      <!-- First Card -->
-      <div class="col-md-4">
-        <div class="card" data-aos="fade-up" style="width: 22rem">
-          <div class="card-body text-center">
-            <!-- Star Image -->
-            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-            <!-- Card Title and Text -->
-             
-            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
-            <p class="card-text">
-              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
-            </p>
-            <!-- <a href="#" class="card-link">Card link</a>
+    <div class="container my-4">
+      <h1>PATIENT REVIEWS</h1>
+      <p>Check our happy customers reviews and check their wonderful experience</p>
+      <div class="cards row row-gap-4">
+        <!-- First Card -->
+        <div class="col-md-4">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card-body text-center">
+              <!-- Star Image -->
+              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+              <!-- Card Title and Text -->
+
+              <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
+              <p class="card-text">
+                Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+              </p>
+              <!-- <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a> -->
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Second Card -->
-      <div class="col-md-4">
-        <div class="card" data-aos="fade-up" style="width: 22rem">
-          <div class="card-body text-center">
-            <!-- Star Image -->
-            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-            <!-- Card Title and Text -->
-            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
-            <p class="card-text">
-              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
-            </p>
-            <!-- <a href="#" class="card-link">Card link</a>
+        <!-- Second Card -->
+        <div class="col-md-4">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card-body text-center">
+              <!-- Star Image -->
+              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+              <!-- Card Title and Text -->
+              <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
+              <p class="card-text">
+                Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+              </p>
+              <!-- <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a> -->
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Third Card -->
-      <div class="col-md-4">
-        <div class="card" data-aos="fade-up" style="width: 22rem">
-          <div class="card-body text-center">
-            <!-- Star Image -->
-            <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-            <!-- Card Title and Text -->
-            <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
-            <p class="card-text">
-              Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
-            </p>
-            <!-- <a href="#" class="card-link">Card link</a>
+        <!-- Third Card -->
+        <div class="col-md-4">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card-body text-center">
+              <!-- Star Image -->
+              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+              <!-- Card Title and Text -->
+              <h3 class="card-title" style="margin-top: 75px;">Dental Implants</h3>
+              <p class="card-text">
+                Love Dr Parks and his wonderful staff! They always go above and beyond to be sure you are taken care.
+              </p>
+              <!-- <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a> -->
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <?php include"components/footer/index2.html"; ?>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

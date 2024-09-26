@@ -251,6 +251,7 @@ nav ul a {
   display: flex;
   gap: 16px;
   height: 50%;
+  margin-top: 10px;
 }
 .hero-right-row4-box1 {
   width: 50%;
@@ -428,8 +429,12 @@ nav ul a {
   .hero-section {
     height: 210vh;
   }
+
   .hero-left {
-    height: 52vh;
+    height: 60vh;
+  }
+  .hero-group-image-container {
+    height: 42%;
   }
 }
 /* Services we provide section */
