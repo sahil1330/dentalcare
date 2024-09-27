@@ -26,7 +26,55 @@
 
 <body>
   <header>
-    <?php include 'new-responsive-nav.php'; ?>
+
+
+    <!-- Navbar Box -->
+    <div class="nav-bar-box">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a href="./" class="logo-container">
+            <img src="icons/logo.svg" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav mx-auto " style="align-items: center;">
+              <li class="nav-item">
+
+                <a class="nav-link active" style="margin: 0; width: 100%;" aria-current="page" href="./">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0; width: 100%;" href="about.php">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0; width: 100%;" href="services.php">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0; width: 100%;" href="blog.php">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0; width: 100%;" href="contactus.php">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <div class="search-box" id="mobileSearch">
+                <input type="text" placeholder="Search">
+              </div>
+              <i class="bi bi-search ms-3" style="cursor: pointer;" id="searchIcon"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Search Box Overlay (PC) -->
+    <div class="overlay-search" id="searchOverlay">
+      <input type="text" placeholder="Search">
+    </div>
   </header>
   <section class="hero-section">
     <div class="hero-content">
@@ -55,7 +103,7 @@
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
-            <button class="btn-contact" data-aos="fade-left">Contact Us​</button>
+          <button class="btn-contact" data-aos="fade-left">Contact Us​</button>
           <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
             <img src="icons/phone.svg" alt="Telephone" />8169523831
           </button>
@@ -74,7 +122,7 @@
           </button>
           <a href="#" data-aos="fade-left">Learn More</a>
         </div>
-        <div class="hero-right-row4 carousel slide "  id="carouselExampleSlidesOnly">
+        <div class="hero-right-row4 carousel slide " id="carouselExampleSlidesOnly">
           <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
             <div class="carousel-item active">
               <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
@@ -232,16 +280,16 @@
               <div class="img-box">
                 <img src="images/dr-imgs/dr1-with-book.webp" width="80%" height="80%" alt="Short About" />
               </div>
-              <div class="box box1 ">
+              <div class="box box1">
                 <h2 class="text-center d-flex align-items-center">Best Service</h2>
               </div>
-              <div class="box box2 ">
+              <div class="box box2">
                 <h2 class="text-center d-flex align-items-center">Best In India</h2>
               </div>
-              <div class="box box3 ">
+              <div class="box box3">
                 <h2 class="text-center d-flex align-items-center">Over 100+ patients</h2>
               </div>
-              <div class="box box4 ">
+              <div class="box box4">
                 <h2 class="text-center d-flex align-items-center">Dental Care</h2>
               </div>
             </div>
@@ -262,7 +310,8 @@
                 <div class="card-content">
                   <h5 class="card-title">Dr. Anand Rajnikant Shah</h5>
                   <p class="card-text">
-                    Dr. Shah has 13+ years of experience and holds a BDS from MGM Dental College. He also completed a certification at NYU College of Dentistry.
+                    Dr. Shah has 13+ years of experience and holds a BDS from MGM Dental College. He also completed a
+                    certification at NYU College of Dentistry.
                   </p>
                 </div>
               </div>
@@ -306,7 +355,8 @@
         <form action="" class="form-exclusive">
           <div class="inputs">
             <div class="emaildiv" data-aos="fade-up">
-                <input type="email" name="email" id="emailInput" placeholder="Enter your Email id" style="font-size: large;" require>
+              <input type="email" name="email" id="emailInput" placeholder="Enter your Email id"
+                style="font-size: large;" require>
             </div>
             <div class="check-input" data-aos="fade-up">
               <input type="checkbox" name="agree" id="agree" class="tick-circle" require>
@@ -333,11 +383,11 @@
               <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
               <!-- Card Title and Text -->
 
-                <h3 class="card-title" style="margin-top: 75px;">Rajesh Kumar</h3>
-                <p class="card-text">
+              <h3 class="card-title" style="margin-top: 75px;">Rajesh Kumar</h3>
+              <p class="card-text">
                 Love Dr. Shah and his wonderful staff! They always go above and beyond to be sure you are taken care of.
-                </p>
-                <!-- <a href="#" class="card-link">Card link</a>
+              </p>
+              <!-- <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a> -->
               </div>
               </div>
@@ -349,26 +399,26 @@
                 <!-- Star Image -->
                 <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
                 <!-- Card Title and Text -->
-                <h3 class="card-title" style="margin-top: 75px;">Priya Sharma</h3>
+                <h3 class="card-title" style="margin-top: 75px;">Nisha Shah</h3>
                 <p class="card-text">
                 Dr. Shah is very professional and caring. The root canal treatment was painless and quick.
-                </p>
-                <!-- <a href="#" class="card-link">Card link</a>
+              </p>
+              <!-- <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a> -->
-              </div>
-              </div>
             </div>
-            <!-- Third Card -->
-            <div class="col-md-4">
-              <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body text-center">
-                <!-- Star Image -->
-                <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-                <!-- Card Title and Text -->
-                <h3 class="card-title" style="margin-top: 75px;">Anjali Mehta</h3>
-                <p class="card-text">
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="col-md-4">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card-body text-center">
+              <!-- Star Image -->
+              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+              <!-- Card Title and Text -->
+              <h3 class="card-title" style="margin-top: 75px;">Anjali Mehta</h3>
+              <p class="card-text">
                 Excellent service and friendly staff. My teeth whitening experience was fantastic.
-                </p>
+              </p>
               <!-- <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a> -->
             </div>

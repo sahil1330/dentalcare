@@ -12,12 +12,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- User profile on top of the menu in mobile view -->
-                <div class="user-profile">
-                    <img src="https://via.placeholder.com/30" alt="User">
-                    <span>izoog</span>
-                    <i class="bi bi-chevron-down"></i>
-                </div>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                      

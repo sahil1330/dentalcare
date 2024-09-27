@@ -332,7 +332,7 @@ nav ul a {
 
 @media (max-width: 768px) {
   .hero-section {
-    height: 195vh;
+    height: 146vh;
   }
   .hero-content {
     height: 200vh;
@@ -404,7 +404,7 @@ nav ul a {
 }
 @media (max-width: 400px) {
   .hero-section {
-    height: 204vh;
+    height: 149vh;
   }
   .hero-right {
     height: 150vh;
@@ -425,9 +425,9 @@ nav ul a {
     height: 229vh;
   }
 }
-@media (max-width: 400px) and (max-height: 800px) {
+@media (max-width: 400px) and (max-height: 800px) and (min-height: 700px) {
   .hero-section {
-    height: 210vh;
+    height: 178vh;
   }
 
   .hero-left {
@@ -438,8 +438,8 @@ nav ul a {
   }
 }
 @media (max-width: 400px) and (max-height: 670px) {
-  .hero-left {
-    height: 72vh;
+  .hero-section {
+    height: 180vh;
   }
 }
 /* Services we provide section */
@@ -804,6 +804,9 @@ nav ul a {
   background-color: #fff;
   position: absolute;
 }
+.short-about-right .boxes .box h2 {
+  color: rgba(81, 108, 179, 0.7);
+}
 .short-about-right .boxes .box1 {
   top: 120px;
   left: -50px;
@@ -1129,7 +1132,7 @@ nav ul a {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 1.5px;
-  width: 80%;
+  width: 100%;
   font-weight: 500;
 }
 .review .cards {
@@ -1185,7 +1188,7 @@ nav ul a {
 }
 @media (max-width: 400px) and (max-height: 670px) {
   .review {
-      height: 218vh;
+    height: 218vh;
   }
 }
 /* footer */
