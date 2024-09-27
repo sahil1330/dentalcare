@@ -399,7 +399,7 @@
                 <!-- Star Image -->
                 <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
                 <!-- Card Title and Text -->
-                <h3 class="card-title" style="margin-top: 75px;">Nisha Shah</h3>
+                <h3 class="card-title" style="margin-top: 75px;">Ajay Nadar</h3>
                 <p class="card-text">
                 Dr. Shah is very professional and caring. The root canal treatment was painless and quick.
               </p>
