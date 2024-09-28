@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="imgs/br2.jpg" alt="Toothbrush Image" class="form-img">
+                    <img src="images/dr-imgs/dr-cabin.webp" alt="Toothbrush Image" class="form-img">
                 </div>
             </div>
         </div>
