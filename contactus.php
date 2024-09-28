@@ -1,3 +1,38 @@
+<?php
+include 'db/config.php';
+include '_phpmailer.php';
+try {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        date_default_timezone_set('Asia/Kolkata');
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        $time = date('Y-m-d H:i:s');
+        $sql = "INSERT into contacts (name, email, message, time) values (?, ?, ?, ?)";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("ssss", $name, $email, $message, $time);
+        if ($stmt->execute()) {
+            $emailbody = "Thanks for contacting us <br> We will reach to you soon!";
+            $subject = "Reply for the message in contact form";
+            $showAlert = send_mail($name, $email, $subject, $emailbody, $setFrom);
+            echo "<script>alert('$showAlert');</script>";
+        } else {
+            echo "<script>alert('Some error occured while submitting contact form.');</script>";
+        }
+        $stmt->close();
+        $conn->close();
+    }
+} catch (\Throwable $th) {
+    // php code for logging error into a given file
+// error message to be logged
+    $error_message = "This is an error message!";
+    // path of the log file where errors need to be logged
+    $log_file = "./my-errors.log";
+    // logging error message to given log file
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,15 +93,14 @@
                     <div class="contact-form">
                         <h3 class="form-header">How can we help you today?</h3>
                         <p class="form-header-base">(Fill the form and we may soon contact you)</p>
-                        <form>
-
+                        <form action="" method="post">
                             <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
                             <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
                             <textarea id="message" name="message" rows="4" placeholder="Your message here"
                                 required></textarea>
-                            <button type="submit">SUBMIT FORM</button>
+                            <button type="submit" name="contact-submit">SUBMIT FORM</button>
                         </form>
                     </div>
                 </div>
@@ -148,7 +182,7 @@
                                         class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
                                     <a href="tel:+918169523831"
                                         class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
-                                    
+
                                 </div>
                             </div>
                         </div>
