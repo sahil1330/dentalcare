@@ -16,10 +16,10 @@ try {
         if ($stmt->execute()) {
             $emailbody = "Thanks for contacting us <br> We will reach to you soon!";
             $subject = "Reply for the message in contact form";
-            $showAlert = send_mail($name, $email, $subject, $emailbody, $setFrom);
-            echo "<script>alert('$showAlert');</script>";
+            send_mail($name, $email, $subject, $emailbody, "info@newagedentalclinic.com");
+            $showAlert = "Your record is submitted successfully <br> Thanks for your precious time.";
         } else {
-            $showError = 'Some error occured while submitting contact form.';
+            $showError = "Some Error Occurred. <br> Sorry for the inconvenience.";
         }
         $stmt->close();
         $conn->close();
@@ -93,16 +93,17 @@ try {
             <?php
             if ($showAlert) {
                 echo '
-            <div class="alert alert-success" role="alert">
-                ' . $showAlert . '
-            </div>';
+                <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                    <strong>WoW! </strong> ' . $showAlert . '
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>';
             }
             if ($showError) {
                 echo '
-                <div class="alert alert-danger" role="alert">
-  ' . $showError . '
-</div>
-
+                <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+                    ' . $showError . '
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
                 ';
             }
             ?>
