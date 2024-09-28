@@ -76,7 +76,7 @@
     </section>
 
     <!-- Section 3: FAQ and Stats -->
-    <section class="faq-stats py-5">
+    <!-- <section class="faq-stats py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -89,8 +89,8 @@
                         <summary><span class="icon"></span> Question 2</summary>
                         <p>Answer to question 2.</p>
                     </details>
-                    <!-- Add more questions as needed -->
-                </div>
+                   Add more questions as needed -->
+                <!-- </div>
                 <div class="col-md-6 position-relative">
                     <img src="imgs/sample.jpg" class="img-fluid rounded" alt="Stats Image">
                     <div class="stats-box">
@@ -100,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --> -->
     <footer>
     <?php include "components/footer/index2.html"; ?>
     </footer>
