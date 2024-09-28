@@ -32,8 +32,17 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
+    - name: Deploy to cPanel via FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets.FTP_PORT }}
+        local-dir: ./  # Your project root directory
+        server-dir: /public_html/  # The directory on your cPanel server
+        exclude: |
+          .git*
+          .github/*
+          node_modules/
+          vendor/  # You can remove this if you want to upload vendor directory
