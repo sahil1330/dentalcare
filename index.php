@@ -128,10 +128,16 @@
               <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
             <div class="carousel-item">
-              <img src="images/dr-imgs/dr1-with-paitent.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
+              <img src="images/dr-imgs/dr-slider-1.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
             <div class="carousel-item">
-              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
+              <img src="images/dr-imgs/dr-slider-2.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="images/dr-imgs/dr-slider-3.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="images/dr-imgs/dr-slider-4.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
             <!-- <img src="images/toothbrush.jpg" alt="slide1" />
             <div class="hero-right-row4-box1-content">
