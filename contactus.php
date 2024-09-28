@@ -14,7 +14,7 @@ try {
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("ssss", $name, $email, $message, $time);
         if ($stmt->execute()) {
-            $showAlert = "Your record is submitted successfully <br> Thanks for your precious time.";
+            $showAlert = "Your record is submitted successfully <br> Thanks for your precious time";
             $emailbody = "Thanks for contacting us <br> We will reach to you soon!";
             $subject = "Reply for the message in contact form";
             send_mail($name, $email, $subject, $emailbody, "info@newagedentalclinic.com");
