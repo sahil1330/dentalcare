@@ -1,6 +1,8 @@
 <?php
 include 'db/config.php';
 include '_phpmailer.php';
+$showAlert = false;
+$showError = false;
 try {
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         date_default_timezone_set('Asia/Kolkata');
@@ -17,7 +19,7 @@ try {
             $showAlert = send_mail($name, $email, $subject, $emailbody, $setFrom);
             echo "<script>alert('$showAlert');</script>";
         } else {
-            echo "<script>alert('Some error occured while submitting contact form.');</script>";
+            $showError = 'Some error occured while submitting contact form.';
         }
         $stmt->close();
         $conn->close();
@@ -88,7 +90,24 @@ try {
     <section class="contact-form-section" id="contact-form-section">
         <div class="container">
             <h2>CONTACT FORM</h2>
+            <?php
+            if ($showAlert) {
+                echo '
+            <div class="alert alert-success" role="alert">
+                ' . $showAlert . '
+            </div>';
+            }
+            if ($showError) {
+                echo '
+                <div class="alert alert-danger" role="alert">
+  ' . $showError . '
+</div>
+
+                ';
+            }
+            ?>
             <div class="row">
+
                 <div class="col-md-6">
                     <div class="contact-form">
                         <h3 class="form-header">How can we help you today?</h3>
