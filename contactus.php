@@ -8,7 +8,7 @@ try {
         $email = $_POST['email'];
         $message = $_POST['message'];
         $time = date('Y-m-d H:i:s');
-        $sql = "INSERT into contacts (name, email, message, time) values (?, ?, ?, ?)";
+        $sql = "INSERT into contact (name, email, message, time) values (?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("ssss", $name, $email, $message, $time);
         if ($stmt->execute()) {
