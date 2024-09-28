@@ -124,9 +124,7 @@
         </div>
         <div class="hero-right-row4 carousel slide " id="carouselExampleSlidesOnly">
           <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
-            <div class="carousel-item active">
-              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
-            </div>
+            
             <div class="carousel-item">
               <img src="images/dr-imgs/dr-slider-1.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
