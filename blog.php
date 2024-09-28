@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Blog Feed</title>
+    <title>Blog - New Age Dental Clinic</title>
 
     <!-- Bootstrap CSS -->
     <link rel="icon" type="image/x-icon" href="icons/logo.svg">

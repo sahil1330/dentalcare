@@ -1,10 +1,23 @@
+<?php
+include 'db/config.php';
+$title = $_GET['service'];
+$sql = "SELECT * FROM services WHERE service_title = '$title'";
+$result = mysqli_query($conn, $sql);
+$row = mysqli_fetch_array($result);
+$id = $row['id'];
+$title = $row['service_title'];
+$desc = $row['service_desc'];
+$thumbnail = $row['service_thumbnail'];
+$service_before = $row['service_before_image'];
+$service_after = $row['service_after_image'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
+    <title><?php echo $title; ?> - New Age Dental Care</title>
     <link rel="icon" type="image/x-icon" href="icons/logo.svg">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -20,19 +33,7 @@
 
 <body>
     <?php include 'new-responsive-nav.php'; ?>
-    <?php
-    include 'db/config.php';
-    $title = $_GET['service'];
-    $sql = "SELECT * FROM services WHERE service_title = '$title'";
-    $result = mysqli_query($conn, $sql);
-    $row = mysqli_fetch_array($result);
-    $id = $row['id'];
-    $title = $row['service_title'];
-    $desc = $row['service_desc'];
-    $thumbnail = $row['service_thumbnail'];
-    $service_before = $row['service_before_image'];
-    $service_after = $row['service_after_image'];
-    ?>
+
     <!-- Section 1: Service Details -->
     <section class="service-details py-5">
         <div class="container">
@@ -45,8 +46,8 @@
                     <p><?php
                     $desc = str_replace("\n", "</p><p>", $desc);
                     $desc = str_replace("", "", $desc); // Remove empty lines
-                    echo $desc; 
-                        ?></p>
+                    echo $desc;
+                    ?></p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                     <a href="#" class="btn btn-secondary">Book Now</a>
                 </div>
@@ -60,13 +61,11 @@
             <h2 class="text-light mb-4">Before and After</h2>
             <div id="before-after-slider">
                 <div id="before-image">
-                    <img src="<?php echo $service_before; ?>"
-                        alt="before" />
+                    <img src="<?php echo $service_before; ?>" alt="before" />
                 </div>
 
                 <div id="after-image">
-                    <img src="<?php echo $service_after; ?>"
-                        alt="After" />
+                    <img src="<?php echo $service_after; ?>" alt="After" />
                 </div>
 
                 <div id="resizer"></div>
@@ -102,7 +101,7 @@
         </div>
     </section>
     <footer>
-    <?php include "components/footer/index2.html"; ?>
+        <?php include "components/footer/index2.html"; ?>
     </footer>
     <!-- Bootstrap JS & Custom JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
