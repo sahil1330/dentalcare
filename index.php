@@ -128,7 +128,7 @@
               <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
             <div class="carousel-item">
-              <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
+              <img src="images/dr-imgs/dr1-with-paitent.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
             <div class="carousel-item">
               <img src="images/toothbrush.jpg" class="slideimg w-100" alt="images/toothbrush.jpg">
