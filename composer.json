@@ -1,5 +1,13 @@
 {
-    "require": {
-        "phpmailer/phpmailer": "^6.9"
+  "name": "your-vendor/your-package",
+  "description": "A short description of your package",
+  "license": "proprietary",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "/"
     }
+  }
 }
