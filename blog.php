@@ -165,11 +165,18 @@
 </head>
 
 <body>
-    <div class="navbar">
+<nav style="z-index: 1002; 
+           position: absolute;
+            width: 100%;
+            top: 0;
+            ">
         <?php include 'new-responsive-nav.php'; ?>
-    </div>
+    </nav>
     <div class="container blog-container">
-        <h1 class="text-center">Latest Blog Posts</h1>
+        <h1 class="text-center" style="margin-top: 150px;
+            
+        
+        ">Latest Blog Posts</h1>
         <div id="blog-feed" class="row"></div>
     </div>
     <footer>

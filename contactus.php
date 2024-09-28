@@ -30,7 +30,7 @@
 
 <body>
     <nav style="z-index: 1002; 
-            position:fixed;
+           position: absolute;
             width: 100%;
             top: 0;
             ">
