@@ -302,7 +302,7 @@
       </div>
     </div>
   </section>
-  <section class="exclusive-updates">
+  <!-- <section class="exclusive-updates">
     <div class="container my-4">
       <h1 align="center"><b>About our Doctors</b></h1>
       <div class="card-wrapper d-flex justify-content-center align-items-center">
@@ -351,6 +351,10 @@
         </div>
       </div>
     </div>
+  </section> -->
+  <section style="margin-bottom: 20px;">
+    <h2 class="blog-section-header">Our Blogs</h2>
+    <?php include "blog-section-test.html"; ?>
   </section>
   <section class="exclusive-updates-part2">
     <div class="container">

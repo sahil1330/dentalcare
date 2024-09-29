@@ -1473,3 +1473,64 @@ footer > .container2 {
     height: 154vh;
   }
 }
+
+
+.blog-card {
+  max-width: 300px;
+  height: 400px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 15px; /* Increased margin to create more gap between cards */
+}
+
+.blog-card img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.read-more-btn {
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.read-more-btn:hover {
+  background-color: #555;
+}
+
+.blog-section-header {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px; /* Space between header and cards */
+  font-family: var(--second-main-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+
+}
