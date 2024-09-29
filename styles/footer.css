@@ -112,7 +112,7 @@ footer > .container2 {
 
 .btn-contact-footer {
   background: transparent;
-  padding: 8px 20px;
+  padding: 12px 22px;
   border: 1px solid black;
   color: black;
   border-radius: 40px;
@@ -127,8 +127,13 @@ footer > .container2 {
 }
 .btn-contact-footer img {
   fill: #000;
+  width: 2rem;
 }
-
+.btn-contact-footer p {
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
 .big-line-row {
   margin: 0;
 }
@@ -277,9 +282,16 @@ footer > .container2 {
   .quick-links {
     margin-top: 0%;
   }
+  .btn-about {
+    font-size: 1rem;
+  }
   .btn-contact-footer a {
     padding: 0;
     width: 100%;
+  }
+  .btn-contact-footer p {
+    padding: 0;
+    font-size: 1rem;
   }
 }
 @media (max-width: 400px) {
