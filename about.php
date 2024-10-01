@@ -111,7 +111,7 @@
         </div>
     </section>
    <footer>
-    <?php include "components/footer/index.php"; ?>
+    <?php include "components/footer.php"; ?>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

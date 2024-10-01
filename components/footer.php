@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
-    require '../../db/config.php';
+    require dirname(__DIR__) . '/db/config.php';
     $current_page = $_POST['current_page'];
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
