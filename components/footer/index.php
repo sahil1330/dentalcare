@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
     } else {
         date_default_timezone_set('Asia/Kolkata');
         $time = date('Y-m-d H:i:s');
-        $sql = "INSERT INTO newsletter_subscription (email, Time) VALUES (?, ?)";
+        $sql = "INSERT INTO newsletter_subscription (email, time) VALUES (?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
         mysqli_stmt_bind_param($stmt, 'ss', $email, $time);
 
