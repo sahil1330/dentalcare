@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     <label for="floatingInput">Email address:</label>
                 </div>
                 <div class="col-md-3 footer-submit-button">
-                    <button type="submit" class="btn-submit">Submit</button>
+                    <button type="submit" name="subscribe" class="btn-submit">Submit</button>
                 </div>
             </form>
         </div>
