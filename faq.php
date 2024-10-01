@@ -125,7 +125,7 @@
     </div>
     </section>
     <footer>
-    <?php include "components/footer/index2.html"; ?>
+    <?php include "components/footer/index.php"; ?>
     </footer>
 
 

@@ -88,7 +88,7 @@
             </div>
     </section>
     <footer>
-        <?php include "components/footer/index2.html"; ?>
+        <?php include "components/footer/index.php"; ?>
     </footer>
     <!-- Bootstrap JS & FontAwesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
