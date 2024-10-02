@@ -232,6 +232,7 @@ nav ul a {
   letter-spacing: 1.5px;
   line-height: 1.5;
   font-size: 20px;
+  border: none;
   border-radius: 24px;
   font-weight: 1000;
   outline: none;
@@ -1474,7 +1475,6 @@ footer > .container2 {
   }
 }
 
-
 .blog-card {
   max-width: 300px;
   height: 400px;
@@ -1532,5 +1532,4 @@ footer > .container2 {
   font-weight: 700;
   font-size: 36px;
   margin-top: 30px;
-
 }
