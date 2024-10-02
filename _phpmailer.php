@@ -41,6 +41,7 @@ function send_mail($name, $email, $subject, $message, $setFrom = "newagedentalcl
         $showAlert = "Message Sent Successfully. <br> Thanks for your precious time.";
     } catch (Exception $e) {
         $showError = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        error_log("Mailer Error: {$mail->ErrorInfo}", 3, "my-errors.log");
     }
 }
 ?>
