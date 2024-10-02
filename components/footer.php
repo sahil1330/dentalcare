@@ -245,7 +245,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
             <div class="big-line"></div>
         </div>
         <div class="row">
-            <h6 class="text-center text-light">@COPYRIGHT 2024 | All right are reserved to www.drannanandshaha.com
+            <h6 class="text-center text-light">@COPYRIGHT 2024 | All right are reserved to <a href="https://sahilmane.me" class="text-light">Sahil Mane</a> and <a href="https://harshugupta.me" class="text-light">Harsh Gupta</a>
             </h6>
         </div>
 </footer>
