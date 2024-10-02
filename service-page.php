@@ -50,8 +50,8 @@ $service_after = $row['service_after_image'];
                     $desc = str_replace("", "", $desc); // Remove empty lines
                     echo $desc;
                     ?></p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                    <a href="#" class="btn btn-secondary">Book Now</a>
+                    <a href="about.php" class="btn btn-primary">Learn More</a>
+                    <a href="contactus.php" class="btn btn-secondary">Book Now</a>
                 </div>
             </div>
         </div>
