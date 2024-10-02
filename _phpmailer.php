@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 // require '.private/config.php';
 //Load Composer's autoloader
 require 'vendor/autoload.php';
-function send_mail($name, $email, $subject, $message, $setFrom = "info@newagedentalclinic.com")
+function send_mail($name, $email, $subject, $message, $setFrom = "newagedentalclinicpanvel@gmail.com")
 {
     //Create an instance; passing `true` enables exceptions
     $mail = new PHPMailer(true);
@@ -16,15 +16,15 @@ function send_mail($name, $email, $subject, $message, $setFrom = "info@newageden
         //Server settings
         // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host = 'mail.newagedentalclinic.com';                     //Set the SMTP server to send through
+        $mail->Host = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth = true;                                   //Enable SMTP authentication
-        $mail->Username = "info@newagedentalclinic.com";                     //SMTP username
-        $mail->Password = "OCdZi-t1#D3e";                               //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-        $mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->Username = "newagedentalclinicpanvel@gmail.com";                     //SMTP username
+        $mail->Password = "jlki ioyt zmbu zscc";                               //SMTP password
+        $mail->SMTPSecure = "tls";            //Enable implicit TLS encryption
+        $mail->Port = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom($setFrom, 'New Age Dental Clinic');
+        $mail->setFrom("newagedentalclinicpanvel@gmail.com", 'New Age Dental Clinic');
         $mail->addAddress($email);     //Add a recipient
         //$mail->addReplyTo('newagede@newagedentalclinic.com');
         //Attachments
