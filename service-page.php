@@ -27,7 +27,7 @@ $service_after = $row['service_after_image'];
     <link rel="stylesheet" href="styles/new-nav.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/style.css">
+
     <style>
         /* Add custom styles here */
     </style>
@@ -102,7 +102,7 @@ $service_after = $row['service_after_image'];
             </div>
         </div>
     </section> -->
-    <footer>
+
         <?php include "components/footer.php"; ?>
     </footer>
     <!-- Bootstrap JS & Custom JS -->
