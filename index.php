@@ -120,7 +120,7 @@
           <button class="btn-arrow2" data-aos="fade-left" style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="40px" height="40px" alt="" />
           </button>
-          <a href="#" data-aos="fade-left">Learn More</a>
+          <a href="about.php" data-aos="fade-left">Learn More</a>
         </div>
         <div class="hero-right-row4 carousel slide " id="carouselExampleSlidesOnly">
           <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
