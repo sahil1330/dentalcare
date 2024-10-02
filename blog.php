@@ -27,7 +27,8 @@
             max-width: 1200px;
             margin: auto;
             padding: 20px;
-            height: auto; /* Set height to auto for responsiveness */
+            height: auto;
+            /* Set height to auto for responsiveness */
         }
 
         .blog-container h1 {
@@ -39,7 +40,8 @@
         .blog-post {
             display: flex;
             align-items: center;
-            justify-content: flex-start; /* Align items to start */
+            justify-content: flex-start;
+            /* Align items to start */
             background-color: #e0e0e0;
             border-radius: 10px;
             padding: 20px;
@@ -143,36 +145,46 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .blog-post {
-                flex-direction: column; /* Stack content vertically */
-                align-items: center; /* Center align items */
-                text-align: center; /* Center text */
+                flex-direction: column;
+                /* Stack content vertically */
+                align-items: center;
+                /* Center align items */
+                text-align: center;
+                /* Center text */
             }
 
             .blog-post img {
-                margin-bottom: 1rem; /* Margin for spacing */
+                margin-bottom: 1rem;
+                /* Margin for spacing */
             }
 
             .blog-post-content {
-                margin-left: 0; /* Remove left margin */
+                margin-left: 0;
+                /* Remove left margin */
             }
 
             .blog-post a {
-                width: 100%; /* Full width on smaller screens */
-                padding: 10px; /* Adjust padding */
+                width: 100%;
+                /* Full width on smaller screens */
+                padding: 10px;
+                /* Adjust padding */
             }
 
             .blog-container {
-                padding: 10px; /* Less padding on smaller screens */
+                padding: 10px;
+                /* Less padding on smaller screens */
             }
         }
 
         @media (max-width: 480px) {
             .blog-post h3 {
-                font-size: 1.1rem; /* Adjust heading size */
+                font-size: 1.1rem;
+                /* Adjust heading size */
             }
 
             .blog-post p {
-                font-size: 0.8rem; /* Adjust paragraph size */
+                font-size: 0.8rem;
+                /* Adjust paragraph size */
             }
         }
     </style>
@@ -223,6 +235,7 @@
                 .then(data => {
                     const blogFeedDiv = document.getElementById('blog-feed');
                     blogFeedDiv.innerHTML = ''; // Clear the skeleton loaders
+                    console.log(data);
                     data.items.forEach(item => {
                         // Truncate content to 20-30 words
                         const truncatedContent = item.content.replace(/<\/?[^>]+(>|$)/g, "").split(' ').slice(0, 18).join(' ') + '...';
