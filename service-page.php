@@ -191,12 +191,13 @@ $service_after = $row['service_after_image'];
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-            <div class="beer-slider beer-slider-wlabels" data-beer-label="before" id="slider1">
-            <img src="<?php echo $service_before; ?>" alt="before" />
-                <div class="beer-reveal" data-beer-label="after">
+            <div class="beer-slider beer-slider-wlabels" data-beer-label="after" id="slider1">
                 <img src="<?php echo $service_after; ?>" alt="After" />
+                <div class="beer-reveal" data-beer-label="before">
+                    <img src="<?php echo $service_before; ?>" alt="Before" />
                 </div>
             </div>
+
             </div>
             </div>
         </div>
