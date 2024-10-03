@@ -166,7 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 <div class="quick-link-wrapper">
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='in'">
                                 <div class="href-link">
                                     Home
                                 </div>
@@ -176,7 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='faq.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='faq'">
                                 FAQ
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -186,7 +186,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='about.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='about'">
                                 About
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -194,7 +194,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='services.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='services'">
                                 Services
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -204,7 +204,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='contactus.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='contactus'">
                                 Contact
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -212,7 +212,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='index'">
                                 Terms
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -222,7 +222,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='blog.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='blog'">
                                 Blogs
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -230,7 +230,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='index.php'">
+                            <button class="quick-link-btn" onclick="window.location.href='index'">
                                 Policy
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
