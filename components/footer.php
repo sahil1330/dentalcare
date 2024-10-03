@@ -166,7 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 <div class="quick-link-wrapper">
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='in'">
+                            <button class="quick-link-btn" onclick="window.location.href='index'">
                                 <div class="href-link">
                                     Home
                                 </div>
