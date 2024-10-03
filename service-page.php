@@ -29,7 +29,136 @@ $service_after = $row['service_after_image'];
     <link rel="stylesheet" href="styles/fonts.css">
 
     <style>
-        /* Add custom styles here */
+        @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+.beer-slider {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+}
+.beer-slider img {
+  vertical-align: bottom;
+}
+.beer-slider > img {
+  height: auto;
+  max-width: 100%;
+}
+.beer-reveal {
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  transition: opacity 0.35s;
+  z-index: 1;
+}
+.beer-reveal > :first-child {
+  max-width: none;
+  width: 200%;
+}
+.beer-reveal img:first-child {
+  height: auto;
+}
+.beer-range {
+  -webkit-appearance: slider-horizontal !important;
+  -moz-appearance: none;
+  bottom: 0;
+  cursor: pointer;
+  height: 100%;
+  left: -1px;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -ms-touch-action: auto;
+  touch-action: auto;
+  width: calc(100% + 2px);
+  z-index: 2;
+}
+.beer-range:focus ~ .beer-handle {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.beer-range::-webkit-slider-thumb {
+  height: 300vh;
+  -webkit-appearance: none;
+}
+.beer-range::-moz-range-thumb {
+  height: 300vh;
+  -webkit-appearance: none;
+}
+.beer-range::-ms-tooltip {
+  display: none;
+}
+.beer-handle {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0);
+  color: #000;
+  height: 48px;
+  left: 50%;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  transition: background 0.3s, box-shadow 0.3s, opacity 0.5s 0.25s;
+  width: 48px;
+  z-index: 2;
+}
+.beer-handle:before,
+.beer-handle:after {
+  border-left: solid 2px;
+  border-top: solid 2px;
+  content: '';
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform-origin: 0 0;
+  width: 10px;
+}
+.beer-handle:before {
+  left: 10px;
+  transform: rotate(-45deg);
+}
+.beer-handle:after {
+  right: 0;
+  transform: rotate(135deg);
+}
+.beer-slider[data-beer-label]:after,
+.beer-reveal[data-beer-label]:after {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  content: attr(data-beer-label);
+  font-size: 12px;
+  line-height: 1;
+  padding: 6px;
+  position: absolute;
+  top: 10px;
+}
+.beer-slider[data-beer-label]:after {
+  right: 10px;
+}
+.beer-reveal[data-beer-label]:after {
+  left: 10px;
+}
+.beer-slider[data-beer-label=""]:after,
+.beer-reveal[data-beer-label=""]:after {
+  content: none;
+}
+.beer-ready .beer-reveal,
+.beer-ready .beer-handle {
+  opacity: 1;
+}
     </style>
 </head>
 
@@ -59,20 +188,18 @@ $service_after = $row['service_after_image'];
 
     <!-- Section 2: Before and After Slider -->
     <section class="before-after py-5 text-center">
-        <div class="container">
-            <h2 class="text-light mb-4">Before and After</h2>
-            <div id="before-after-slider">
-                <div id="before-image">
-                    <img src="<?php echo $service_before; ?>" alt="before" />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+            <div class="beer-slider beer-slider-wlabels" data-beer-label="before" id="slider1">
+            <img src="<?php echo $service_before; ?>" alt="before" />
+                <div class="beer-reveal" data-beer-label="after">
+                <img src="<?php echo $service_after; ?>" alt="After" />
                 </div>
-
-                <div id="after-image">
-                    <img src="<?php echo $service_after; ?>" alt="After" />
-                </div>
-
-                <div id="resizer"></div>
-                <script src="scripts/slider.js"></script>
             </div>
+            </div>
+            </div>
+        </div>
         </div>
     </section>
 
@@ -114,6 +241,99 @@ $service_after = $row['service_after_image'];
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <script src="scripts/service.js"></script>
+    <script>
+        var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}var BeerSlider = function () {
+
+function BeerSlider(element) {var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},_ref$start = _ref.start,start = _ref$start === undefined ? '50' : _ref$start,_ref$prefix = _ref.prefix,prefix = _ref$prefix === undefined ? 'beer' : _ref$prefix;_classCallCheck(this, BeerSlider);
+    this.start = parseInt(start) ? Math.min(100, Math.max(0, parseInt(start))) : 50;
+    this.prefix = prefix;
+    if (!element || element.children.length !== 2) {
+        return;
+    }
+    this.element = element;
+    this.revealContainer = this.element.children[1];
+    if (this.revealContainer.children.length < 1) {
+        return;
+    }
+    this.revealElement = this.revealContainer.children[0];
+    this.range = this.addElement('input', {
+        type: 'range',
+        class: this.prefix + '-range',
+        'aria-label': 'Percent of revealed content',
+        'aria-valuemin': '0',
+        'aria-valuemax': '100',
+        'aria-valuenow': this.start,
+        value: this.start,
+        min: '0',
+        max: '100' });
+
+    this.handle = this.addElement('span', {
+        class: this.prefix + '-handle' });
+
+    this.onImagesLoad();
+}_createClass(BeerSlider, [{ key: 'init', value: function init()
+    {
+        this.element.classList.add(this.prefix + '-ready');
+        this.setImgWidth();
+        this.move();
+        this.addListeners();
+    } }, { key: 'loadingImg', value: function loadingImg(
+    src) {
+        return new Promise(function (resolve, reject) {
+            if (!src) {
+                resolve();
+            }
+            var img = new Image();
+            img.onload = function () {return resolve();};
+            img.onerror = function () {return reject();};
+            img.src = src;
+        });
+    } }, { key: 'loadedBoth', value: function loadedBoth()
+    {
+        var mainImageSrc = this.element.children[0].src || this.element.children[0].getAttribute('data-' + this.prefix + '-src');
+        var revealImageSrc = this.revealElement.src || this.revealElement.getAttribute('data-' + this.prefix + '-src');
+        return Promise.all([this.loadingImg(mainImageSrc), this.loadingImg(revealImageSrc)]);
+    } }, { key: 'onImagesLoad', value: function onImagesLoad()
+    {var _this = this;
+        if (!this.revealElement) {
+            return;
+        }
+        this.loadedBoth().then(
+        function () {
+            _this.init();
+        },
+        function () {
+            console.error('Some errors occurred and images are not loaded.');
+        });
+
+    } }, { key: 'addElement', value: function addElement(
+    tag, attributes) {
+        var el = document.createElement(tag);
+        Object.keys(attributes).forEach(function (key) {
+            el.setAttribute(key, attributes[key]);
+        });
+        this.element.appendChild(el);
+        return el;
+    } }, { key: 'setImgWidth', value: function setImgWidth()
+    {
+        this.revealElement.style.width = getComputedStyle(this.element)['width'];
+    } }, { key: 'addListeners', value: function addListeners()
+    {var _this2 = this;
+        var eventTypes = ['input', 'change'];
+        eventTypes.forEach(function (i) {
+            _this2.range.addEventListener(i, function () {_this2.move();});
+        });
+        window.addEventListener('resize', function () {_this2.setImgWidth();});
+    } }, { key: 'move', value: function move()
+    {
+        this.revealContainer.style.width = this.range.value + '%';
+        this.handle.style.left = this.range.value + '%';
+        this.range.setAttribute('aria-valuenow', this.range.value);
+    } }]);return BeerSlider;}();
+
+
+new BeerSlider(document.getElementById('slider1'));
+    </script>
 </body>
 
 </html>
