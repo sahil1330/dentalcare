@@ -189,7 +189,7 @@ try {
                                 <img src="icons/icon-mail.svg" alt="Email Icon">
                             </div>
                             <div class="col-5">
-                                <p><a href="mailto:drs.email@gmail.in">drs.email@gmail.in</a></p>
+                                <p><a href="mailto:newagedentalclinicpanvel@gmail.com">newagedentalclinicpanvel@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="row mb-4">
