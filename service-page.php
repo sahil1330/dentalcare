@@ -61,7 +61,7 @@ $service_after = $row['service_after_image'];
     <section class="before-after py-5 text-center">
         <div class="container">
             <h2 class="text-light mb-4">Before and After</h2>
-            <div id="before-after-slider" style="max-height: fit-content;">
+            <div id="before-after-slider" style="aspect-ratio: 16*9;>
                 <div id="before-image">
                     <img src="<?php echo $service_before; ?>" alt="before" />
                 </div>
