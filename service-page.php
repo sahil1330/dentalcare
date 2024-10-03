@@ -42,14 +42,23 @@ $service_after = $row['service_after_image'];
   overflow: hidden;
   position: relative;
   text-transform: uppercase;
+  width: 100%; /* Ensure the slider takes the full width */
+  max-width: 600px; /* Set a maximum width for the container */
 }
+
 .beer-slider img {
   vertical-align: bottom;
+  width: 100%; /* Ensure images are the same width */
+  height: auto; /* Maintain aspect ratio */
 }
-.beer-slider > img {
-  height: auto;
-  max-width: 100%;
+
+.beer-slider > img,
+.beer-reveal img {
+  width: 100%; /* Keep images the same width */
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio */
 }
+
 .beer-reveal {
   bottom: 0;
   left: 0;
@@ -68,21 +77,17 @@ $service_after = $row['service_after_image'];
 .beer-reveal img:first-child {
   height: auto;
 }
-.beer-range {
-  -webkit-appearance: slider-horizontal !important;
-  -moz-appearance: none;
+.beer-reveal {
   bottom: 0;
-  cursor: pointer;
-  height: 100%;
-  left: -1px;
-  margin: 0;
+  left: 0;
   opacity: 0;
+  overflow: hidden;
   position: absolute;
+  right: 50%;
   top: 0;
-  -ms-touch-action: auto;
-  touch-action: auto;
-  width: calc(100% + 2px);
-  z-index: 2;
+  transition: opacity 0.35s;
+  z-index: 1;
+  height: 100%; /* Ensure it covers the entire height */
 }
 .beer-range:focus ~ .beer-handle {
   background: rgba(255, 255, 255, 0.85);
@@ -114,6 +119,7 @@ $service_after = $row['service_after_image'];
   transition: background 0.3s, box-shadow 0.3s, opacity 0.5s 0.25s;
   width: 48px;
   z-index: 2;
+}index: 2;
 }
 .beer-handle:before,
 .beer-handle:after {
@@ -159,6 +165,11 @@ $service_after = $row['service_after_image'];
 .beer-ready .beer-handle {
   opacity: 1;
 }
+.beer-reveal > :first-child {
+  width: 100%; /* Ensure images have consistent width */
+  height: auto;
+}
+
     </style>
 </head>
 
