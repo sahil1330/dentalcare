@@ -18,16 +18,16 @@
                         <a class="nav-link active" aria-current="page" href="./">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About Us</a>
+                        <a class="nav-link" href="ab">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.php">Services</a>
+                        <a class="nav-link" href="services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.php">Blog</a>
+                        <a class="nav-link" href="blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactus.php">Contact</a>
+                        <a class="nav-link" href="contactus">Contact</a>
                     </li>
                 </ul>
                 <div class="d-flex align-items-center">

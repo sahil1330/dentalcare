@@ -48,16 +48,16 @@
                 <a class="nav-link active" style="margin: 0; width: 100%;" aria-current="page" href="./">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin: 0; width: 100%;" href="about.php">About Us</a>
+                <a class="nav-link" style="margin: 0; width: 100%;" href="about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin: 0; width: 100%;" href="services.php">Services</a>
+                <a class="nav-link" style="margin: 0; width: 100%;" href="services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin: 0; width: 100%;" href="blog.php">Blog</a>
+                <a class="nav-link" style="margin: 0; width: 100%;" href="blog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin: 0; width: 100%;" href="contactus.php">Contact</a>
+                <a class="nav-link" style="margin: 0; width: 100%;" href="contactus">Contact</a>
               </li>
             </ul>
             <div class="d-flex align-items-center">
@@ -120,7 +120,7 @@
           <button class="btn-arrow2" data-aos="fade-left" style="background-color: #50aadc; border-color: #50aadc">
             <img src="icons/slant-arrow.svg" width="40px" height="40px" alt="" />
           </button>
-          <a href="about.php" data-aos="fade-left">Learn More</a>
+          <a href="about" data-aos="fade-left">Learn More</a>
         </div>
         <div class="hero-right-row4 carousel slide " id="carouselExampleSlidesOnly">
           <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
@@ -158,7 +158,7 @@
       <div class="service-boxes">
         <div class="box service-box1">
           <h2 data-aos="fade-right">All Types of Dental Services</h2>
-          <button class="btn-service-section-arrow" onclick="window.location.href='services.php'" data-aos="fade-right">
+          <button class="btn-service-section-arrow" onclick="window.location.href='services'" data-aos="fade-right">
             <img src="icons/black-slant-arrow.svg" width="32px" height="32px" alt="Arrow Right">
           </button>
         </div>
@@ -272,7 +272,7 @@
             </div>
             <div class="short-about-left-footer">
               <h6>Go to our About page</h6>
-              <button onclick="window.location.href='about.php'" style="background-color: #000; border-color: #000">
+              <button onclick="window.location.href='about'" style="background-color: #000; border-color: #000">
                 <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
               </button>
             </div>
