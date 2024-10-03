@@ -220,7 +220,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                     </div>
-                    <div class="row quick-link-row" style="flex-wrap: nowrap;">
+                    <!-- <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
                            
                             <button class="quick-link-btn" onclick="window.location.href='index'">
@@ -238,7 +238,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                                 </div>
                             </button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
