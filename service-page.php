@@ -27,7 +27,6 @@ $service_after = $row['service_after_image'];
     <link rel="stylesheet" href="styles/new-nav.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/before-after-slider.css">
 
     <style>
         /* Add custom styles here */
@@ -51,8 +50,8 @@ $service_after = $row['service_after_image'];
                     $desc = str_replace("", "", $desc); // Remove empty lines
                     echo $desc;
                     ?></p>
-                    <a href="about.php" class="btn btn-primary">Learn More</a>
-                    <a href="contactus.php" class="btn btn-secondary">Book Now</a>
+                    <a href="about" class="btn btn-primary">Learn More</a>
+                    <a href="contactus" class="btn btn-secondary">Book Now</a>
                 </div>
             </div>
         </div>
@@ -60,21 +59,22 @@ $service_after = $row['service_after_image'];
 
     <!-- Section 2: Before and After Slider -->
     <section class="before-after py-5 text-center">
-    <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-        <div class="beer-slider beer-slider-wlabels" data-beer-label="before" id="slider1">
-            <img alt="" src="<?php echo $service_before; ?>" alt="before" />
-            <div class="beer-reveal" data-beer-label="after">
-            <img alt="" src="<?php echo $service_after; ?>" alt="After" />
+        <div class="container">
+            <h2 class="text-light mb-4">Before and After</h2>
+            <div id="before-after-slider">
+                <div id="before-image">
+                    <img src="<?php echo $service_before; ?>" alt="before" />
+                </div>
+
+                <div id="after-image">
+                    <img src="<?php echo $service_after; ?>" alt="After" />
+                </div>
+
+                <div id="resizer"></div>
+                <script src="scripts/slider.js"></script>
             </div>
         </div>
-        </div>
-        </div>
-    </div>
-    </div>
     </section>
-    <script src="scripts/before-after-slider.js"></script>
 
     <!-- Section 3: FAQ and Stats -->
     <!-- <section class="faq-stats py-5">
