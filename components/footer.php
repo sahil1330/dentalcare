@@ -212,8 +212,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='index'">
-                                Terms
+                        <button class="quick-link-btn" onclick="window.location.href='blog'">
+                                Blogs
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
@@ -222,8 +222,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     </div>
                     <div class="row quick-link-row" style="flex-wrap: nowrap;">
                         <div class="col-6">
-                            <button class="quick-link-btn" onclick="window.location.href='blog'">
-                                Blogs
+                           
+                            <button class="quick-link-btn" onclick="window.location.href='index'">
+                                Terms
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
                                 </div>
