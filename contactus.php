@@ -145,7 +145,7 @@ try {
                         <!-- Social Icons -->
                         <div class="social-icons mt-4 d-flex justify-content-center" style="gap: 20px;">
                             <!-- Custom Facebook Icon -->
-                            <a href="#"
+                            <a href="https://www.facebook.com/people/New-AGE-Dental-Clinic/100068596843168/"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
                                 <img src="icons/facebook-circle-fill-white.svg" alt="Facebook"
@@ -166,10 +166,10 @@ try {
                                     style="width: 30px; height: 30px;">
                             </a>
                             <!-- Custom YouTube Icon -->
-                            <a href="#"
+                            <a href="https://wa.me/+918169258231"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
                                 style="width: 60px; height: 60px;">
-                                <img src="icons/youtube-fill-white.svg" alt="YouTube"
+                                <img src="icons/whatsapp-fill-white.svg" alt="Whatsapp"
                                     style="width: 30px; height: 30px;">
                             </a>
                         </div>
@@ -189,7 +189,15 @@ try {
                                 <img src="icons/icon-mail.svg" alt="Email Icon">
                             </div>
                             <div class="col-5">
-                                <p><a href="mailto:newagedentalclinicpanvel@gmail.com">newagedentalclinicpanvel@gmail.com</a></p>
+                                <p><a href="mailto:anandshah.1309@gmail.com">anandshah.1309@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-1">
+                                <img src="icons/icon-mail.svg" alt="Email Icon">
+                            </div>
+                            <div class="col-5">
+                                <p><a href="mailto:newagedentalclinicpanvel@gmail.com ">newagedentalclinicpanvel@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="row mb-4">
