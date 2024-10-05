@@ -168,7 +168,7 @@ try {
                             <!-- Custom YouTube Icon -->
                             <a href="https://wa.me/+918169258231"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
-                                style="width: 60px; height: 60px;">
+                                style="width: 60px; height: 60px;" target="__blank">
                                 <img src="icons/whatsapp-fill-white.svg" alt="Whatsapp"
                                     style="width: 30px; height: 30px;">
                             </a>
