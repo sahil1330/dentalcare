@@ -633,6 +633,7 @@ nav ul a {
     width: 80%;
     border-radius: var(--_br);
     flex-direction: column;
+    padding-top: 20px;
   }
 
   .service-boxes > .service-box3 {
@@ -1116,10 +1117,10 @@ nav ul a {
   gap: 20px;
 }
 @media (max-width: 768px) {
-  .review {
+  /* .review {
     margin-bottom: 48px;
     height: 200vh;
-  }
+  } */
   .review h1 {
     padding: 8px 0px;
   }
@@ -1131,7 +1132,7 @@ nav ul a {
     margin-right: auto;
   }
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .review {
     margin-bottom: 48px;
     height: 206vh;
@@ -1152,7 +1153,7 @@ nav ul a {
   .review {
     height: 218vh;
   }
-}
+} */
 /* footer */
 footer {
   display: grid;
@@ -1417,11 +1418,6 @@ footer > .container2 {
     margin-left: 2%;
   }
 
-  .lorem-content {
-    outline: 1px solid #000;
-    margin: 20px 0;
-  }
-
   .line-column {
     display: none;
   }
@@ -1475,7 +1471,7 @@ footer > .container2 {
   background-color: #333;
   color: #fff;
   border-radius: 20px;
-  padding: 5px 20px;
+  padding: 8px 24px;
   text-align: center;
   text-decoration: none;
   align-self: flex-start;
