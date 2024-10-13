@@ -41,7 +41,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            
+
             <ul class="navbar-nav mx-auto " style="align-items: center;">
               <li class="nav-item">
 
@@ -124,7 +124,7 @@
         </div>
         <div class="hero-right-row4 carousel slide " id="carouselExampleSlidesOnly">
           <div class="hero-right-row4-box1 carousel-inner" data-bs-ride="carousel" data-aos="fade-left">
-            
+
             <div class="carousel-item active">
               <img src="images/dr-imgs/dr-slider-1.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
@@ -195,8 +195,8 @@
       </div>
     </div>
   </section>
-  <section class="slider-section">
-    <div class="slider-wrapper">
+
+  <!-- <div class="slider-wrapper">
       <div class="slider">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -240,8 +240,14 @@
       </div>
       <div class="navigator" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5">
       </div>
-    </div>
-  </section>
+    </div> -->
+  <div class="videoSection">
+    <video id="lazy-video" autoplay loop muted>
+      <source data-src="videos/video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
   <section class="short-about">
     <div class="container">
       <div class="row">
@@ -397,18 +403,18 @@
               </p>
               <!-- <a href="#" class="card-link">Card link</a>
               <a href="#" class="card-link">Another link</a> -->
-              </div>
-              </div>
             </div>
-            <!-- Second Card -->
-            <div class="col-md-4">
-              <div class="card" data-aos="fade-up" style="width: 22rem">
-              <div class="card-body text-center">
-                <!-- Star Image -->
-                <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-                <!-- Card Title and Text -->
-                <h3 class="card-title" style="margin-top: 75px;">Ajay Nadar</h3>
-                <p class="card-text">
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="col-md-4">
+          <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card-body text-center">
+              <!-- Star Image -->
+              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
+              <!-- Card Title and Text -->
+              <h3 class="card-title" style="margin-top: 75px;">Ajay Nadar</h3>
+              <p class="card-text">
                 Dr. Shah is very professional and caring. The root canal treatment was painless and quick.
               </p>
               <!-- <a href="#" class="card-link">Card link</a>
@@ -447,6 +453,26 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const video = document.getElementById('lazy-video');
+      const videoSrc = video.querySelector('source').getAttribute('data-src');
+
+      // Create an IntersectionObserver
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // When the video comes into view, set the video source
+            video.querySelector('source').setAttribute('src', videoSrc);
+            video.load();  // Load the video
+            observer.unobserve(video);  // Stop observing after loading
+          }
+        });
+      });
+
+      observer.observe(video);
+    });
   </script>
 </body>
 
