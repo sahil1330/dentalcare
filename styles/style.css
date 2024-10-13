@@ -251,7 +251,7 @@ nav ul a {
 .hero-right-row4 {
   display: flex;
   gap: 16px;
-  height: 50%;
+  height: 52%;
   margin-top: 10px;
 }
 .hero-right-row4-box1 {
@@ -1453,13 +1453,14 @@ footer > .container2 {
   width: 100%;
 }
 
-.card-body {
+.reviews-card-body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   flex-grow: 1;
 }
-
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;

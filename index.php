@@ -315,7 +315,7 @@
         <div class="row row-gap-3">
           <div class="col-md-4">
 
-            <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
               <div class="card-body p-0 card-dr-1">
                 <div class="card-content">
                   <h5 class="card-title">Dr. Anand Rajnikant Shah</h5>
@@ -329,7 +329,7 @@
           </div>
           <div class="col-md-4">
 
-            <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
               <div class="card-body p-0 card-dr-2">
                 <div class="card-content">
                   <h5 class="card-title">Dental Implants</h5>
@@ -342,7 +342,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" data-aos="fade-up" style="width: 22rem">
+            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
               <div class="card-body p-0 card-dr-3">
                 <div class="card-content">
                   <h5 class="card-title">Dental Implants</h5>
@@ -391,13 +391,13 @@
       <div class="cards row row-gap-4">
         <!-- First Card -->
         <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body text-center">
+          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
+            <div class="card-body reviews-card-body text-center">
               <!-- Star Image -->
               <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
               <!-- Card Title and Text -->
 
-              <h3 class="card-title" style="margin-top: 75px;">Rajesh Kumar</h3>
+              <h3 class="card-title" style="padding:  20px 0;">Rajesh Kumar</h3>
               <p class="card-text">
                 Love Dr. Shah and his wonderful staff! They always go above and beyond to be sure you are taken care of.
               </p>
@@ -408,12 +408,12 @@
         </div>
         <!-- Second Card -->
         <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body text-center">
+          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
+            <div class="card-body reviews-card-body text-center">
               <!-- Star Image -->
               <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
               <!-- Card Title and Text -->
-              <h3 class="card-title" style="margin-top: 75px;">Ajay Nadar</h3>
+              <h3 class="card-title" style="padding:  20px 0;">Ajay Nadar</h3>
               <p class="card-text">
                 Dr. Shah is very professional and caring. The root canal treatment was painless and quick.
               </p>
@@ -424,12 +424,12 @@
         </div>
         <!-- Third Card -->
         <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem">
-            <div class="card-body text-center">
+          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
+            <div class="card-body reviews-card-body text-center">
               <!-- Star Image -->
               <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
               <!-- Card Title and Text -->
-              <h3 class="card-title" style="margin-top: 75px;">Anjali Mehta</h3>
+              <h3 class="card-title" style="padding:  20px 0;">Anjali Mehta</h3>
               <p class="card-text">
                 Excellent service and friendly staff. My teeth whitening experience was fantastic.
               </p>
