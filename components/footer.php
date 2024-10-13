@@ -143,8 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                         <h6 class="text-light">Saturday</h6>
                     </div>
                     <div class="col-6">
-                        <h6 class="text-light
-                        ">9:00 AM - 8:30 PM</h6>
+                        <h6 class="text-light">9:00 AM - 8:30 PM</h6>
                     </div>
                 </div>
                 <div class="row">
