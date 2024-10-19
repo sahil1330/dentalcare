@@ -29,7 +29,7 @@ body {
   left: 0;
   width: 100%;
   height: 100svh;
-  background: url("../imgs/sample.jpg") no-repeat center center;
+  background: url("../images/dr-imgs/contact-banner-gero.webp") no-repeat center center;
   background-size: cover;
   filter: blur(5px); /* Adjust the blur amount as needed */
   z-index: -1; /* Place the image behind the content */
@@ -37,7 +37,7 @@ body {
 
 .header-content {
   position: relative; /* Ensure this content is above the blurred image */
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 20px;
 }
 
@@ -52,8 +52,8 @@ body {
   font-size: 1.4rem;
   border-radius: 30px;
   background-color: transparent;
-  border: 2px solid rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   cursor: pointer;
   font-family: var(--second-main-font);
