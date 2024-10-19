@@ -80,10 +80,10 @@ try {
         <div class="header-section-container">
             <div class="header-image"></div>
             <div class="header-content">
-                <h1>EXPLORE OUR SERVICES</h1>
+                <h1>CONATCT US</h1>
                 <button>HERE</button>
                 <div class="cta">
-                    <a href="#">What’s behind your smile?</a>
+                    <a href="#">Click to go to the Contact form</a>
                 </div>
             </div>
         </div>
