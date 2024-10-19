@@ -61,13 +61,13 @@ body {
 }
 
 .header-content .cta {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   margin-top: 20px;
 }
 
 .header-content .cta a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: var(--main-font);
 }
