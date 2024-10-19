@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 .header-section {
-  background: url("../imgs/sample.jpg") no-repeat center center;
+  background: url("../images/dr-imgs/contact-banner-gero.webp") no-repeat center center;
   background-size: cover;
   min-height: 100svh;
   display: flex;
