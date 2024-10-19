@@ -4,27 +4,44 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.header-section {
-  background: url("../images/dr-imgs/contact-banner-gero.webp") no-repeat center center;
-  background-size: cover;
+.header-section-container {
+  position: relative;
   min-height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   text-align: center;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  overflow: hidden; /* Ensure that blurred image does not overflow */
+  background: #61abd7;
+  z-index: -2;
+}
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100svh;
+  background: url("../images/dr-imgs/contact-banner-gero.webp") no-repeat center center;
+  background-size: cover;
+  filter: blur(5px); /* Adjust the blur amount as needed */
+  z-index: -1; /* Place the image behind the content */
 }
 
-.header-section h1 {
+.header-content {
+  position: relative; /* Ensure this content is above the blurred image */
   color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.header-content h1 {
   font-size: 3rem;
   font-weight: bold;
   font-family: var(--hero-text-font);
 }
 
-.header-section button {
+.header-content button {
   padding: 10px 30px;
   font-size: 1.4rem;
   border-radius: 30px;
@@ -37,20 +54,17 @@ html {
   width: 60%;
 }
 
-.header-section .cta {
-  position: absolute;
-  bottom: 50px;
-  left: 100px;
-  color: rgb(0, 0, 0);
+.header-content .cta {
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
+  margin-top: 20px;
 }
 
-.header-section .cta a {
-  color: rgb(0, 0, 0);
+.header-content .cta a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: var(--main-font);
 }
-
 .contact-form-section {
   background: linear-gradient(
     291deg,

@@ -66,6 +66,9 @@ try {
 </head>
 
 <body>
+   
+    <!-- Header Section -->
+    <section class="header-section">
     <nav style="z-index: 1002; 
            position: absolute;
             width: 100%;
@@ -74,14 +77,14 @@ try {
         <?php include 'new-responsive-nav.php'; ?>
     </nav>
 
-    <!-- Header Section -->
-    <section class="header-section">
-
-        <div>
-            <h1>CONTACT US</h1>
-            <a href="#contact-form-section"><button>NOW</button></a>
-            <div class="cta">
-                <a href="#">What's behind your smile?</a>
+        <div class="header-section-container">
+            <div class="header-image"></div>
+            <div class="header-content">
+                <h1>EXPLORE OUR SERVICES</h1>
+                <button>HERE</button>
+                <div class="cta">
+                    <a href="#">What’s behind your smile?</a>
+                </div>
             </div>
         </div>
     </section>
