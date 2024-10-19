@@ -15,7 +15,7 @@ html {
   border-bottom-right-radius: 40px;
   overflow: hidden; /* Ensure that blurred image does not overflow */
   background: #61abd7;
-  z-index: -2;
+  z-index: z-index: 1010;;
 }
 .header-image {
   position: absolute;
@@ -75,6 +75,7 @@ html {
   );
   padding: 60px 20px;
   margin-top: -50px;
+  z-index: 500;
 }
 
 .contact-form-section h2 {
