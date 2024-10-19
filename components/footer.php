@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 </div>
                 <div class="form-floating col-md-4 email-form">
                     <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address:</label>
+                    <label for="floatingInput" style="left: 10px;">Email address:</label>
                 </div>
                 <div class="col-md-3 footer-submit-button">
                     <button type="submit" name="subscribe" class="btn-submit">Submit</button>
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
         <div class="row main-row">
             <div class="main-info col-md-5">
                 <div class="row row1 mb-0">
-                    <div class="image col-4">
+                    <div class="col-4 image">
                         <img src="icons/logo.svg" alt="logo">
                     </div>
                     <div class="heading-content col-md-8">
@@ -241,10 +241,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 </div>
             </div>
         </div>
-        <div class="big-line-row" style="margin: 0;">
+        <div class="big-line-row" style="margin-top: 20px;">
             <div class="big-line"></div>
         </div>
-        <div class="row">
+        <div class="row" style="padding: 16px;">
             <h6 class="text-center text-light">@COPYRIGHT 2024 | All right are reserved to <a href="https://www.newagedentalclinic.com/" class="text-light">New Age Dental Clinic</a>
                 <!-- <a href="https://sahilmane.me" class="text-light">Sahil Mane</a> and <a href="https://harshugupta.me" class="text-light">Harsh Gupta</a> -->
             </h6>

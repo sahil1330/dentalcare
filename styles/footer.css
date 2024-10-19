@@ -11,7 +11,6 @@ footer {
 
 footer > .container2 {
   display: grid;
-  height: 75vh;
   width: 100%;
   margin: auto;
   background: linear-gradient(
@@ -36,7 +35,6 @@ footer > .container2 {
   height: 24%;
   background: linear-gradient(to bottom, #c2c2c2, #f3f3f3);
   position: absolute;
-  top: -10%;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -61,7 +59,7 @@ footer > .container2 {
 }
 
 .main-row {
-  height: 80%;
+  height: 85%;
 }
 
 .main-info > .row1 {
@@ -222,26 +220,25 @@ footer > .container2 {
   width: 20px;
   height: auto;
 }
+.form-floating>label{
+  left: 10px;
+}
 @media (max-width: 768px) {
-  footer{
-    height: 160vh;
-    position: relative;
-    bottom: 0;
+  .main-info > .row1 {
+    margin-top: 0;
   }
-  footer > .container2 {
-    height: 142vh;
-    position: absolute;
-    bottom: 0;
-  }
-
   .form-wrapper2 {
+    height: auto;
+    background: transparent;
     padding: 1.5rem 0;
-    height: 22%;
-    top: -17%;
+    position: relative;
   }
   .footer-form-heading {
     margin: 0;
     text-align: center;
+  }
+  .footer-form-heading h1{
+    color: white;
   }
   .form-floating {
     margin-bottom: 14px;
@@ -249,6 +246,10 @@ footer > .container2 {
   .footer-submit-button {
     display: flex;
     justify-content: center;
+  }
+  .btn-submit{
+    background: transparent;
+    border: 1px solid white;
   }
   .image {
     display: grid;
@@ -259,6 +260,8 @@ footer > .container2 {
     width: 150px;
     height: 150px;
     padding: 10px 0px 2px 2px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
   }
 
   .icon img {
@@ -270,9 +273,7 @@ footer > .container2 {
     height: 0%;
     gap: 50px;
   }
-  .main-info > .row1 {
-    margin-top: 16%;
-  }
+
   .main-info .row3 {
     margin-left: 2%;
   }
@@ -302,22 +303,16 @@ footer > .container2 {
   }
 }
 @media (max-width: 400px) {
-  footer > .container2 {
-    height: 156vh;
-  }
+
 }
 @media (max-width: 380px) {
-  footer > .container2 {
-    height: 200vh;
-  }
+
   .footer-form-heading h1 {
     margin-bottom: 0;
   }
   @media (max-width: 380px) {
     .form-wrapper2 {
       padding: 1.5rem 0;
-      height: 20%;
-      top: -15%;
     }
     .form-floating {
       margin-bottom: 14px;
@@ -325,21 +320,12 @@ footer > .container2 {
   }
 }
 @media (max-width: 400px) and (max-height: 800px) {
-  footer {
-    height: 216vh;
-  }
-  footer > .container2 {
-    height: 170vh;
-  }
+
   .form-wrapper2 {
     padding: 1.5rem 0;
-    height: 29%;
-    top: -24%;
   }
 }
 
 @media (max-width: 400px) and (max-height: 670px) {
-  footer > .container2 {
-    height: 184vh;
-  }
+
 }
