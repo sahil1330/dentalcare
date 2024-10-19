@@ -18,7 +18,7 @@ html {
 }
 
 .header-section h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: bold;
   font-family: var(--hero-text-font);
@@ -29,8 +29,8 @@ html {
   font-size: 1.4rem;
   border-radius: 30px;
   background-color: transparent;
-  border: 2px solid rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   cursor: pointer;
   font-family: var(--second-main-font);
