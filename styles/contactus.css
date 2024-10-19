@@ -33,12 +33,14 @@ html {
   position: relative; /* Ensure this content is above the blurred image */
   color: rgb(255, 255, 255);
   padding: 20px;
+  z-index: 900;
 }
 
 .header-content h1 {
   font-size: 3rem;
   font-weight: bold;
   font-family: var(--hero-text-font);
+  z-index: 900;
 }
 
 .header-content button {
@@ -52,19 +54,24 @@ html {
   cursor: pointer;
   font-family: var(--second-main-font);
   width: 60%;
+  z-index: 900;
 }
 
 .header-content .cta {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   margin-top: 20px;
+  z-index: 900;
 }
 
 .header-content .cta a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: var(--main-font);
+  z-index: 900;
 }
+
+
 .contact-form-section {
   background: linear-gradient(
     291deg,
