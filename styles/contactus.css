@@ -15,7 +15,7 @@ html {
   border-bottom-right-radius: 40px;
   overflow: hidden; /* Ensure that blurred image does not overflow */
   background: #61abd7;
-  z-index: z-index: 1010;;
+  z-index: z-index: 600;;
 }
 .header-image {
   position: absolute;
