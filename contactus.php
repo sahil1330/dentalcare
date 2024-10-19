@@ -81,7 +81,7 @@ try {
             <div class="header-image"></div>
             <div class="header-content">
                 <h1>CONATCT US</h1>
-                <button>HERE</button>
+                <button onclick="location.href='#contact-form-section'">NOW</button>
                 <div class="cta">
                     <a href="#">Click to go to the Contact form</a>
                 </div>
