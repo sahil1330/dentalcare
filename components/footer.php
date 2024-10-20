@@ -124,6 +124,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     width: 90%;
                     margin: 20px auto;
                 }
+                    padding-left: 20px;
+                    padding-right: 20px;
             }">
                 <h2 class="text-light text-center">Open Hours</h2>
                 <p class="text-light">
