@@ -103,8 +103,8 @@
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
-          <button class="btn-contact" data-aos="fade-left">Contact Us​</button>
-          <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
+          <button class="btn-contact" data-aos="fade-left" onclick="window.location.href='contactus'">Contact Us</button>
+          <!-- <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'"> -->
             <img src="icons/phone.svg" alt="Telephone" />8169523831
           </button>
         </div>
@@ -268,10 +268,10 @@
             </div>
             <div class="short-about-left-buttons row gap-3">
               <div class="col-md-4">
-                <button class="btn-contact">Contact Us</button>
+                <button class="btn-contact" onclick="window.location.href='contactus'">Contact Us</button>
               </div>
               <div class="col-md-6">
-                <button class="btn-phone">
+                <button class="btn-phone" onclick="window.location.href='tel:+918169523831'">
                   <img src="icons/phone.svg" alt="Telephone" />8169523831
                 </button>
               </div>
