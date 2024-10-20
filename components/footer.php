@@ -119,7 +119,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 style="width: 1px; height: 100%; background-color: white; margin: 70px 0 0 0; padding: 0 0 0 0;">
 
             </div>
-            <div style="padding-left: 20px; padding: right 20px;">
             <div class="lorem-content col-md-3 my-auto " style="@media (max-width: 768px) {
                 .lorem-content {
                     width: 90%;
@@ -158,7 +157,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     </div>
                 </div>
             </div>
-        </div>
             <div class="line-column"
                 style="width: 1px; height: 100%; background-color: white; margin: 70px 0 0 0; padding: 0 0 0 0;">
 
