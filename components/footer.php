@@ -52,7 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     <h1><b>Sign Up to our newsletter</b></h1>
                 </div>
                 <div class="form-floating col-md-4 email-form">
-                    <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
+                    <input type="email" class="form-control" name="email" id="floatingInput"
+                        placeholder="name@example.com">
                     <label for="floatingInput" style="left: 10px;">Email address:</label>
                 </div>
                 <div class="col-md-3 footer-submit-button">
@@ -119,41 +120,37 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 style="width: 1px; height: 100%; background-color: white; margin: 70px 0 0 0; padding: 0 0 0 0;">
 
             </div>
-            <div class="lorem-content col-md-3 my-auto " style="@media (max-width: 768px) {
-                .lorem-content {
-                    width: 90%;
-                    margin: 20px auto;
-                }
-                   
-            }">
-                <h2 class="text-light text-center">Open Hours</h2>
-                <p class="text-light">
-                    We are open every day to serve you better. Feel free to visit us during our working hours.
-                </p>
-                <div class="row">
-                    <div class="col-6 ">
-                        <h6 class="text-light days">Monday - Friday</h6>
-                    </div>
-                    <div class="col-6 time-col">
-                        <h6 class="text-light time
+            <div class="lorem-content col-md-3 my-auto">
+                <div style="padding: 0 20px;">
+                    <h2 class="text-light text-center">Open Hours</h2>
+                    <p class="text-light">
+                        We are open every day to serve you better. Feel free to visit us during our working hours.
+                    </p>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <h6 class="text-light days">Monday - Friday</h6>
+                        </div>
+                        <div class="col-6 time-col">
+                            <h6 class="text-light time
                         ">9:00 AM - 8:30 PM</h6>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h6 class="text-light">Saturday</h6>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="text-light">Saturday</h6>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="text-light">9:00 AM - 8:30 PM</h6>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <h6 class="text-light">9:00 AM - 8:30 PM</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h6 class="text-light">Sunday</h6>
-                    </div>
-                    <div class="col-6">
-                        <h6 class="text-light
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="text-light">Sunday</h6>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="text-light
                         ">10:00 AM - 1:00 PM</h6>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,7 +209,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                             </button>
                         </div>
                         <div class="col-6">
-                        <button class="quick-link-btn" onclick="window.location.href='blog'">
+                            <button class="quick-link-btn" onclick="window.location.href='blog'">
                                 Blogs
                                 <div class="btn-arrow">
                                     <img src="icons/slant-arrow.svg" alt="">
@@ -246,7 +243,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
             <div class="big-line"></div>
         </div>
         <div class="row" style="padding: 16px;">
-            <h6 class="text-center text-light">@COPYRIGHT 2024 | All right are reserved to <a href="https://www.newagedentalclinic.com/" class="text-light">New Age Dental Clinic</a>
+            <h6 class="text-center text-light">@COPYRIGHT 2024 | All right are reserved to <a
+                    href="https://www.newagedentalclinic.com/" class="text-light">New Age Dental Clinic</a>
                 <!-- <a href="https://sahilmane.me" class="text-light">Sahil Mane</a> and <a href="https://harshugupta.me" class="text-light">Harsh Gupta</a> -->
             </h6>
         </div>
