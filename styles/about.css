@@ -101,13 +101,14 @@
 }
 @media (max-width: 1024px) {
   .about-herosection {
-    height: 120vh;
+    height: auto;
     align-items: flex-start;
+    padding: 32px 0;
   }
   .about-wrapper {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 16vh;
+    margin-top: 18vh;
   }
   .about-hero-content {
     width: 100%;
@@ -132,6 +133,15 @@
     width: 400px;
     height: 400px;
   }
+  .about-hero-buttons {
+    gap: 0.9rem;
+  }
+  .about-hero-buttons button {
+    font-size: 0.9rem;
+  }
+  .about-hero-know-more {
+    gap: 1rem;
+  }
   .about-hero-know-more h2 {
     font-size: 3rem;
     color: #000;
@@ -141,7 +151,7 @@
 }
 @media (max-width: 768px) {
   .about-herosection {
-    height: 112vh;
+    height: auto;
   }
   .about-wrapper {
     align-items: center;
@@ -167,26 +177,7 @@
     width: 84%;
   }
 }
-@media (max-width: 380px) and (max-height: 860px) {
-  .about-herosection {
-    height: 120vh;
-  }
-}
-@media (max-width: 380px) and (max-height: 680px) {
-  .about-herosection {
-    height: 144vh;
-  }
-}
-@media (max-width: 400px) and (max-height: 800px) {
-  .about-herosection {
-    height: 126vh;
-  }
-}
-@media (max-width: 400px) and (max-height: 670px) {
-  .about-herosection {
-    height: 142vh;
-  }
-}
+
 /* about section */
 @media screen and (min-width: 1024px) {
   .about-section {
@@ -194,7 +185,6 @@
     margin-bottom: 100px;
   }
 }
-
 
 .about-section h2 {
   font-size: 3rem;
