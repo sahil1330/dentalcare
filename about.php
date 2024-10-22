@@ -13,14 +13,45 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
+    <style>
+        /* Initially hide the content that will be revealed */
+        .hidden-content {
+            display: none;
+        }
+
+        /* Optional: smooth transition when showing hidden content */
+        .hidden-content {
+            transition: max-height 0.5s ease-in-out;
+        }
+        .about-hero-read-more {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center (if needed) */
+            margin-top: 20px; /* Add some margin to the top if necessary */
+        }
+
+        .btn-read-more {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn-read-more:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
 </head>
 
 <body>
 <nav style="z-index: 1002; 
             position:absolute;
             width: 100%;
-            top: 0;
-            ">
+            top: 0;">
             <?php include 'new-responsive-nav.php'; ?>
 </nav>
     <section class="about-herosection">
@@ -43,9 +74,9 @@
                     </button>
                 </div>
             </div>
-
         </div>
     </section>
+
     <section class="about-section">
         <div class="about-someone">
             <h2 class="font-bold">About Dr. Anand Rajnikant Shah</h2>
@@ -57,62 +88,89 @@
                     personalized treatments.</p>
             </div>
         </div>
-        <div class="about-someone">
-            <h2 class="font-bold">Professional Experience and Expertise</h2>
-            <div class="about-someone-content">
-                <p>Dr. Shah's career encompasses significant roles at renowned institutions:
-                    <br>
-                    <br>
-                    New Age Dental Clinic, Panvel (2011 - Present): As a leading dentist, Dr. Shah provides
-                    comprehensive preventive and therapeutic dental care, educates patients on oral hygiene, and manages
-                    patient records with precision. He has spearheaded over 200 check-up camps aimed at raising
-                    awareness about oral hygiene and has contributed to the development of dental care awareness
-                    programs.
-                    <br>
-                    <br>
-                    Dhirubhai Ambani Hospital, Lodhivali (2008 - 2013): Dr. Shah honed his skills in performing complex
-                    dental implant procedures, teeth cleaning, and various dental surgeries. His role involved preparing
-                    patient kits, maintaining detailed records, and executing a range of dental procedures from implants
-                    to whitening.
-                    <br>
-                    <br>
-                    Acharya Shri Nanesh Hospital, CBD Belapur (2014 - 2016): Dr. Shah was responsible for overseeing the
-                    entire dental department, ensuring high standards of care and effective management.
-                </p>
-            </div>
+        
+        <!-- Read More Button -->
+       
+        <div class="about-hero-read-more">
+            <button id="read-more-btn" class="btn btn-read-more">Read More</button>
         </div>
-        <div class="about-someone">
-            <h2 class="font-bold">Educational Background</h2>
-            <div class="about-someone-content">
-                <p>Bachelor's Degree in Dental Surgery: MGM Dental College and Hospital
-                    Certification Course in New York University College of Dentistry & Smile Care <br>
-                    Post Graduate Diploma in Hospital Management: Madurai Kamaraj University <br>
-                    Certification Course in Dental Implants: Nanda Institute of Dental Implants <br>
-                    Certified Smile Practitioner: Includes TMJ Pain Management, Migraine, Tinnitus, etc. <br>
-                    Microscopic Dentistry <br>
-                    Laser Dentistry <br>
-                    Rotary Endodontics under Magnification <br>
-                    Full Mouth Rehabilitation using Dental Implants <br>
-                </p>
+
+
+
+        <!-- Hidden Content -->
+        <div id="hidden-content" class="hidden-content">
+            <div class="about-someone">
+                <h2 class="font-bold">Professional Experience and Expertise</h2>
+                <div class="about-someone-content">
+                    <p>Dr. Shah's career encompasses significant roles at renowned institutions:
+                        <br>
+                        <br>
+                        New Age Dental Clinic, Panvel (2011 - Present): As a leading dentist, Dr. Shah provides
+                        comprehensive preventive and therapeutic dental care, educates patients on oral hygiene, and manages
+                        patient records with precision. He has spearheaded over 200 check-up camps aimed at raising
+                        awareness about oral hygiene and has contributed to the development of dental care awareness
+                        programs.
+                        <br>
+                        <br>
+                        Dhirubhai Ambani Hospital, Lodhivali (2008 - 2013): Dr. Shah honed his skills in performing complex
+                        dental implant procedures, teeth cleaning, and various dental surgeries. His role involved preparing
+                        patient kits, maintaining detailed records, and executing a range of dental procedures from implants
+                        to whitening.
+                        <br>
+                        <br>
+                        Acharya Shri Nanesh Hospital, CBD Belapur (2014 - 2016): Dr. Shah was responsible for overseeing the
+                        entire dental department, ensuring high standards of care and effective management.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="about-someone">
-            <h2 class="font-bold">Professional Strengths</h2>
-            <div class="about-someone-content">
-                <p>Pioneer in Basal Implants: A leading practitioner in basal implants in Navi Mumbai. <br>
-                    Expert in Dental Tools and Equipment: Extensive knowledge of medical tools and equipment used in
-                    dental treatments. <br>
-                    Comprehensive Dental Care: Proficient in examining x-rays, teeth straightening, filling cavities,
-                    and performing dental surgeries. <br>
-                    Preventive Care Advocate: In-depth knowledge of preventive measures for teeth-related diseases and
-                    effective oral hygiene techniques. <br>
-                </p>
+            <div class="about-someone">
+                <h2 class="font-bold">Educational Background</h2>
+                <div class="about-someone-content">
+                    <p>Bachelor's Degree in Dental Surgery: MGM Dental College and Hospital
+                        Certification Course in New York University College of Dentistry & Smile Care <br>
+                        Post Graduate Diploma in Hospital Management: Madurai Kamaraj University <br>
+                        Certification Course in Dental Implants: Nanda Institute of Dental Implants <br>
+                        Certified Smile Practitioner: Includes TMJ Pain Management, Migraine, Tinnitus, etc. <br>
+                        Microscopic Dentistry <br>
+                        Laser Dentistry <br>
+                        Rotary Endodontics under Magnification <br>
+                        Full Mouth Rehabilitation using Dental Implants <br>
+                    </p>
+                </div>
+            </div>
+            <div class="about-someone">
+                <h2 class="font-bold">Professional Strengths</h2>
+                <div class="about-someone-content">
+                    <p>Pioneer in Basal Implants: A leading practitioner in basal implants in Navi Mumbai. <br>
+                        Expert in Dental Tools and Equipment: Extensive knowledge of medical tools and equipment used in
+                        dental treatments. <br>
+                        Comprehensive Dental Care: Proficient in examining x-rays, teeth straightening, filling cavities,
+                        and performing dental surgeries. <br>
+                        Preventive Care Advocate: In-depth knowledge of preventive measures for teeth-related diseases and
+                        effective oral hygiene techniques. <br>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <?php include "components/footer.php"; ?>
-    
+
+    <!-- JavaScript to toggle hidden content -->
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function() {
+            const hiddenContent = document.getElementById("hidden-content");
+
+            if (hiddenContent.style.display === "none" || hiddenContent.style.display === "") {
+                hiddenContent.style.display = "block";
+                this.textContent = "Read Less"; // Change button text
+            } else {
+                hiddenContent.style.display = "none";
+                this.textContent = "Read More"; // Reset button text
+            }
+        });
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
