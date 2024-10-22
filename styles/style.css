@@ -197,20 +197,22 @@ nav ul a {
   line-height: 1.5;
   font-size: 20px;
   border-radius: 24px;
+  border: 1px solid #000;
 }
 .btn-phone {
   display: flex;
   align-items: center;
-  background-color: #000;
+  background-color: transparent;
   padding: 8px 28px;
-  color: #fff;
+  color: black;
   letter-spacing: 1.5px;
   line-height: 1.5;
   font-size: 20px;
   border-radius: 24px;
 }
+.btn-contact:hover,
 .btn-phone:hover {
-  background-color: transparent;
+  background-color: white;
   color: #000;
   fill: #000;
 }
@@ -768,6 +770,16 @@ nav ul a {
   background-color: #fff;
   position: absolute;
 }
+.btn-contact-about {
+  background-color: transparent;
+  padding: 8px 28px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  font-size: 20px;
+  border-radius: 24px;
+  border: 1px solid white;
+}
 .short-about-right .boxes .box h2 {
   color: rgba(81, 108, 179, 0.7);
 }
@@ -788,12 +800,6 @@ nav ul a {
   right: 48px;
 }
 @media screen and (max-width: 768px) {
-  .short-about {
-    /* height: 128vh; */
-  }
-  .short-about > .container {
-    /* height: 112vh; */
-  }
   .container .short-about-left {
     width: 100%;
     height: auto;
@@ -1159,7 +1165,6 @@ nav ul a {
   }
 } */
 /* footer */
-
 
 .blog-card {
   max-width: 300px;

@@ -87,22 +87,14 @@
         <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
         <div class="hero-group-image-container" data-aos="fade-right">
           <div class="hero-group-image">
-            <img src="images/dr-imgs/hero-dsfgh.webp" alt="White Teeth" width="100%" height="100%" />
-          </div>
-          <div class="hero-group-image-content">
-            <span>
-              <p class="mb-0">What's behind your smile?</p>
-            </span>
-            <div class="hero-slant-arrow-img">
-              <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="Slant Arrow" id="hero-slant-arrow" />
-            </div>
+            <img src="images/dr-imgs/DR-INDEX-HERO.webp" alt="White Teeth" width="100%" height="100%" />
           </div>
         </div>
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
           <button class="btn-contact" data-aos="fade-left" onclick="window.location.href='contactus'">Contact Us</button>
-          <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'"> -->
+          <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
             <img src="icons/phoneblack.svg" alt="Telephone" />8169523831
           </button>
         </div>
@@ -266,11 +258,11 @@
             </div>
             <div class="short-about-left-buttons row gap-3">
               <div class="col-md-4">
-                <button class="btn-contact" onclick="window.location.href='contactus'">Contact Us</button>
+                <button class="btn-contact-about" onclick="window.location.href='contactus'">Contact Us</button>
               </div>
               <div class="col-md-6">
                 <button class="btn-phone" onclick="window.location.href='tel:+918169523831'">
-                  <img src="icons/phone.svg" alt="Telephone" />8169523831
+                  <img src="icons/phoneblack.svg" alt="Telephone" />8169523831
                 </button>
               </div>
             </div>
