@@ -119,9 +119,10 @@ footer > .container2 {
   align-items: center;
   gap: 10px;
 }
+.btn-about:hover,
 .btn-contact-footer:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #000;
 }
 .btn-contact-footer img {
   fill: #000;
@@ -173,6 +174,9 @@ footer > .container2 {
   position: relative;
 }
 
+.quick-link-btn:hover {
+  background-color: #e5e5e5;
+}
 .btn-arrow {
   background-color: #000;
   padding: 5px;

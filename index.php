@@ -41,10 +41,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-
+            <h1 class="logo-text align-items: flex-start"><i>NADC</i></h1>
             <ul class="navbar-nav mx-auto " style="align-items: center;">
               <li class="nav-item">
-
                 <a class="nav-link active" style="margin: 0; width: 100%;" aria-current="page" href="./">Home</a>
               </li>
               <li class="nav-item">
@@ -93,7 +92,8 @@
       </div>
       <div class="hero-right">
         <div class="hero-right-row1">
-          <button class="btn-contact" data-aos="fade-left" onclick="window.location.href='contactus'">Contact Us</button>
+          <button class="btn-contact" data-aos="fade-left" onclick="window.location.href='contactus'">Contact
+            Us</button>
           <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
             <img src="icons/phoneblack.svg" alt="Telephone" />8169523831
           </button>
