@@ -81,10 +81,8 @@
       <div class="hero-left">
         <h1 class="hero-left-row1" data-aos="fade-right">YOUR <b>SMILE IS</b></h1>
         <div class="hero-left-row2" data-aos="fade-right">
-          <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR</h1>
-          <div class="hero-left-row2-box" data-aos="fade-right">
-            <img src="images/dr-imgs/hero-mini-img.webp" alt="Tooth ad" />
-          </div>
+          <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR <b>HIDDEN</b></h1>
+
         </div>
         <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
         <div class="hero-group-image-container" data-aos="fade-right">
@@ -105,7 +103,7 @@
         <div class="hero-right-row1">
           <button class="btn-contact" data-aos="fade-left">Contact Us​</button>
           <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169523831'">
-            <img src="icons/phone.svg" alt="Telephone" />8169523831
+            <img src="icons/phoneblack.svg" alt="Telephone" />8169523831
           </button>
         </div>
         <div class="hero-right-row2" data-aos="fade-left">
