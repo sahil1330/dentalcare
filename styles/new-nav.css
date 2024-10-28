@@ -38,11 +38,23 @@
   width: auto;
   margin-top: 25px;
 }
-.logo-text {
+.logo-text-desktop {
   font-size: 36px;
   font-weight: bold;
-  color: #435db0;
+  background: linear-gradient(
+    130deg,
+    #61abd7 13%,
+    #5682bf 39%,
+    #5783c0 58%,
+    #516cb3 78%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-left: 75px;
+}
+.logo-text-mobile {
+  display: none;
 }
 .nav-item {
   margin-left: 25px;
@@ -106,7 +118,7 @@
     left: 0; /* Align to the left */
     transform: none; /* Remove centering for PC */
   }
- 
+
   /* Ensure the search icon is visible on PC */
   .search-box {
     display: none;
@@ -120,11 +132,26 @@
     margin-left: none;
   }
   .logo-container {
-    left: 25%;
+    left: 18%;
     transform: translateX(-50%);
     margin: 0 auto;
   }
-  .logo-text {
+  .logo-text-mobile {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(
+      130deg,
+      #61abd7 13%,
+      #5682bf 39%,
+      #5783c0 58%,
+      #516cb3 78%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .logo-text-desktop {
     display: none;
   }
   .navbar-toggler {
