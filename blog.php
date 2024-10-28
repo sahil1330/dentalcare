@@ -275,10 +275,10 @@
         observer.observe(blogSection);
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz4fnFO9gyb3B4F5eLTfCrXAVg83d6SU9M59+OpHc9B0hxJm1p5F4r4xBz"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-H8N9SvS2LnvRh0YtMSTlWqXcx6E/Ymb9l48EVHbBFSOnsb5mCR8cDZwxy8D/eM4C"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 </body>
 

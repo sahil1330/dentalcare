@@ -44,4 +44,3 @@
     <input type="text" placeholder="Search">
 </div>
 
-<!-- Scripts -->
