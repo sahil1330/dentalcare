@@ -38,6 +38,7 @@
   width: auto;
   margin-top: 25px;
 }
+
 .logo-text-desktop {
   font-size: 36px;
   font-weight: bold;
@@ -135,6 +136,10 @@
     left: 18%;
     transform: translateX(-50%);
     margin: 0 auto;
+  }
+  .logo-img {
+    position: absolute;
+    left: 8%;
   }
   .logo-text-mobile {
     display: block;

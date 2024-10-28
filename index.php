@@ -29,9 +29,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container" style="justify-content: center;">
-          
-            <img src="icons/logo.svg" alt="Logo">
-          
+          <img src="icons/logo.svg" class="logo-img" alt="Logo">
           <h1 class="logo-text-mobile"><i>NADC</i></h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
