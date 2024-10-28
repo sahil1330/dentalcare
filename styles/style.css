@@ -335,16 +335,16 @@ nav ul a {
 
 @media (max-width: 768px) {
   .hero-section {
-    height: 146vh;
+    height: auto;
   }
   .hero-content {
-    height: 200vh;
+    height: auto;
     flex-direction: column;
     gap: 20px;
   }
   .hero-left {
     width: 100%;
-    height: 44vh;
+    height: auto;
   }
   .hero-left h1 {
     font-size: 36px;
@@ -355,7 +355,7 @@ nav ul a {
   }
   .hero-right {
     width: 100%;
-    height: 50vh;
+    height: auto;
   }
   .hero-group-image img {
     position: relative;
@@ -378,7 +378,7 @@ nav ul a {
 
   .hero-right {
     width: 100%;
-    height: 140vh;
+    height: auto;
   }
   .hero-right-row1 > button {
     letter-spacing: 1px;
@@ -398,53 +398,14 @@ nav ul a {
   }
   .hero-right-row4 {
     flex-direction: column;
-    height: 60%;
+    height: auto;
   }
   .hero-right-row4 > div {
     width: 100%;
-    height: 60%;
+    height: auto;
   }
 }
-@media (max-width: 400px) {
-  .hero-section {
-    height: 149vh;
-  }
-  .hero-right {
-    height: 150vh;
-  }
-}
-@media (max-width: 380px) {
-  .hero-left {
-    height: 73vh;
-  }
 
-  .hero-section {
-    height: 244vh;
-  }
-  .hero-content {
-    height: 236vh;
-  }
-  .hero-right {
-    height: 229vh;
-  }
-}
-@media (max-width: 400px) and (max-height: 800px) and (min-height: 700px) {
-  .hero-section {
-    height: 178vh;
-  }
-
-  .hero-left {
-    height: 60vh;
-  }
-  .hero-group-image-container {
-    height: 42%;
-  }
-}
-@media (max-width: 400px) and (max-height: 670px) {
-  .hero-section {
-    height: 180vh;
-  }
-}
 /* Services we provide section */
 .service-section {
   background: linear-gradient(
@@ -810,7 +771,6 @@ nav ul a {
     height: auto;
     display: grid;
     place-items: center;
-    margin: 14vh 0 0;
   }
   .short-about-right > .boxes > .box {
     display: none;

@@ -66,21 +66,21 @@ try {
 </head>
 
 <body>
-   
+
     <!-- Header Section -->
     <section class="header-section">
-    <nav style="z-index: 1002; 
+        <nav style="z-index: 1002; 
            position: absolute;
             width: 100%;
             top: 0;
             ">
-        <?php include 'new-responsive-nav.php'; ?>
-    </nav>
+            <?php include 'new-responsive-nav.php'; ?>
+        </nav>
 
         <div class="header-section-container">
             <div class="header-image"></div>
             <div class="header-content">
-                <h1>CONATCT US</h1>
+                <h1>CONTACT US</h1>
                 <button onclick="location.href='#contact-form-section'">NOW</button>
                 <div class="cta">
                     <a href="#">Click to go to the Contact form</a>
@@ -200,7 +200,9 @@ try {
                                 <img src="icons/icon-mail.svg" alt="Email Icon">
                             </div>
                             <div class="col-5">
-                                <p><a href="mailto:newagedentalclinicpanvel@gmail.com ">newagedentalclinicpanvel@gmail.com</a></p>
+                                <p><a
+                                        href="mailto:newagedentalclinicpanvel@gmail.com ">newagedentalclinicpanvel@gmail.com</a>
+                                </p>
                             </div>
                         </div>
                         <div class="row mb-4">

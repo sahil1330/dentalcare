@@ -12,11 +12,7 @@
   <link rel="stylesheet" href="styles/fonts.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script> -->
   <style>
     body {
       font-family: var(--main-font);
@@ -32,16 +28,17 @@
     <div class="nav-bar-box">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container">
+        <div class="container" style="justify-content: center;">
           <a href="./" class="logo-container">
             <img src="icons/logo.svg" alt="Logo">
           </a>
+          <h1 class="logo-text-mobile"><i>NADC</i></h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <h1 class="logo-text align-items: flex-start"><i>NADC</i></h1>
+            <h1 class="logo-text-desktop align-items: flex-start;"><i>New Age Dental Clinic</i></h1>
             <ul class="navbar-nav mx-auto " style="align-items: center;">
               <li class="nav-item">
                 <a class="nav-link active" style="margin: 0; width: 100%;" aria-current="page" href="./">Home</a>
@@ -127,15 +124,6 @@
             <div class="carousel-item">
               <img src="images/dr-imgs/dr-slider-4.webp" class="slideimg w-100" alt="images/toothbrush.jpg">
             </div>
-            <!-- <img src="images/toothbrush.jpg" alt="slide1" />
-            <div class="hero-right-row4-box1-content">
-              <h6>Get a deep clean with 360</h6>
-              <a href="services.php">
-                <button href="services.php" class="btn-arrow" style="background-color: #000">
-                  <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
-                </button>
-              </a>
-            </div> -->
           </div>
 
         </div>
@@ -186,51 +174,6 @@
     </div>
   </section>
 
-  <!-- <div class="slider-wrapper">
-      <div class="slider">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/slide.svg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="images/slide.svg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="images/slide.svg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="images/slide.svg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="images/slide.svg" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="navigators">
-      <div class="navigator active" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
-        aria-current="true" aria-label="Slide 1"></div>
-      <div class="navigator" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2">
-      </div>
-      <div class="navigator" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3">
-      </div>
-      <div class="navigator" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4">
-      </div>
-      <div class="navigator" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5">
-      </div>
-    </div> -->
   <div class="videoSection">
     <video id="lazy-video" autoplay loop muted>
       <source data-src="videos/video1.mp4" type="video/mp4">
@@ -259,11 +202,6 @@
             <div class="short-about-left-buttons row gap-3">
               <div class="col-md-4">
                 <button class="btn-contact-about" onclick="window.location.href='contactus'">Contact Us</button>
-              </div>
-              <div class="col-md-6">
-                <button class="btn-phone" onclick="window.location.href='tel:+918169523831'">
-                  <img src="icons/phoneblack.svg" alt="Telephone" />8169523831
-                </button>
               </div>
             </div>
             <div class="short-about-left-footer">
@@ -298,56 +236,7 @@
       </div>
     </div>
   </section>
-  <!-- <section class="exclusive-updates">
-    <div class="container my-4">
-      <h1 align="center"><b>About our Doctors</b></h1>
-      <div class="card-wrapper d-flex justify-content-center align-items-center">
-        <div class="row row-gap-3">
-          <div class="col-md-4">
 
-            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-              <div class="card-body p-0 card-dr-1">
-                <div class="card-content">
-                  <h5 class="card-title">Dr. Anand Rajnikant Shah</h5>
-                  <p class="card-text">
-                    Dr. Shah has 13+ years of experience and holds a BDS from MGM Dental College. He also completed a
-                    certification at NYU College of Dentistry.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-
-            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-              <div class="card-body p-0 card-dr-2">
-                <div class="card-content">
-                  <h5 class="card-title">Dental Implants</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-              <div class="card-body p-0 card-dr-3">
-                <div class="card-content">
-                  <h5 class="card-title">Dental Implants</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
   <section style="margin-bottom: 20px;">
     <h2 class="blog-section-header">Our Blogs</h2>
     <?php include "blog-section-test.html"; ?>
