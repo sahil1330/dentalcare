@@ -41,7 +41,16 @@
 .logo-text-desktop {
   font-size: 36px;
   font-weight: bold;
-  color: #435db0;
+  background: linear-gradient(
+    130deg,
+    #61abd7 13%,
+    #5682bf 39%,
+    #5783c0 58%,
+    #516cb3 78%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-left: 75px;
 }
 .logo-text-mobile {
@@ -131,7 +140,16 @@
     display: block;
     font-size: 36px;
     font-weight: bold;
-    color: #435db0;
+    background: linear-gradient(
+      130deg,
+      #61abd7 13%,
+      #5682bf 39%,
+      #5783c0 58%,
+      #516cb3 78%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
   .logo-text-desktop {
     display: none;

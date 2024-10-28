@@ -20,7 +20,7 @@
   </style>
 </head>
 
-<body>
+<body style="background: #ecf3f9;">
   <header>
 
 
@@ -29,9 +29,9 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container" style="justify-content: center;">
-          <a href="./" class="logo-container">
+          
             <img src="icons/logo.svg" alt="Logo">
-          </a>
+          
           <h1 class="logo-text-mobile"><i>NADC</i></h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,31 +142,31 @@
         </div>
         <div class="box service-box2">
           <div class="service" data-aos="fade-up">
-            <img src="icons/cavity.png" alt="">
+            <img src="icons/cavity color.png" alt="">
             <h3>Cavity Prevention</h3>
           </div>
           <div class="service" data-aos="fade-up">
-            <img src="icons/root-canal.png" alt="">
+            <img src="icons/root-canal color.png" alt="">
             <h3>Root Canal Treatment</h3>
           </div>
         </div>
         <div class="box service-box3">
           <div class="service" data-aos="fade-left">
-            <img src="icons/dental-implant.png" alt="">
+            <img src="icons/implant.png" alt="">
             <h3>Dental Implants</h3>
           </div>
           <div class="service" data-aos="fade-left">
-            <img src="icons/toothpaste.png" alt="">
+            <img src="icons/toothpaste color.png" alt="">
             <h3>Dental Products</h3>
           </div>
         </div>
         <div class="box service-box4">
           <div class="service" data-aos="fade-up">
-            <img src="icons/tooth-extraction.png" alt="">
+            <img src="icons/extraction.png" alt="">
             <h3>Tooth Extraction</h3>
           </div>
           <div class="service" data-aos="fade-up">
-            <img src="icons/tooth-whitening.png" alt="">
+            <img src="icons/tooth-whitening 2 color.png" alt="">
             <h3>Teeth Whitening</h3>
           </div>
         </div>

@@ -94,9 +94,7 @@ nav ul a {
   }
 } */
 .hero-section {
-  background: linear-gradient(180deg, #e0e0e0 0%, #f3f3f3 100%);
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  background: #ecf3f9;
   height: 100vh;
   padding: 1vh 0;
 }
@@ -543,7 +541,16 @@ nav ul a {
 
 .service h3 {
   font-size: 24px;
-  color: #000;
+  background: linear-gradient(
+    130deg,
+    #61abd7 13%,
+    #5682bf 39%,
+    #5783c0 58%,
+    #516cb3 78%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   padding: 20px;
   text-align: center;
   font-weight: 700;
@@ -749,7 +756,7 @@ nav ul a {
   right: 48px;
 }
 @media screen and (max-width: 768px) {
-  .short-about > .container{
+  .short-about > .container {
     padding: 32px 0;
   }
   .container .short-about-left {
