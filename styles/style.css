@@ -420,9 +420,13 @@ nav ul a {
 
 #services-section-heading {
   font-size: 36px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
-  padding: 30px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
 }
 
 .service-wrapper {
@@ -672,7 +676,13 @@ nav ul a {
   gap: 40px;
 }
 .short-about-left-heading h1 {
-  color: #fff;
+  font-size: 36px;
+  color: #ffffff;
+  
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  
 }
 .short-about-left-description {
   width: 80%;
@@ -1175,11 +1185,11 @@ nav ul a {
 }
 
 .blog-section-header {
-  text-align: center;
-  color: #000000;
-  margin-bottom: 10px; /* Space between header and cards */
-  font-family: var(--second-main-font);
-  font-weight: 700;
   font-size: 36px;
-  margin-top: 30px;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
 }
