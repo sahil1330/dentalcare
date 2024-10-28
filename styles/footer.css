@@ -111,8 +111,8 @@ footer > .container2 {
 .btn-contact-footer {
   background: transparent;
   padding: 12px 22px;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   border-radius: 40px;
   display: flex;
   justify-content: center;
