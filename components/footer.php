@@ -77,9 +77,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 </div>
                 <div class="row row2">
                     <div class="col-2">
+                    <a href="https://www.newagedentalclinic.com/" target="_blank">
                         <div class="icon">
                             <img src="icons/computer-line.svg" alt="phone">
                         </div>
+                    </a>
                     </div>
                     <div class="col-2">
                         <div class="icon">
@@ -87,9 +89,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                         </div>
                     </div>
                     <div class="col-2">
+                    <a href="https://www.facebook.com/people/New-AGE-Dental-Clinic/100068596843168/" target="_blank">
                         <div class="icon">
                             <img src="icons/facebook-circle-fill.svg" alt="phone">
                         </div>
+                    </a>
                     </div>
                     <div class="col-2">
                         <div class="icon">
@@ -97,9 +101,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                         </div>
                     </div>
                     <div class="col-2">
+                        <a href="https://wa.me/+918169258231"  target="_blank">
                         <div class="icon">
-                            <img src="icons/youtube-fill.svg" alt="phone">
+                            <img src="icons/whatsapp-fill-black.svg" alt="phone" style="">
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row row3">

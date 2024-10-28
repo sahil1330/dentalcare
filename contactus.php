@@ -150,7 +150,7 @@ try {
                             <!-- Custom Facebook Icon -->
                             <a href="https://www.facebook.com/people/New-AGE-Dental-Clinic/100068596843168/"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
-                                style="width: 60px; height: 60px;">
+                                style="width: 60px; height: 60px;" target="_blank">
                                 <img src="icons/facebook-circle-fill-white.svg" alt="Facebook"
                                     style="width: 30px; height: 30px;">
                             </a>
@@ -168,10 +168,10 @@ try {
                                 <img src="icons/twitter-x-fill-white.svg" alt="Twitter"
                                     style="width: 30px; height: 30px;">
                             </a>
-                            <!-- Custom YouTube Icon -->
+                            <!-- Custom WA Icon -->
                             <a href="https://wa.me/+918169258231"
                                 class="btn btn-outline-dark rounded-circle d-flex align-items-center justify-content-center"
-                                style="width: 60px; height: 60px;">
+                                style="width: 60px; height: 60px;" target="_blank">
                                 <img src="icons/whatsapp-fill-white.svg" alt="Whatsapp"
                                     style="width: 30px; height: 30px;">
                             </a>
