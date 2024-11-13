@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .reviewCards {
+            display: flex;
+            gap: 20px;
+            margin: auto;
+            width: 80%;
+        }
+
+        .reviewCard {
+            border: 1px solid #ccc;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 16px;
+            width: 380px;
+            height: auto;
+            background-color: azure;
+        }
+
+        .reviewCard-header {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .header-heading {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+
+        .header-description {
+            color: #7b7b7b
+        }
+
+        .rating {
+            display: flex;
+            gap: 10px;
+            margin: 14px 0;
+        }
+
+        .rating i {
+            color: #ffd700
+        }
+
+        .rating p {
+            margin: 0;
+            font-size: 18px;
+            color: #7b7b7b;
+        }
+
+        .description {
+            margin-bottom: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .reviewCards {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="review-container">
+        <div class="reviewCards">
+            <div class="reviewCard">
+                <div class="reviewCard-header">
+                    <img src="images/avatars/avatar.png" width="40px" height="40px" alt="avatar">
+                    <div class="header-content">
+                        <div class="header-text">
+                            <h3 class="header-heading">Pankaj Vasudeva</h3>
+                        </div>
+                        <div class="header-description">5 reviews . 1 photo </div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>3 months ago</p>
+                </div>
+                <div class="description">
+                    My old front tooth crown fell off & I immediately called Dr. Anand Shah & rushed to his clinic.
+                    There I
+                    was attended to by Dr. Dimple Chaudhary with a smile. She got to work instantly & I had my crown
+                    fixed
+                    in 15 minutes. The staff is polite & courteous too. It was a good experience. This clinic is 100%
+                    recommended.
+                </div>
+            </div>
+            <div class="reviewCard">
+                <div class="reviewCard-header">
+                    <img src="images/avatars/avatar2.png" width="50px" height="50px" alt="avatar">
+                    <div class="header-content">
+                        <div class="header-text">
+                            <h3 class="header-heading"></h3>
+                        </div>
+                        <div class="header-description">1 review</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>10 months ago</p>
+                </div>
+                <div class="description">
+                    My recent visit to the dental clinic was positive overall. The clinic had a clean and inviting
+                    environment. The staff were friendly and efficient in handling appointments. The waiting time was
+                    minimal, and the dental professionals were thorough in their examination. They explained the
+                    procedures clearly and addressed all my concerns.
+                </div>
+            </div>
+            <div class="reviewCard">
+                <div class="reviewCard-header">
+                    <img src="images/avatars/avatar3.png" width="50px" height="50px" alt="avatar">
+                    <div class="header-content">
+                        <div class="header-text">
+                            <h3 class="header-heading">Alpa Bhawani</h3>
+                        </div>
+                        <div class="header-description">1 review </div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>10 months ago</p>
+                </div>
+                <div class="description">
+                    Highly recommended!
+
+                    I had a great experience with Dr. Anand Shah and their staff. Their professionalism and caring
+                    demeanor immediately put me at ease. They took the time to listen to my concerns, conducted a
+                    thorough examination, and explained the diagnosis and treatment plan in a way I could understand.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
