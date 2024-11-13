@@ -18,6 +18,7 @@
       font-family: var(--main-font);
     }
   </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body style="background: #ecf3f9;">
@@ -73,12 +74,12 @@
   <section class="hero-section">
     <div class="hero-content">
       <div class="hero-left">
-        <h1 class="hero-left-row1" data-aos="fade-right">YOUR <b>SMILE IS</b></h1>
+        <h1 class="hero-left-row1" data-aos="fade-right"> <b>DISTRIBUTING</b></h1>
         <div class="hero-left-row2" data-aos="fade-right">
-          <h1 class="hero-left-row2-text" data-aos="fade-right">YOUR <b>HIDDEN</b></h1>
+          <h1 class="hero-left-row2-text" data-aos="fade-right">REASON <b>TO</b></h1>
 
         </div>
-        <h1 class="" data-aos="fade-right"><b>SUPERPOWER</b></h1>
+        <h1 class="" data-aos="fade-right"><b>SMILE</b></h1>
         <div class="hero-group-image-container" data-aos="fade-right">
           <div class="hero-group-image">
             <img src="images/dr-imgs/DR-INDEX-HERO.webp" alt="White Teeth" width="100%" height="100%" />
@@ -265,61 +266,13 @@
     <div class="container my-4">
       <h1>PATIENT REVIEWS</h1>
       <p>Check our happy customers reviews and check their wonderful experience</p>
-      <div class="cards row row-gap-4">
-        <!-- First Card -->
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-            <div class="card-body reviews-card-body text-center">
-              <!-- Star Image -->
-              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-              <!-- Card Title and Text -->
-
-              <h3 class="card-title" style="padding:  20px 0;">Rajesh Kumar</h3>
-              <p class="card-text">
-                Love Dr. Shah and his wonderful staff! They always go above and beyond to be sure you are taken care of.
-              </p>
-              <!-- <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Second Card -->
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-            <div class="card-body reviews-card-body text-center">
-              <!-- Star Image -->
-              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-              <!-- Card Title and Text -->
-              <h3 class="card-title" style="padding:  20px 0;">Ajay Nadar</h3>
-              <p class="card-text">
-                Dr. Shah is very professional and caring. The root canal treatment was painless and quick.
-              </p>
-              <!-- <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a> -->
-            </div>
-          </div>
-        </div>
-        <!-- Third Card -->
-        <div class="col-md-4">
-          <div class="card" data-aos="fade-up" style="width: 22rem; height: auto;">
-            <div class="card-body reviews-card-body text-center">
-              <!-- Star Image -->
-              <img src="icons/stars.svg" alt="Star Rating" class="img-fluid mb-2" style="width: 200px;">
-              <!-- Card Title and Text -->
-              <h3 class="card-title" style="padding:  20px 0;">Anjali Mehta</h3>
-              <p class="card-text">
-                Excellent service and friendly staff. My teeth whitening experience was fantastic.
-              </p>
-              <!-- <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include "googlereview.html"; ?>
     </div>
   </section>
 
-  <?php include"components/footer.php"; ?>
+  <?php include "components/footer.php"; ?>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -332,6 +285,7 @@
     AOS.init();
   </script>
   <script>
+
     document.addEventListener("DOMContentLoaded", function () {
       const video = document.getElementById('lazy-video');
       const videoSrc = video.querySelector('source').getAttribute('data-src');
@@ -351,6 +305,7 @@
       observer.observe(video);
     });
   </script>
+
 </body>
 
 </html>
