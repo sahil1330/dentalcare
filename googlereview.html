@@ -77,94 +77,85 @@
 </head>
 
 <body> -->
-<div class="review-container">
-    <div class="reviewCards">
-        <div class="reviewCard">
-            <div class="reviewCard-header">
-                <img src="images/avatars/avatar.png" width="40px" height="40px" alt="avatar">
-                <div class="header-content">
-                    <div class="header-text">
-                        <h3 class="header-heading">Pankaj Vasudeva</h3>
-                    </div>
-                    <div class="header-description">5 reviews . 1 photo </div>
-                </div>
-            </div>
-            <div class="rating">
-                <div class="stars">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                </div>
-                <p>3 months ago</p>
-            </div>
-            <div class="description">
-                My old front tooth crown fell off & I immediately called Dr. Anand Shah & rushed to his clinic.
-                There I
-                was attended to by Dr. Dimple Chaudhary with a smile. She got to work instantly & I had my crown
-                fixed
-                in 15 minutes. The staff is polite & courteous too. It was a good experience. This clinic is 100%
-                recommended.
-            </div>
-        </div>
-        <div class="reviewCard">
-            <div class="reviewCard-header">
-                <img src="images/avatars/avatar2.png" width="50px" height="50px" alt="avatar">
-                <div class="header-content">
-                    <div class="header-text">
-                        <h3 class="header-heading">Aadhit Bhawani</h3>
-                    </div>
-                    <div class="header-description">1 review</div>
-                </div>
-            </div>
-            <div class="rating">
-                <div class="stars">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                </div>
-                <p>10 months ago</p>
-            </div>
-            <div class="description">
-                My recent visit to the dental clinic was positive overall. The clinic had a clean and inviting
-                environment. The staff were friendly and efficient in handling appointments. The waiting time was
-                minimal, and the dental professionals were thorough in their examination. They explained the
-                procedures clearly and addressed all my concerns.
-            </div>
-        </div>
-        <div class="reviewCard">
-            <div class="reviewCard-header">
-                <img src="images/avatars/avatar3.png" width="50px" height="50px" alt="avatar">
-                <div class="header-content">
-                    <div class="header-text">
-                        <h3 class="header-heading">Alpa Bhawani</h3>
-                    </div>
-                    <div class="header-description">1 review </div>
-                </div>
-            </div>
-            <div class="rating">
-                <div class="stars">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                    <img src="icons/star.svg" alt="">
-                </div>
-                <p>10 months ago</p>
-            </div>
-            <div class="description">
-                Highly recommended!
-
-                I had a great experience with Dr. Anand Shah and their staff. Their professionalism and caring
-                demeanor immediately put me at ease. They took the time to listen to my concerns, conducted a
-                thorough examination, and explained the diagnosis and treatment plan in a way I could understand.
-            </div>
+    <div class="review-container">
+        <div class="reviewCards" id="reviewCards">
+            <!-- JavaScript will inject random review cards here -->
         </div>
     </div>
-</div>
+
+    <script>
+        const reviews = [
+            {
+                name: "Pankaj Vasudeva",
+                profilePic: "images/avatars/avatar.png",
+                reviewText: "My old front tooth crown fell off & I immediately called Dr. Anand Shah & rushed to his clinic. There I was attended to by Dr. Dimple Chaudhary with a smile. She got to work instantly & I had my crown fixed in 15 minutes. The staff is polite & courteous too. It was a good experience. This clinic is 100% recommended.",
+                reviewCount: "5 reviews . 1 photo",
+                timeAgo: "3 months ago"
+            },
+            {
+                name: "Aadhit Bhawani",
+                profilePic: "images/avatars/avatar2.png",
+                reviewText: "My recent visit to the dental clinic was positive overall. The clinic had a clean and inviting environment. The staff were friendly and efficient in handling appointments. The waiting time was minimal, and the dental professionals were thorough in their examination. They explained the procedures clearly and addressed all my concerns.",
+                reviewCount: "3 review",
+                timeAgo: "10 months ago"
+            },
+            {
+                name: "Alpa Bhawani",
+                profilePic: "images/avatars/avatar3.png",
+                reviewText: "Highly recommended! I had a great experience with Dr. Anand Shah and their staff. Their professionalism and caring demeanor immediately put me at ease. They took the time to listen to my concerns, conducted a thorough examination, and explained the diagnosis and treatment plan in a way I could understand.",
+                reviewCount: "3 review",
+                timeAgo: "10 months ago"
+            }
+            
+        ];
+
+        // Function to get random reviews
+        function getRandomReviews(num) {
+            const shuffled = reviews.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, num);
+        }
+
+        // Function to display reviews
+        function displayReviews() {
+            const reviewCardsContainer = document.getElementById('reviewCards');
+            reviewCardsContainer.innerHTML = ''; // Clear existing content
+
+            const selectedReviews = getRandomReviews(3); // Select 3 random reviews
+
+            selectedReviews.forEach(review => {
+                const reviewCard = document.createElement('div');
+                reviewCard.classList.add('reviewCard');
+                reviewCard.innerHTML = `
+                    <div class="reviewCard-header">
+                        <img src="${review.profilePic}" width="50px" height="50px" alt="avatar">
+                        <div class="header-content">
+                            <div class="header-text">
+                                <h3 class="header-heading">${review.name}</h3>
+                            </div>
+                            <div class="header-description">${review.reviewCount}</div>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="icons/star.svg" alt="star">
+                            <img src="icons/star.svg" alt="star">
+                            <img src="icons/star.svg" alt="star">
+                            <img src="icons/star.svg" alt="star">
+                            <img src="icons/star.svg" alt="star">
+                        </div>
+                        <p>${review.timeAgo}</p>
+                    </div>
+                    <div class="description">
+                        ${review.reviewText}
+                    </div>
+                `;
+                reviewCardsContainer.appendChild(reviewCard);
+            });
+        }
+
+        // Display reviews on page load
+        displayReviews();
+    </script>
 <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 <!-- </body>
 
