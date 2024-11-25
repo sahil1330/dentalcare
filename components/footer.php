@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
     $count = mysqli_num_rows($selectResult);
     if ($count > 0) {
         ?>
-        <script>
-            alert("Email already Subscribed!");
-            window.location.href = '<?php echo $current_page; ?>';
-        </script>
-        <?php
+<script>
+alert("Email already Subscribed!");
+window.location.href = '<?php echo $current_page; ?>';
+</script>
+<?php
 
     } else {
         date_default_timezone_set('Asia/Kolkata');
@@ -26,18 +26,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
 
         if (mysqli_stmt_execute($stmt)) {
             ?>
-            <script>
-                alert("Subscribed Successfully!");
-                window.location.href = '<?php echo $current_page; ?>';
-            </script>
-            <?php
+<script>
+alert("Subscribed Successfully!");
+window.location.href = '<?php echo $current_page; ?>';
+</script>
+<?php
         } else {
             ?>
-            <script>
-                alert("Failed to subscribe!");
-                window.location.href = '<?php echo $current_page; ?>';
-            </script>
-            <?php
+<script>
+alert("Failed to subscribe!");
+window.location.href = '<?php echo $current_page; ?>';
+</script>
+<?php
         }
     }
 }
@@ -77,11 +77,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                 </div>
                 <div class="row row2">
                     <div class="col-2">
-                    <a href="https://www.newagedentalclinic.com/" target="_blank">
-                        <div class="icon">
-                            <img src="icons/computer-line.svg" alt="phone">
-                        </div>
-                    </a>
+                        <a href="https://www.newagedentalclinic.com/" target="_blank">
+                            <div class="icon">
+                                <img src="icons/computer-line.svg" alt="phone">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-2">
                         <div class="icon">
@@ -89,11 +89,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                         </div>
                     </div>
                     <div class="col-2">
-                    <a href="https://www.facebook.com/people/New-AGE-Dental-Clinic/100068596843168/" target="_blank">
-                        <div class="icon">
-                            <img src="icons/facebook-circle-fill.svg" alt="phone">
-                        </div>
-                    </a>
+                        <a href="https://www.facebook.com/people/New-AGE-Dental-Clinic/100068596843168/"
+                            target="_blank">
+                            <div class="icon">
+                                <img src="icons/facebook-circle-fill.svg" alt="phone">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-2">
                         <div class="icon">
@@ -101,10 +102,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                         </div>
                     </div>
                     <div class="col-2">
-                        <a href="https://wa.me/+918169258231"  target="_blank">
-                        <div class="icon">
-                            <img src="icons/whatsapp-fill-black.svg" alt="phone" style="">
-                        </div>
+                        <a href="https://wa.me/+918169258231" target="_blank">
+                            <div class="icon">
+                                <img src="icons/whatsapp-fill-black.svg" alt="phone" style="">
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -115,8 +116,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
                     <div class="col-7">
                         <button class="btn-contact-footer">
                             <img src="icons/phoneblack.svg" alt="">
-                            <a href="tel:+918169523831" style="text-decoration: none;">
-                                <p style="margin: 0; color: black;">8169523831</p>
+                            <a href="tel:+918169258231" style="text-decoration: none;">
+                                <p style="margin: 0; color: black;">8169258231</p>
                             </a>
                         </button>
                     </div>

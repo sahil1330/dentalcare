@@ -51,16 +51,16 @@ try {
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/new-nav.css">
     <style>
-        .call-button-style a {
-            padding: px;
-            border-radius: 30px;
-            background-color: transparent;
-            border: 2px solid rgb(0, 0, 0);
-            color: rgb(0, 0, 0);
-            cursor: pointer;
-            font-family: var(--second-main-font);
-            width: 50%;
-        }
+    .call-button-style a {
+        padding: px;
+        border-radius: 30px;
+        background-color: transparent;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-family: var(--second-main-font);
+        width: 50%;
+    }
     </style>
     <link rel="stylesheet" href="styles/footer.css">
 </head>
@@ -211,10 +211,9 @@ try {
                             </div>
                             <div class="col-11">
                                 <div class="d-flex call-button-style">
-                                    <a href="tel:+918169523831"
-                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
-                                    <a href="tel:+918169523831"
-                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169523831</a>
+                                    <a href="tel:+918169258231"
+                                        class="btn btn-light mx-2 d-flex justify-content-center align-items-center">8169258231</a>
+
 
                                 </div>
                             </div>
@@ -246,15 +245,15 @@ try {
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
     <script src="scripts/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
