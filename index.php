@@ -218,8 +218,8 @@
                         <div class="short-about-left-footer">
                             <h6>Go to our About page</h6>
                             <button onclick="window.location.href='about'"
-                                style="background-color: #000; border-color: #000">
-                                <img src="icons/slant-arrow.svg" width="24px" height="24px" alt="" />
+                                style="background-color: #fff; border-color: #fff">
+                                <img src="icons/black-slant-arrow.svg" width="24px" height="24px" alt="" />
                             </button>
                         </div>
                     </div>

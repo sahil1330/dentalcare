@@ -119,6 +119,9 @@ footer > .container2 {
   align-items: center;
   gap: 10px;
 }
+.btn-contact-footer p{
+  color: #000;
+}
 .btn-about:hover,
 .btn-contact-footer:hover {
   background-color: #e5e5e5;
