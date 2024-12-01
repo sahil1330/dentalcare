@@ -93,7 +93,7 @@
                         Us</button>
                     <button class="btn-phone" data-aos="fade-left" onclick="window.location.href='tel:+918169258231'">
                         <img src="icons/phoneblack.svg" alt="Telephone" />8169258231
-                    </button> 8169258231
+                    </button>
                 </div>
                 <div class="hero-right-row2" data-aos="fade-left">
                     <p class="">
