@@ -1211,7 +1211,13 @@ nav ul a {
 }
 
 .read-more-btn {
-  background-color: #333;
+  background: linear-gradient(
+    291deg,
+    rgba(97, 171, 215, 0.7) 13%,
+    rgba(86.47, 129.54, 191.31, 0.7) 39%,
+    rgba(86.93, 131.33, 192.33, 0.7) 58%,
+    rgba(81, 108, 179, 0.7) 78%
+  );
   color: #fff;
   border-radius: 20px;
   padding: 8px 24px;

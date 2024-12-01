@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subscribe'])) {
     $count = mysqli_num_rows($selectResult);
     if ($count > 0) {
         ?>
-<script>
-alert("Email already Subscribed!");
-window.location.href = '<?php echo $current_page; ?>';
-</script>
-<?php
+        <script>
+            alert("Email already Subscribed!");
+            window.location.href = '<?php echo $current_page; ?>';
+        </script>
+        <?php
 
     } else {
         date_default_timezone_set('Asia/Kolkata');
@@ -26,18 +26,18 @@ window.location.href = '<?php echo $current_page; ?>';
 
         if (mysqli_stmt_execute($stmt)) {
             ?>
-<script>
-alert("Subscribed Successfully!");
-window.location.href = '<?php echo $current_page; ?>';
-</script>
-<?php
+            <script>
+                alert("Subscribed Successfully!");
+                window.location.href = '<?php echo $current_page; ?>';
+            </script>
+            <?php
         } else {
             ?>
-<script>
-alert("Failed to subscribe!");
-window.location.href = '<?php echo $current_page; ?>';
-</script>
-<?php
+            <script>
+                alert("Failed to subscribe!");
+                window.location.href = '<?php echo $current_page; ?>';
+            </script>
+            <?php
         }
     }
 }
